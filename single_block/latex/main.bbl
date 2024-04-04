@@ -1,0 +1,60 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{main_paper}{article}{}
+      \name{author}{3}{}{%
+        {{hash=17ec6e71dd74fea4de277e59f59282a7}{%
+           family={Perinelli},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=93a1287e47a953961f775a06ef9dcf23}{%
+           family={Iuppa},
+           familyi={I\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f329a21f8dc290bc8e0028574a177762}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b8f88012350657fdb6f9db752cc9340}
+      \strng{fullhash}{4b8f88012350657fdb6f9db752cc9340}
+      \strng{bibnamehash}{4b8f88012350657fdb6f9db752cc9340}
+      \strng{authorbibnamehash}{4b8f88012350657fdb6f9db752cc9340}
+      \strng{authornamehash}{4b8f88012350657fdb6f9db752cc9340}
+      \strng{authorfullhash}{4b8f88012350657fdb6f9db752cc9340}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chaos 33, 093103}
+      \field{title}{A scalable electronic analog of the Burridge–Knopoff model of earthquake faults}
+      \field{year}{2023}
+      \verb{doi}
+      \verb https://doi.org/10.1063/5.0161339
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
