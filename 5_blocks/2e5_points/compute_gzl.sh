@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dataFile="two_blocks_005V.dat"
+dataFile="5_blocks_005V_10s.csv"
 folderName="data_chaos"
 
 #exit

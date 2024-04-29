@@ -1,18 +1,18 @@
 #!/bin/bash
 
-dataFile="two_blocks_005V.dat"
+dataFile="5_blocks_005V_10s.csv"
 folderName="data_chaos"
 
 #exit
 
-mmax=10
-Lmax=10
+mmax=20
+Lmax=20
 N=1
 
 kmin=1
-kmax=3000
-dk=10
-downsampling=2
+kmax=2000
+dk=1
+downsampling=5
 
 set OMP_NUM_THREADS=12
 
