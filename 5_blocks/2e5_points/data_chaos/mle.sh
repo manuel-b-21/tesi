@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-outputfile="mle_1e-1.dat"
+outputfile="mle.dat"
 rm -f $outputfile
 
-for m in `seq 2 20`; do
+for m in `seq 2 8`; do
 
 	for L in `seq 1 20`; do
 
@@ -16,7 +16,7 @@ for m in `seq 2 20`; do
 
 		echo $m $L
 
-		cat GZL/$m"_"$L/gzl_$m"_"$L"_1e-1"*".dat" | grep -v '#' | grep -v inf | grep -v nan | averaging | \
+		cat GZL/$m"_"$L/gzl_$m"_"$L"_3e-2"*".dat" | grep -v '#' | grep -v inf | grep -v nan | averaging | \
 			awk '{if ($3<2000) {print}}' | grep -v nan | grep -v inf | mle -mL $m $L -intercept | grep -v "#" >> $outputfile
 
 	done
