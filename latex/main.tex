@@ -11,7 +11,10 @@
 \author{Bitto Manuel}
 \date{\today}
 \maketitle
-\section{Breadboard implementation}\label{sec:breadboard}
+
+\section{Single block measurements}
+
+\subsection{Breadboard implementation}\label{sec:breadboard}
 
 The inductorless electronic analog of the Burridge-Knopoff model
 \cite{main_paper} is represented in Fig.
@@ -37,7 +40,7 @@ behavior.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]
-    {../breadboard/breadboard_implementation.png}
+    {../1_block/breadboard/breadboard_implementation.png}
     \caption{Inductorless representation of the BK model.
     The blue part of the network refers to the nonlinear element,
     whose characteristic is drawn in the bottom left plot.
@@ -50,24 +53,24 @@ behavior.
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../breadboard/paper_implementation_op27/W_wf.pdf}\\
+            {../1_block/breadboard/paper_implementation_op27/W_wf.pdf}\\
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../breadboard/paper_implementation_op27/V_wf.pdf}
+            {../1_block/breadboard/paper_implementation_op27/V_wf.pdf}
         \end{subfigure}
     \end{minipage}
     \begin{subfigure}{.39\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={15cm 0 15cm 0},clip,right]
-        {../breadboard/paper_implementation_op27/Lissajous.pdf}
+        {../1_block/breadboard/paper_implementation_op27/Lissajous.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../breadboard/freq_bread.pdf}
+        {../1_block/breadboard/freq_bread.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../breadboard/rms_bread.pdf}
+        {../1_block/breadboard/rms_bread.pdf}
     \end{subfigure}
     \caption{Oscillating behavior for the circuit implemented on
     the breadboard. (a) Plot of $W$ and (b) of $V$ as a function of time,
@@ -79,7 +82,7 @@ behavior.
 \end{figure}
 
 
-\section{Prototypes}\label{sec:prototypes}
+\subsection{Prototypes}\label{sec:prototypes}
 
 In order to describe the coupling between many oscillators it is
 not possible use the breadboard implementation of the circuit
@@ -88,7 +91,7 @@ scalability issues. For the purpose of improving the system
 scalability, two smaller prototypical chips have been built.
 The circuit implemented in each chip is shown in Fig.
 \ref{fig:prototype implementation}. The differences between this
-circuit and the one used in the previous section lie in the nonlinear
+circuit and the one used in the previous subsection lie in the nonlinear
 elements; in this case MBRA210L Schottky diodes have been used,
 as well as quad operational amplifiers OP470, which offer
 comparable performance to OP27 op-amps.
@@ -106,7 +109,7 @@ $V_d \lesssim 0.4$ V.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]
-    {../prototypes/prototype_implementation.png}
+    {../1_block/prototypes/prototype_implementation.png}
     \caption{Circuit diagram of one prototypical chip.}
     \label{fig:prototype implementation}
 \end{figure}
@@ -117,24 +120,24 @@ $V_d \lesssim 0.4$ V.
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../prototypes/W_wf.pdf}\\
+            {../1_block/prototypes/W_wf.pdf}\\
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../prototypes/V_wf.pdf}
+            {../1_block/prototypes/V_wf.pdf}
         \end{subfigure}
     \end{minipage}
     \begin{subfigure}{.39\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={15cm 0 15cm 0},clip,right]
-        {../prototypes/Lissajous.pdf}
+        {../1_block/prototypes/Lissajous.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../prototypes/freq_prot.pdf}
+        {../1_block/prototypes/freq_prot.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../prototypes/rms_prot.pdf}
+        {../1_block/prototypes/rms_prot.pdf}
     \end{subfigure}
     \caption{Oscillating behavior for the circuit implemented on
     the prototypical chips. (a) Plot of $W$ and (b) of $V$ as a
@@ -146,7 +149,7 @@ $V_d \lesssim 0.4$ V.
     \label{fig:oscillation prototype}
 \end{figure}
 
-\section{Board}\label{sec:board}
+\subsection{Board}\label{sec:board}
 
 In order to finally analyze the behavior of many coupled
 oscillators, a board containing 25 chips (or blocks) has been built.
@@ -169,24 +172,24 @@ intended and is probably due to intrinsic limitations in the current.
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../board/W_wf.pdf}\\
+            {../1_block/board/W_wf.pdf}\\
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../board/V_wf.pdf}
+            {../1_block/board/V_wf.pdf}
         \end{subfigure}
     \end{minipage}
     \begin{subfigure}{.39\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={15cm 0 15cm 0},clip,right]
-        {../board/Lissajous.pdf}
+        {../1_block/board/Lissajous.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../board/freq_board.pdf}
+        {../1_block/board/freq_board.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../board/rms_board.pdf}
+        {../1_block/board/rms_board.pdf}
     \end{subfigure}
     \caption{Oscillating behavior for the circuit implemented on
     the board. (a) Plot of $W$ and (b) of $V$ as a
@@ -199,7 +202,7 @@ intended and is probably due to intrinsic limitations in the current.
 \end{figure}
 
 
-\section{New board}\label{sec:new board}
+\subsection{New board}\label{sec:new board}
 
 \begin{figure}[H]
     \centering
@@ -207,24 +210,24 @@ intended and is probably due to intrinsic limitations in the current.
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../board_new/W_wf.pdf}\\
+            {../1_block/board_new/W_wf.pdf}\\
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../board_new/V_wf.pdf}
+            {../1_block/board_new/V_wf.pdf}
         \end{subfigure}
     \end{minipage}
     \begin{subfigure}{.39\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={15cm 0 15cm 0},clip,right]
-        {../board_new/Lissajous.pdf}
+        {../1_block/board_new/Lissajous.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../board_new/freq_board.pdf}
+        {../1_block/board_new/freq_board.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../board_new/rms_board.pdf}
+        {../1_block/board_new/rms_board.pdf}
     \end{subfigure}
     \caption{Oscillating behavior for the circuit implemented on
     the new board. (a) Plot of $W$ and (b) of $V$ as a
@@ -236,7 +239,7 @@ intended and is probably due to intrinsic limitations in the current.
     \label{fig:oscillation board new}
 \end{figure}
 
-\section{Conclusions}\label{sec:conclusions}
+\subsection{Conclusions}\label{sec:conclusions}
 
 The comparison between frequency and amplitude on the three
 implementations is shown in Fig. \ref{fig:comparison}.
@@ -250,14 +253,14 @@ amplitude behavior of the board is not linear.
     \centering
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../images/freq_comparison.pdf}
+        {../1_block/images/freq_comparison.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../images/rms_comparison.pdf}
+        {../1_block/images/rms_comparison.pdf}
     \end{subfigure}
-    \caption{(a) Frequency and (b) root mean squareamplitude
+    \caption{(a) Frequency and (b) root mean square amplitude
     of the output signal $W$ as a function of the parameter $V_d$
     for the three implementations of the BK model, i.e. the first
     block of the board, the breadboard implementation with the
@@ -266,6 +269,18 @@ amplitude behavior of the board is not linear.
 \end{figure}
 
 \clearpage
+
+\section{Multi block measurements}
+
+\subsection{Two blocks}
+
+
+
+
+
+
+\clearpage
+
 \printbibliography
 
 \end{document}

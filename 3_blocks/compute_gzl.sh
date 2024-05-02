@@ -1,18 +1,18 @@
 #!/bin/bash
 
-dataFile="5_blocks_1e5.csv"
+dataFile="3_blocks.csv"
 folderName="data_chaos"
 
 #exit
 
 mmax=20
 Lmax=20
-N=10
+N=4
 
 kmin=1
-kmax=4000
-dk=2
-downsampling=5
+kmax=2000
+dk=1
+downsampling=50
 
 set OMP_NUM_THREADS=12
 
@@ -25,7 +25,7 @@ for m in `seq 2 $mmax`; do
 		dstdir=$folderName"/GZL/"$m"_"$L
 		mkdir -p $dstdir
 
-		for p in `echo "1e-2 3e-2 1e-1 3e-1 1e0 3e0 1e1 3e1"`; do
+		for p in `echo "1e-1 3e-1 1e0 3e0 1e1 3e1"`; do
 			for n in `seq 0 $N`; do
 				dstfile=$dstdir"/gzl_"$m"_"$L"_"$p"_"$n".dat"
 				rm -f $dstfile

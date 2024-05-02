@@ -11,6 +11,5 @@ plot "map.dat" u 1:2:3 w image pixels notitle
 #unif_max=42 #(m-1)*L=unif_max
 #f(x)=unif_min/(x-1)
 #g(x)=unif_max/(x-1)
-#plot "map.dat" u 1:2:3 w image pixels notitle
 #replot f(x) notitle dashtype 4 lc "black" lw 2
 #replot g(x) notitle dashtype 4 lc "black" lw 2

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-outputfile="mle.dat"
+outputfile="mle_1e-1.dat"
 rm -f $outputfile
 
 for m in `seq 2 20`; do
