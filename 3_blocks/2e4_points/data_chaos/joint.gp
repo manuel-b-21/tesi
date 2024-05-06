@@ -1,13 +1,11 @@
-set term qt persist
+set terminal qt persist
 set termoption font ",12"
 set xlabel "w = (m-1)LT (ms)"
 set ylabel "{/Symbol n}"
 set size ratio 0.7
 set palette rgb 34,35,36 negative
 T=0.5 #sampling time in ms
-unif_min=23*T
-unif_max=42*T
-nu=2.35 #most present nu from histogram
+nu=2.4 #most present nu from histogram
 f(x)=nu
 
 plot "joint.dat" u (($1)*T):2:3 w image pixels notitle
