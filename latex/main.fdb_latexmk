@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1715078139 "main.bcf" "main.bbl" "main" 1715078660
-  "main.bcf" 1715078660 106290 bfafe2e12b9af369b757f9135d830497 "pdflatex"
+["biber main"] 1715078139 "main.bcf" "main.bbl" "main" 1715164892
+  "main.bcf" 1715164892 106290 bfafe2e12b9af369b757f9135d830497 "pdflatex"
   "references.bib" 1711621730 259 810a3c4b3f4d57dc24617497a5cd1483 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1715078659 "main.tex" "main.pdf" "main" 1715078660
+["pdflatex"] 1715164890 "main.tex" "main.pdf" "main" 1715164892
   "../1_block/board/Lissajous.pdf" 1711448539 24794 222587bd143e6b3d04066859b9dda403 ""
   "../1_block/board/V_wf.pdf" 1711448322 46694 795d9c13f76d61f0fc081167ce7d948a ""
   "../1_block/board/W_wf.pdf" 1711448282 45706 eb4f40949c1b0c5cbf89390b3a8228d7 ""
@@ -33,11 +33,19 @@
   "../2_blocks/plots/heatmap.pdf" 1715074749 55462 d906eadb52918f8b3eeb4ae3569f75bb ""
   "../2_blocks/plots/histogram.pdf" 1715077244 11555 c47ffbe9d18cbdd9b0d3bf112320307e ""
   "../2_blocks/plots/joint.pdf" 1715074603 37899 9cec103a355e83a942d5599dc4bac950 ""
-  "../2_blocks/plots/mle.pdf" 1715076964 31300 e11615e55063c41b10a84e2c5d8b44f7 ""
+  "../2_blocks/plots/mle.pdf" 1715161366 31297 b05fe1a58d2aeb58e5e767e4baf1a715 ""
+  "../3_blocks/4e4_points/plots/heatmap.pdf" 1715157273 46075 b1726990410b667095ba0f7196fd197a ""
+  "../3_blocks/4e4_points/plots/histogram.pdf" 1715156943 12146 0c650f41fe6194d867c2d505d30f90fb ""
+  "../3_blocks/4e4_points/plots/joint.pdf" 1715157197 53700 c6d14f89627dadc9901dc178c95ca5be ""
+  "../3_blocks/4e4_points/plots/mle.pdf" 1715161205 25941 8cfe1b7d1dc56bc7f05a06fdf1c45b5d ""
+  "../4_blocks/4e4_points/plots/heatmap.pdf" 1715157777 44625 dfdc6abb5462b350a33938f84c6add1f ""
+  "../4_blocks/4e4_points/plots/histogram.pdf" 1715157448 11907 4acecc5091b86662ec0a28ed92567b51 ""
+  "../4_blocks/4e4_points/plots/joint.pdf" 1715157733 53939 46a682d904bca1186c4dd5c637ba611e ""
+  "../4_blocks/4e4_points/plots/mle.pdf" 1715161121 24184 2a5b85d38419a16b94c806de4059112d ""
   "../5_blocks/4e4_points/plots/heatmap.pdf" 1715076711 49097 3fb7decfee1c8992b979a51d1f3a3a46 ""
   "../5_blocks/4e4_points/plots/histogram.pdf" 1715077297 12043 efbf7efebff8435299b43781539b740f ""
   "../5_blocks/4e4_points/plots/joint.pdf" 1715078655 83805 e2fec91ca0afcfd5cd171102b800ff33 ""
-  "../5_blocks/4e4_points/plots/mle.pdf" 1715077109 27783 52bc366961eb5933a53f478286fea5a0 ""
+  "../5_blocks/4e4_points/plots/mle.pdf" 1715161429 27890 43387bac014da9db8a3a69807a8b150b ""
   "/etc/texmf/web2c/texmf.cnf" 1711033715 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -194,11 +202,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1711359630 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711359684 2801845 92214fab06aae5f86e20b0364b15d039 ""
-  "main.aux" 1715078660 8206 bbeb689111b9a9c275cf365cb07c52a8 "pdflatex"
+  "main.aux" 1715164892 8861 c1d082e6638c0f3382e3a34c4e47347c "pdflatex"
   "main.bbl" 1715078140 1960 7be10ff20f8433b896098866daed70fa "biber main"
-  "main.out" 1715078660 1159 609821e0acdf9f0c4a3bb9596a950d5a "pdflatex"
-  "main.run.xml" 1715078660 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
-  "main.tex" 1715078134 14508 a95b3eec513c8e816cddeae749ed8761 ""
+  "main.out" 1715164892 1396 ea10e25a6e137eb65b0fed170d55176f "pdflatex"
+  "main.run.xml" 1715164892 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.tex" 1715162786 14696 a7b9e8002c6a7d461e8029c65f1b5e24 ""
   "packages.sty" 1711363019 1026 3ee4933bb8f9fb3b1ff6869422e507fb ""
   (generated)
   "main.aux"
