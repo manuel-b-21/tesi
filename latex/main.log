@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.25)  8 MAY 2024 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  8 MAY 2024 18:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**/home/manuel/Desktop/tesi/latex/main.tex
+(/home/manuel/Desktop/tesi/latex/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -202,9 +202,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language26). Reported on input line 105.
+(babel)             (\language59). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language26). Reported on input line 108.
+(babel)             (\language59). Reported on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count283
@@ -996,91 +996,112 @@ File: ../1_block/images/rms_comparison.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../1_block/images/rms_comparison.pdf  used on input line 261.
 (pdftex.def)             Requested size: 237.01411pt x 172.49695pt.
  [5 <../1_block/board_new/W_wf.pdf> <../1_block/board_new/V_wf.pdf> <../1_block/board_new/Lissajous.pdf> <../1_block/board_new/freq_board.pdf> <../1_block/board_new/rms_board.pdf>] [6 <../1_block/images/freq_comparison.pdf> <../1_block/images/rms_comparison.pdf>]
-<../2_blocks/plots/heatmap.pdf, id=548, 642.4pt x 481.8pt>
+<../2_blocks/plots/lissajous_1.png, id=549, 481.8pt x 361.35pt>
+File: ../2_blocks/plots/lissajous_1.png Graphic file (type png)
+<use ../2_blocks/plots/lissajous_1.png>
+Package pdftex.def Info: ../2_blocks/plots/lissajous_1.png  used on input line 290.
+(pdftex.def)             Requested size: 237.01411pt x 232.73538pt.
+<../2_blocks/plots/waveforms_1.png, id=551, 481.8pt x 361.35pt>
+File: ../2_blocks/plots/waveforms_1.png Graphic file (type png)
+<use ../2_blocks/plots/waveforms_1.png>
+Package pdftex.def Info: ../2_blocks/plots/waveforms_1.png  used on input line 292.
+(pdftex.def)             Requested size: 237.01411pt x 177.75778pt.
+<../2_blocks/plots/lissajous_2.png, id=552, 481.8pt x 361.35pt>
+File: ../2_blocks/plots/lissajous_2.png Graphic file (type png)
+<use ../2_blocks/plots/lissajous_2.png>
+Package pdftex.def Info: ../2_blocks/plots/lissajous_2.png  used on input line 299.
+(pdftex.def)             Requested size: 237.01411pt x 232.73538pt.
+<../2_blocks/plots/waveforms_2.png, id=554, 481.8pt x 361.35pt>
+File: ../2_blocks/plots/waveforms_2.png Graphic file (type png)
+<use ../2_blocks/plots/waveforms_2.png>
+Package pdftex.def Info: ../2_blocks/plots/waveforms_2.png  used on input line 301.
+(pdftex.def)             Requested size: 237.01411pt x 177.75778pt.
+<../2_blocks/plots/heatmap.pdf, id=555, 642.4pt x 481.8pt>
 File: ../2_blocks/plots/heatmap.pdf Graphic file (type pdf)
 <use ../2_blocks/plots/heatmap.pdf>
-Package pdftex.def Info: ../2_blocks/plots/heatmap.pdf  used on input line 288.
+Package pdftex.def Info: ../2_blocks/plots/heatmap.pdf  used on input line 315.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../2_blocks/plots/histogram.pdf, id=549, 642.4pt x 481.8pt>
+<../2_blocks/plots/histogram.pdf, id=556, 642.4pt x 481.8pt>
 File: ../2_blocks/plots/histogram.pdf Graphic file (type pdf)
 <use ../2_blocks/plots/histogram.pdf>
-Package pdftex.def Info: ../2_blocks/plots/histogram.pdf  used on input line 290.
+Package pdftex.def Info: ../2_blocks/plots/histogram.pdf  used on input line 317.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../2_blocks/plots/joint.pdf, id=550, 642.4pt x 481.8pt>
+<../2_blocks/plots/joint.pdf, id=557, 642.4pt x 481.8pt>
 File: ../2_blocks/plots/joint.pdf Graphic file (type pdf)
 <use ../2_blocks/plots/joint.pdf>
-Package pdftex.def Info: ../2_blocks/plots/joint.pdf  used on input line 297.
+Package pdftex.def Info: ../2_blocks/plots/joint.pdf  used on input line 324.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../2_blocks/plots/mle.pdf, id=551, 642.4pt x 481.8pt>
+<../2_blocks/plots/mle.pdf, id=558, 642.4pt x 481.8pt>
 File: ../2_blocks/plots/mle.pdf Graphic file (type pdf)
 <use ../2_blocks/plots/mle.pdf>
-Package pdftex.def Info: ../2_blocks/plots/mle.pdf  used on input line 299.
-(pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../3_blocks/4e4_points/plots/heatmap.pdf, id=552, 642.4pt x 481.8pt>
-File: ../3_blocks/4e4_points/plots/heatmap.pdf Graphic file (type pdf)
-<use ../3_blocks/4e4_points/plots/heatmap.pdf>
-Package pdftex.def Info: ../3_blocks/4e4_points/plots/heatmap.pdf  used on input line 315.
-(pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../3_blocks/4e4_points/plots/histogram.pdf, id=553, 642.4pt x 481.8pt>
-File: ../3_blocks/4e4_points/plots/histogram.pdf Graphic file (type pdf)
-<use ../3_blocks/4e4_points/plots/histogram.pdf>
-Package pdftex.def Info: ../3_blocks/4e4_points/plots/histogram.pdf  used on input line 317.
-(pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../3_blocks/4e4_points/plots/joint.pdf, id=554, 642.4pt x 481.8pt>
-File: ../3_blocks/4e4_points/plots/joint.pdf Graphic file (type pdf)
-<use ../3_blocks/4e4_points/plots/joint.pdf>
-Package pdftex.def Info: ../3_blocks/4e4_points/plots/joint.pdf  used on input line 324.
-(pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../3_blocks/4e4_points/plots/mle.pdf, id=555, 642.4pt x 481.8pt>
-File: ../3_blocks/4e4_points/plots/mle.pdf Graphic file (type pdf)
-<use ../3_blocks/4e4_points/plots/mle.pdf>
-Package pdftex.def Info: ../3_blocks/4e4_points/plots/mle.pdf  used on input line 326.
+Package pdftex.def Info: ../2_blocks/plots/mle.pdf  used on input line 326.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
  [7
 
- <../2_blocks/plots/heatmap.pdf> <../2_blocks/plots/histogram.pdf> <../2_blocks/plots/joint.pdf> <../2_blocks/plots/mle.pdf>]
-<../4_blocks/4e4_points/plots/heatmap.pdf, id=602, 642.4pt x 481.8pt>
+ <../2_blocks/plots/lissajous_1.png (PNG copy)> <../2_blocks/plots/lissajous_2.png (PNG copy)> <../2_blocks/plots/waveforms_1.png (PNG copy)> <../2_blocks/plots/waveforms_2.png (PNG copy)>]
+<../3_blocks/4e4_points/plots/heatmap.pdf, id=567, 642.4pt x 481.8pt>
+File: ../3_blocks/4e4_points/plots/heatmap.pdf Graphic file (type pdf)
+<use ../3_blocks/4e4_points/plots/heatmap.pdf>
+Package pdftex.def Info: ../3_blocks/4e4_points/plots/heatmap.pdf  used on input line 342.
+(pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
+<../3_blocks/4e4_points/plots/histogram.pdf, id=568, 642.4pt x 481.8pt>
+File: ../3_blocks/4e4_points/plots/histogram.pdf Graphic file (type pdf)
+<use ../3_blocks/4e4_points/plots/histogram.pdf>
+Package pdftex.def Info: ../3_blocks/4e4_points/plots/histogram.pdf  used on input line 344.
+(pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
+<../3_blocks/4e4_points/plots/joint.pdf, id=569, 642.4pt x 481.8pt>
+File: ../3_blocks/4e4_points/plots/joint.pdf Graphic file (type pdf)
+<use ../3_blocks/4e4_points/plots/joint.pdf>
+Package pdftex.def Info: ../3_blocks/4e4_points/plots/joint.pdf  used on input line 351.
+(pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
+<../3_blocks/4e4_points/plots/mle.pdf, id=570, 642.4pt x 481.8pt>
+File: ../3_blocks/4e4_points/plots/mle.pdf Graphic file (type pdf)
+<use ../3_blocks/4e4_points/plots/mle.pdf>
+Package pdftex.def Info: ../3_blocks/4e4_points/plots/mle.pdf  used on input line 353.
+(pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
+ [8 <../2_blocks/plots/heatmap.pdf> <../2_blocks/plots/histogram.pdf> <../2_blocks/plots/joint.pdf> <../2_blocks/plots/mle.pdf>]
+<../4_blocks/4e4_points/plots/heatmap.pdf, id=616, 642.4pt x 481.8pt>
 File: ../4_blocks/4e4_points/plots/heatmap.pdf Graphic file (type pdf)
 <use ../4_blocks/4e4_points/plots/heatmap.pdf>
-Package pdftex.def Info: ../4_blocks/4e4_points/plots/heatmap.pdf  used on input line 341.
+Package pdftex.def Info: ../4_blocks/4e4_points/plots/heatmap.pdf  used on input line 368.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../4_blocks/4e4_points/plots/histogram.pdf, id=603, 642.4pt x 481.8pt>
+<../4_blocks/4e4_points/plots/histogram.pdf, id=617, 642.4pt x 481.8pt>
 File: ../4_blocks/4e4_points/plots/histogram.pdf Graphic file (type pdf)
 <use ../4_blocks/4e4_points/plots/histogram.pdf>
-Package pdftex.def Info: ../4_blocks/4e4_points/plots/histogram.pdf  used on input line 343.
+Package pdftex.def Info: ../4_blocks/4e4_points/plots/histogram.pdf  used on input line 370.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../4_blocks/4e4_points/plots/joint.pdf, id=604, 642.4pt x 481.8pt>
+<../4_blocks/4e4_points/plots/joint.pdf, id=618, 642.4pt x 481.8pt>
 File: ../4_blocks/4e4_points/plots/joint.pdf Graphic file (type pdf)
 <use ../4_blocks/4e4_points/plots/joint.pdf>
-Package pdftex.def Info: ../4_blocks/4e4_points/plots/joint.pdf  used on input line 350.
+Package pdftex.def Info: ../4_blocks/4e4_points/plots/joint.pdf  used on input line 377.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../4_blocks/4e4_points/plots/mle.pdf, id=605, 642.4pt x 481.8pt>
+<../4_blocks/4e4_points/plots/mle.pdf, id=619, 642.4pt x 481.8pt>
 File: ../4_blocks/4e4_points/plots/mle.pdf Graphic file (type pdf)
 <use ../4_blocks/4e4_points/plots/mle.pdf>
-Package pdftex.def Info: ../4_blocks/4e4_points/plots/mle.pdf  used on input line 352.
+Package pdftex.def Info: ../4_blocks/4e4_points/plots/mle.pdf  used on input line 379.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
- [8 <../3_blocks/4e4_points/plots/heatmap.pdf> <../3_blocks/4e4_points/plots/histogram.pdf> <../3_blocks/4e4_points/plots/joint.pdf> <../3_blocks/4e4_points/plots/mle.pdf>]
-<../5_blocks/4e4_points/plots/heatmap.pdf, id=651, 642.4pt x 481.8pt>
+ [9 <../3_blocks/4e4_points/plots/heatmap.pdf> <../3_blocks/4e4_points/plots/histogram.pdf> <../3_blocks/4e4_points/plots/joint.pdf> <../3_blocks/4e4_points/plots/mle.pdf>]
+<../5_blocks/4e4_points/plots/heatmap.pdf, id=666, 642.4pt x 481.8pt>
 File: ../5_blocks/4e4_points/plots/heatmap.pdf Graphic file (type pdf)
 <use ../5_blocks/4e4_points/plots/heatmap.pdf>
-Package pdftex.def Info: ../5_blocks/4e4_points/plots/heatmap.pdf  used on input line 369.
+Package pdftex.def Info: ../5_blocks/4e4_points/plots/heatmap.pdf  used on input line 396.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../5_blocks/4e4_points/plots/histogram.pdf, id=652, 642.4pt x 481.8pt>
+<../5_blocks/4e4_points/plots/histogram.pdf, id=667, 642.4pt x 481.8pt>
 File: ../5_blocks/4e4_points/plots/histogram.pdf Graphic file (type pdf)
 <use ../5_blocks/4e4_points/plots/histogram.pdf>
-Package pdftex.def Info: ../5_blocks/4e4_points/plots/histogram.pdf  used on input line 371.
+Package pdftex.def Info: ../5_blocks/4e4_points/plots/histogram.pdf  used on input line 398.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../5_blocks/4e4_points/plots/joint.pdf, id=653, 642.4pt x 481.8pt>
+<../5_blocks/4e4_points/plots/joint.pdf, id=668, 642.4pt x 481.8pt>
 File: ../5_blocks/4e4_points/plots/joint.pdf Graphic file (type pdf)
 <use ../5_blocks/4e4_points/plots/joint.pdf>
-Package pdftex.def Info: ../5_blocks/4e4_points/plots/joint.pdf  used on input line 378.
+Package pdftex.def Info: ../5_blocks/4e4_points/plots/joint.pdf  used on input line 405.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
-<../5_blocks/4e4_points/plots/mle.pdf, id=654, 642.4pt x 481.8pt>
+<../5_blocks/4e4_points/plots/mle.pdf, id=669, 642.4pt x 481.8pt>
 File: ../5_blocks/4e4_points/plots/mle.pdf Graphic file (type pdf)
 <use ../5_blocks/4e4_points/plots/mle.pdf>
-Package pdftex.def Info: ../5_blocks/4e4_points/plots/mle.pdf  used on input line 380.
+Package pdftex.def Info: ../5_blocks/4e4_points/plots/mle.pdf  used on input line 407.
 (pdftex.def)             Requested size: 237.01411pt x 177.75594pt.
- [9 <../4_blocks/4e4_points/plots/heatmap.pdf> <../4_blocks/4e4_points/plots/histogram.pdf> <../4_blocks/4e4_points/plots/joint.pdf> <../4_blocks/4e4_points/plots/mle.pdf>] [10 <../5_blocks/4e4_points/plots/heatmap.pdf> <../5_blocks/4e4_points/plots/histogram.pdf> <../5_blocks/4e4_points/plots/joint.pdf> <../5_blocks/4e4_points/plots/mle.pdf>] [11
+ [10 <../4_blocks/4e4_points/plots/heatmap.pdf> <../4_blocks/4e4_points/plots/histogram.pdf> <../4_blocks/4e4_points/plots/joint.pdf> <../4_blocks/4e4_points/plots/mle.pdf>] [11 <../5_blocks/4e4_points/plots/heatmap.pdf> <../5_blocks/4e4_points/plots/histogram.pdf> <../5_blocks/4e4_points/plots/joint.pdf> <../5_blocks/4e4_points/plots/mle.pdf>] [12
 
 ] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -1090,18 +1111,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23773 strings out of 478287
- 415692 string characters out of 5849289
- 1149388 words of memory out of 5000000
- 41591 multiletter control sequences out of 15000+600000
+ 23805 strings out of 478287
+ 416810 string characters out of 5849290
+ 1149493 words of memory out of 5000000
+ 41616 multiletter control sequences out of 15000+600000
  481827 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,104p,1149b,1763s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,13n,104p,1181b,1763s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (11 pages, 1504470 bytes).
+Output written on main.pdf (12 pages, 1740056 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
- 527 compressed objects within 6 object streams
- 36 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 829 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 
