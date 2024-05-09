@@ -2,9 +2,9 @@
 
 
 outputfile="mle.dat"
-rm -f $outputfile
+#rm -f $outputfile
 
-for m in `seq 2 13`; do
+for m in `seq 14 20`; do
 
 	for L in `seq 1 20`; do
 
