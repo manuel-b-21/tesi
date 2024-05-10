@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mmin=2
-mmax=12
+mmin=13
+mmax=20
 Lmax=20
 
 for m in `seq $mmin $mmax`; do

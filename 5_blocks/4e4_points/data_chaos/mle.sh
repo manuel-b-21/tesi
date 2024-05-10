@@ -4,7 +4,7 @@
 outputfile="mle.dat"
 #rm -f $outputfile
 
-for m in `seq 2 15`; do
+for m in `seq 16 20`; do
 
 	for L in `seq 1 20`; do
 

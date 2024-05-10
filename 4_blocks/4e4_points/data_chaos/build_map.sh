@@ -5,7 +5,7 @@ outfile="map.dat"
 echo -e "#m\tL\tnu\tdnu\ta\tda" > $outfile
 
 mmin=2
-mmax=12
+mmax=20
 Lmax=20
 
 for m in `seq $mmin $mmax`; do

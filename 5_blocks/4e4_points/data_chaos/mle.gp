@@ -7,7 +7,7 @@ set xlabel "w = (m-1)LT (ms)"
 set ylabel "MLE (Hz)"
 set size ratio 0.7
 T=0.25 #sampling time in ms
-set xrange [1*T:214*T]
+set xrange [1*T:154*T]
 unif_min=43
 unif_max=61
 #stats "mle.dat" u (($1-1)*$2<unif_max && ($1-1)*$2>unif_min && $3!=0)? $3/T*1000 : NaN nooutput name "mle"
