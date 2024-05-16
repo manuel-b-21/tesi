@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.25)  10 MAY 2024 16:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.25)  13 MAY 2024 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -934,10 +934,10 @@ File: ../4_blocks/4e4_points/plots/chaos.pdf Graphic file (type pdf)
 File: ../5_blocks/4e4_points/plots/chaos.pdf Graphic file (type pdf)
 <use ../5_blocks/4e4_points/plots/chaos.pdf>
  [10]
-File: ../nu_blocks.pdf Graphic file (type pdf)
-<use ../nu_blocks.pdf>
-File: ../mle_blocks.pdf Graphic file (type pdf)
-<use ../mle_blocks.pdf>
+File: ../data/nu_blocks.pdf Graphic file (type pdf)
+<use ../data/nu_blocks.pdf>
+File: ../data/mle_blocks.pdf Graphic file (type pdf)
+<use ../data/mle_blocks.pdf>
  [11] [12
 
 ] (./main.aux)
@@ -949,7 +949,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  23581 strings out of 476191
- 413644 string characters out of 5812072
+ 413719 string characters out of 5812072
  1178325 words of memory out of 5000000
  43958 multiletter control sequences out of 15000+600000
  480257 words of font info for 81 fonts, out of 8000000 for 9000

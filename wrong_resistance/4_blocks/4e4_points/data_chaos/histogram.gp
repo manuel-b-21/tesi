@@ -9,13 +9,13 @@ set size ratio 0.7
 set style fill solid 0.5
 stats "bin_nu.dat" u 2 nooutput
 stats "bin_nu.dat" u 1 every ::STATS_index_max::STATS_index_max nooutput
+set yrange [0:20]
 #nu=STATS_max
 #nu_string=sprintf("%.2f",nu)
-#bin_width=0.05
+#bin_width=0.07
 #set label at graph 0.6,0.9 "{/Symbol n}_{max}=(".nu_string."±".sprintf("%.2f",bin_width/2).")"
 #set arrow from nu, graph 0 to nu, graph 1 nohead front dt 2 lc "red"
 plot 'bin_nu.dat' u 1:2 with boxes notitle lc rgb "dark-green"
-
 gauss(x)=a/(sqrt(2*pi)*sigma)*exp(-(x-mean)**2/(2*sigma**2))+c
 fit gauss(x) 'bin_nu.dat' u 1:2 via a, sigma, mean, c
 set label at graph 0.6,0.9 "{/Symbol n}=(".sprintf("%.2f",mean)."±".sprintf("%.2f",sigma).")"
