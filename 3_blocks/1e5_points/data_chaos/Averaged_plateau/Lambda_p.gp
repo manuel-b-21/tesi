@@ -11,7 +11,7 @@ if(!exist("m")) m=2
 if(!exist("L")) L=1
 ms=sprintf("%d", m)
 Ls=sprintf("%d", L)
-xmin=0.00005
+xmin=0.0005
 xmax=0.5
 set xrange [xmin:xmax]
 set logscale x
