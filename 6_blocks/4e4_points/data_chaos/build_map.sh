@@ -19,10 +19,3 @@ for m in `seq $mmin $mmax`; do
 	done
 	echo >> $outfile
 done
-
-newfile=$(cat $outfile | sed "s/.*Read 1 points/21\t21\tnan\tnan\tnan\tnan\tnan\tnan/g")
-#newfile=$(cat $outfile | awk '$1 == "Read" { $0=prev }{prev=$0} 1' $outfile)
-rm -f $outfile
-for element in "${newfile}"; do
-    echo "$element" > $outfile
-done

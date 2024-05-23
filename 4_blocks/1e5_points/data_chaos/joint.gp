@@ -9,8 +9,9 @@ set size ratio 0.7
 set palette rgb 34,35,36 negative
 T=0.1 #sampling time in ms
 set xrange [1*T:200*T]
+set yrange [1:5]
 unif_min=93*T
-unif_max=117*T
+unif_max=105*T
 set arrow from unif_min, graph 0 to unif_min, graph 1 nohead front dt 4 lc "black"
 set arrow from unif_max, graph 0 to unif_max, graph 1 nohead front dt 4 lc "black"
 f(x) = nu_mean

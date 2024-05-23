@@ -7,10 +7,12 @@ set xlabel "w = (m-1)LT (ms)"
 set ylabel "{/Symbol n}"
 set size ratio 0.7
 set palette rgb 34,35,36 negative
-T=0.1 #sampling time in ms
-set xrange [1*T:200*T]
-unif_min=93*T
-unif_max=117*T
+T=0.25 #sampling time in ms
+set xrange [1*T:154*T]
+unif_min=46*T
+unif_max=61*T
+nu=2.61 #most present nu from histogram
+f(x)=nu
 set arrow from unif_min, graph 0 to unif_min, graph 1 nohead front dt 4 lc "black"
 set arrow from unif_max, graph 0 to unif_max, graph 1 nohead front dt 4 lc "black"
 f(x) = nu_mean

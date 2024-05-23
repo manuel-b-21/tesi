@@ -11,15 +11,13 @@ stats "bin_nu.dat" u 2 nooutput
 stats "bin_nu.dat" u 1 every ::STATS_index_max::STATS_index_max nooutput
 #nu=STATS_max
 #nu_string=sprintf("%.2f",nu)
-#set yrange [0:23]
+set yrange [0:23]
 #bin_width=0.05
 #set label at graph 0.6,0.9 "{/Symbol n}_{max}=(".nu_string."±".sprintf("%.2f",bin_width/2).")"
 #set arrow from nu, graph 0 to nu, graph 1 nohead front dt 2 lc "red"
-set yrange [0:23]
-set xrange [1:4]
 plot 'bin_nu.dat' u 1:2 with boxes notitle lc rgb "dark-green"
 gauss(x)=abs(a)/(sqrt(2*pi*sigma**2))*exp(-(x-(2+temp**2))**2/(2*sigma**2))
-fit [1:4] gauss(x) 'bin_nu.dat' u 1:2 via a, sigma, temp
+fit [1:5] gauss(x) 'bin_nu.dat' u 1:2 via a, sigma, temp
 mean=2+temp**2
 set label at graph 0.6,0.9 "{/Symbol n}=(".sprintf("%.2f",mean)."±".sprintf("%.2f",abs(sigma)).")"
 replot gauss(x) notitle lc "dark-red"
