@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.25)  13 MAY 2024 11:53
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.25)  24 MAY 2024 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -925,35 +925,36 @@ File: ../2_blocks/plots/chaos.pdf Graphic file (type pdf)
  [7
 
 ]
-File: ../3_blocks/4e4_points/plots/chaos.pdf Graphic file (type pdf)
-<use ../3_blocks/4e4_points/plots/chaos.pdf>
+File: ../3_blocks/1e5_points/plots/chaos.pdf Graphic file (type pdf)
+<use ../3_blocks/1e5_points/plots/chaos.pdf>
+File: ../4_blocks/1e5_points/plots/chaos.pdf Graphic file (type pdf)
+<use ../4_blocks/1e5_points/plots/chaos.pdf>
  [8]
-File: ../4_blocks/4e4_points/plots/chaos.pdf Graphic file (type pdf)
-<use ../4_blocks/4e4_points/plots/chaos.pdf>
+File: ../5_blocks/2e5_points/plots/chaos.pdf Graphic file (type pdf)
+<use ../5_blocks/2e5_points/plots/chaos.pdf>
+File: ../6_blocks/2e5_points/plots/chaos.pdf Graphic file (type pdf)
+<use ../6_blocks/2e5_points/plots/chaos.pdf>
  [9]
-File: ../5_blocks/4e4_points/plots/chaos.pdf Graphic file (type pdf)
-<use ../5_blocks/4e4_points/plots/chaos.pdf>
- [10]
 File: ../data/nu_blocks.pdf Graphic file (type pdf)
 <use ../data/nu_blocks.pdf>
 File: ../data/mle_blocks.pdf Graphic file (type pdf)
 <use ../data/mle_blocks.pdf>
- [11] [12
+ [10] [11
 
 ] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 15F45B3F391773296A0ACF53A6B45E49;1509.
+(rerunfilecheck)             Checksum: B0DCDCE6758FF6D8B3B30E2782DA8AC7;1620.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23581 strings out of 476191
- 413719 string characters out of 5812072
- 1178325 words of memory out of 5000000
- 43958 multiletter control sequences out of 15000+600000
+ 23590 strings out of 476191
+ 414089 string characters out of 5812072
+ 1178483 words of memory out of 5000000
+ 43966 multiletter control sequences out of 15000+600000
  480257 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,13n,104p,1145b,4981s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (12 pages).
+Output written on main.pdf (11 pages).
