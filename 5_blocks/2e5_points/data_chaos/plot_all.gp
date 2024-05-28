@@ -1,12 +1,14 @@
 set term pdf
-set output "../plots/chaos.pdf"
+set output "../plots/chaos_low.pdf"
 set termoption font ",8"
 set border lw 0.5
 set fit errorvariables
 set fit logfile "/dev/null"
 set fit quiet
-unif_min=166 #(m-1)*L=unif_min
-unif_max=191 #(m-1)*L=unif_max
+#unif_min=166 #(m-1)*L=unif_min
+#unif_max=191 #(m-1)*L=unif_max
+unif_min=66
+unif_max=101
 T=0.05 #sampling time in ms
 set samples 10000
 
@@ -88,5 +90,5 @@ fit [*:*][500:1200] f(x) "mle.dat" using (($1-1)*$2*T) : \
 #set label at graph 0.6,0.85 "MLE=(".sprintf("%.1f",mle_mean)."±".sprintf("%.1f",mle_mean_err).") Hz" font ",7"
 plot "mle.dat" u (($1-1)*$2*T):($3==0? NaN : $3/T):($4/T) w yerr pt 7 ps 0.25 lc rgb "blue" notitle
 replot "mle.dat" u (($1-1)*$2<unif_max && ($1-1)*$2>unif_min? ($1-1)*$2*T : NaN):\
-    ($3/T<0.5 || $3/T>1.2? NaN : $3/T):($4/T)\
+    ($3/T<0.5 || $3/T>1.5? NaN : $3/T):($4/T)\
     w yerr pt 7 ps 0.25 lc rgb "red" notitle

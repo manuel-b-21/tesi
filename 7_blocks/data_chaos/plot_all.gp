@@ -1,12 +1,14 @@
 set term pdf
-set output "../plots/chaos.pdf"
+set output "../plots/chaos_low.pdf"
 set termoption font ",8"
 set border lw 0.5
 set fit errorvariables
 set fit logfile "/dev/null"
 set fit quiet
-unif_min=187 #(m-1)*L=unif_min
-unif_max=241 #(m-1)*L=unif_max
+#unif_min=187 #(m-1)*L=unif_min
+#unif_max=241 #(m-1)*L=unif_max
+unif_min=85
+unif_max=115
 T=0.05 #sampling time in ms
 set samples 10000
 

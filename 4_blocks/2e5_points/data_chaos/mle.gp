@@ -9,8 +9,8 @@ set size ratio 0.7
 T=0.05 #sampling time in ms
 set xrange [1*T:250*T]
 #set yrange [0:70]
-unif_min=166
-unif_max=186
+unif_min=71
+unif_max=96
 #stats "mle.dat" u (($1-1)*$2<unif_max && ($1-1)*$2>unif_min && $3!=0)? $3/T*1000 : NaN nooutput name "mle"
 f(x) = mle_mean
 fit [*:*][*:*] f(x) "mle.dat" using (($1-1)*$2*T) : \
