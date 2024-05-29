@@ -1,4 +1,4 @@
-set term pdf
+set term pdf color
 set output "../plots/chaos_low.pdf"
 set termoption font ",8"
 set border lw 0.5
