@@ -1,10 +1,10 @@
 set terminal qt persist
-set termoption font ",9"
+set termoption font ",7"
 set border lw 0.5
 
 set multiplot
 
-set label at graph -0.225,1 "{/:Bold b}" font ",10"
+set label at graph -0.15,1 "{/:Bold b}" font ",10"
 set tmargin 0
 set bmargin 0
 set size 0.5,0.4
@@ -16,7 +16,7 @@ set yrange [-0.5:1.5]
 plot "2_blocks_avg.csv" every ::0::10000 u 5:4 w l notitle lc "dark-red" lw 0.5
 
 unset label
-set label at graph -0.225,1.1 "{/:Bold d}" font ",10"
+set label at graph -0.15,1.1 "{/:Bold d}" font ",10"
 set tmargin 0
 set bmargin 0
 set size 0.5,0.125
@@ -34,7 +34,7 @@ set ytics -1.0,1.0,1.0
 plot "2_blocks_avg.csv" every 10 u 1:5 w l notitle lc "dark-red" lw 0.5
 
 unset label
-set label at graph -0.225,1.1 "{/:Bold f}" font ",10"
+set label at graph -0.15,1.1 "{/:Bold f}" font ",10"
 set tmargin 0
 set bmargin 0
 set size 0.5,0.125
