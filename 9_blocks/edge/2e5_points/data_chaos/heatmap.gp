@@ -11,8 +11,8 @@ set yrange [0.5:20.5]
 set ytics 2,2,20
 plot "map.dat" u 1:2:3 w image pixels notitle
 
-unif_min=96 #(m-1)*L=unif_min
-unif_max=108.5 #(m-1)*L=unif_max
+unif_min=67 #(m-1)*L=unif_min
+unif_max=103 #(m-1)*L=unif_max
 f(x)=unif_min/(x-1)
 g(x)=unif_max/(x-1)
 replot f(x) notitle dashtype 4 lc "black" lw 2
