@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1717143888 "main.bcf" "main.bbl" "main" 1717143891
-  "main.bcf" 1717143891 106290 bfafe2e12b9af369b757f9135d830497 "pdflatex"
+["biber main"] 1717143888 "main.bcf" "main.bbl" "main" 1717498319
+  "main.bcf" 1717498319 106290 bfafe2e12b9af369b757f9135d830497 "pdflatex"
   "references.bib" 1714648983 259 810a3c4b3f4d57dc24617497a5cd1483 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1717143890 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1717143891
+["pdflatex"] 1717498317 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1717498319
   "../10_blocks/2e5_points/plots/chaos_low.pdf" 1717142819 119135 4e6d48976d092e543e78596c3d379fc4 ""
   "../1_block/board/Lissajous.pdf" 1714648983 24794 222587bd143e6b3d04066859b9dda403 ""
   "../1_block/board/V_wf.pdf" 1714648983 46694 795d9c13f76d61f0fc081167ce7d948a ""
@@ -34,16 +34,16 @@
   "../2_blocks/1e5_points/plots/chaos.pdf" 1716884742 118267 f802194d882ec3a46230048586663782 ""
   "../2_blocks/4e4_points/plots/waveforms_1.pdf" 1717142819 43536 833e42f5d0b0cbde63e7139d21f784d6 ""
   "../2_blocks/4e4_points/plots/waveforms_2.pdf" 1717142819 41776 1b10d790579f3deaa9e42ce17ba8f310 ""
-  "../3_blocks/1e5_points/plots/chaos_low.pdf" 1717059236 118322 88429e2eb255795ad232fd6fe8d3e08b ""
+  "../3_blocks/2e5_points/plots/chaos_low.pdf" 1717498315 107804 c43a636206a73b38702da09cf7c08576 ""
   "../4_blocks/2e5_points/plots/chaos_low.pdf" 1716884742 113266 15d701c0f12e4f107eb6b3a6008ab6fd ""
   "../5_blocks/2e5_points/plots/chaos_low.pdf" 1716884742 119097 d46ada77354e230e8159544c1d20589a ""
   "../6_blocks/2e5_points/plots/chaos_low.pdf" 1716884742 116994 7978562e15f5fcb3c47f69dfc66a556e ""
   "../7_blocks/2e5_points/plots/chaos_low.pdf" 1717142819 119769 34774857e97302f8e2e86cfe81ae908c ""
   "../8_blocks/2e5_points/plots/chaos_low.pdf" 1717142819 117447 17ce213ba1d5f7ebfb5049d8752b98ce ""
   "../9_blocks/edge/2e5_points/plots/chaos_low.pdf" 1717143792 115227 cb66d9dfc648128869d7043c6885e531 ""
-  "../data/nu_mle_blocks.pdf" 1717143840 17679 8af8ee28d5e369aafeced4fc69881538 ""
+  "../data/nu_mle_blocks.pdf" 1717497880 17681 3a403963e9faee106065e6d59aa89836 ""
   "/etc/texmf/web2c/texmf.cnf" 1712240471 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/manuel/Desktop/tesi/latex/main.tex" 1717143888 14650 f0febf46c9cc946e8f5567e54d2ea408 ""
+  "/home/manuel/Desktop/tesi/latex/main.tex" 1717496110 14650 a0d3adfd938697664672d09eb446a840 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -199,11 +199,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1712243053 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712243161 2801282 2c606fb8afe9ab0f58f5ded3df82a40c ""
-  "main.aux" 1717143891 11469 41b9999a41194d6e6755d7b68a977f60 "pdflatex"
+  "main.aux" 1717498319 11469 41b9999a41194d6e6755d7b68a977f60 "pdflatex"
   "main.bbl" 1717143888 1960 7be10ff20f8433b896098866daed70fa "biber main"
-  "main.out" 1717143891 2090 512ae389c248f1700c5fbbf66bc2afee "pdflatex"
-  "main.run.xml" 1717143891 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
-  "main.tex" 1717143888 14650 f0febf46c9cc946e8f5567e54d2ea408 ""
+  "main.out" 1717498319 2090 512ae389c248f1700c5fbbf66bc2afee "pdflatex"
+  "main.run.xml" 1717498319 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.tex" 1717496110 14650 a0d3adfd938697664672d09eb446a840 ""
   "packages.sty" 1714648983 1026 3ee4933bb8f9fb3b1ff6869422e507fb ""
   (generated)
   "main.aux"

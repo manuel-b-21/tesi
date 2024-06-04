@@ -1195,11 +1195,11 @@ INPUT ../2_blocks/1e5_points/plots/chaos.pdf
 INPUT ../2_blocks/1e5_points/plots/chaos.pdf
 INPUT ../2_blocks/1e5_points/plots/chaos.pdf
 INPUT ../2_blocks/1e5_points/plots/chaos.pdf
-INPUT ../3_blocks/1e5_points/plots/chaos_low.pdf
-INPUT ../3_blocks/1e5_points/plots/chaos_low.pdf
-INPUT ../3_blocks/1e5_points/plots/chaos_low.pdf
-INPUT ../3_blocks/1e5_points/plots/chaos_low.pdf
-INPUT ../3_blocks/1e5_points/plots/chaos_low.pdf
+INPUT ../3_blocks/2e5_points/plots/chaos_low.pdf
+INPUT ../3_blocks/2e5_points/plots/chaos_low.pdf
+INPUT ../3_blocks/2e5_points/plots/chaos_low.pdf
+INPUT ../3_blocks/2e5_points/plots/chaos_low.pdf
+INPUT ../3_blocks/2e5_points/plots/chaos_low.pdf
 INPUT ../4_blocks/2e5_points/plots/chaos_low.pdf
 INPUT ../4_blocks/2e5_points/plots/chaos_low.pdf
 INPUT ../4_blocks/2e5_points/plots/chaos_low.pdf

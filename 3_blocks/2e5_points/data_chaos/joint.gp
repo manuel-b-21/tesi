@@ -7,10 +7,11 @@ set xlabel "w = (m-1)LT (ms)"
 set ylabel "{/Symbol n}"
 set size ratio 0.7
 set palette rgb 34,35,36 negative
-T=0.1 #sampling time in ms
-set xrange [1*T:140*T]
-unif_min=48.5*T
-unif_max=58.5*T
+T=0.05 #sampling time in ms
+set xrange [1*T:250*T]
+set yrange [1:3.5]
+unif_min=61*T
+unif_max=101*T
 set arrow from unif_min, graph 0 to unif_min, graph 1 nohead front dt 4 lc "black"
 set arrow from unif_max, graph 0 to unif_max, graph 1 nohead front dt 4 lc "black"
 f(x) = nu_mean
