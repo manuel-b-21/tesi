@@ -18,7 +18,7 @@ for m in `seq $mmin $mmax`; do
 				echo $m $L $p
 				for f in $lstsrc; do
 					cat $f | grep -v 'inf' | grep -v 'nan' | \
-						plateau -range 2000 5000 | tail -1 | grep -v "#" >> $dstfile
+						plateau -range 3000 5000 | tail -1 | grep -v "#" >> $dstfile
 				done
 			fi
 		done
