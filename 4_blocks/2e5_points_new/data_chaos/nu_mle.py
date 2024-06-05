@@ -1,7 +1,7 @@
 import numpy as np
 
-unif_min=71 #(m-1)L
-unif_max=96 #(m-1)L
+unif_min=61 #(m-1)L
+unif_max=86 #(m-1)L
 T=0.05 #sampling time in ms
 
 input_nu='joint_av.dat'
