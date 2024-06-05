@@ -6,7 +6,7 @@ set fit errorvariables
 set fit logfile "/dev/null"
 set fit quiet
 unif_min=41 #(m-1)*L=unif_min
-unif_max=61 #(m-1)*L=unif_max
+unif_max=71 #(m-1)*L=unif_max
 #unif_min=96
 #unif_max=108.5
 T=0.05 #sampling time in ms
