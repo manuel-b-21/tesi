@@ -19,6 +19,65 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{bk}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2ce56ea424cd5333d8d83ec41a9a9f6a}{%
+           family={Burridge},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5815bae390820ffda174e06f9d8a8478}{%
+           family={Knopoff},
+           familyi={K\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b461a7734938b54629eb93b7944ee03}
+      \strng{fullhash}{0b461a7734938b54629eb93b7944ee03}
+      \strng{bibnamehash}{0b461a7734938b54629eb93b7944ee03}
+      \strng{authorbibnamehash}{0b461a7734938b54629eb93b7944ee03}
+      \strng{authornamehash}{0b461a7734938b54629eb93b7944ee03}
+      \strng{authorfullhash}{0b461a7734938b54629eb93b7944ee03}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the Seismological Society of America}
+      \field{title}{Model and theoretical seismicity}
+      \field{year}{1967}
+    \endentry
+    \entry{ofc}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4540e3f2ef0527493c43423355fbae2f}{%
+           family={Olami},
+           familyi={O\bibinitperiod},
+           given={Zeev},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=50e94209a46d8ca277f06167e445dc06}{%
+           family={Feder},
+           familyi={F\bibinitperiod},
+           given={Hans\bibnamedelimb Jacob\bibnamedelima S.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=072a94a9a28f8ca6dd14049f1eb36c5e}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{04b6644cbf7354d1d0cf5fe3b419cac7}
+      \strng{fullhash}{04b6644cbf7354d1d0cf5fe3b419cac7}
+      \strng{bibnamehash}{04b6644cbf7354d1d0cf5fe3b419cac7}
+      \strng{authorbibnamehash}{04b6644cbf7354d1d0cf5fe3b419cac7}
+      \strng{authornamehash}{04b6644cbf7354d1d0cf5fe3b419cac7}
+      \strng{authorfullhash}{04b6644cbf7354d1d0cf5fe3b419cac7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett. 68, 1244}
+      \field{title}{Self-organized criticality in a continuous, nonconservative cellular automaton modeling earthquakes}
+      \field{year}{1992}
+    \endentry
     \entry{main_paper}{article}{}
       \name{author}{3}{}{%
         {{hash=17ec6e71dd74fea4de277e59f59282a7}{%
@@ -43,16 +102,13 @@
       \strng{authorbibnamehash}{4b8f88012350657fdb6f9db752cc9340}
       \strng{authornamehash}{4b8f88012350657fdb6f9db752cc9340}
       \strng{authorfullhash}{4b8f88012350657fdb6f9db752cc9340}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chaos 33, 093103}
       \field{title}{A scalable electronic analog of the Burridge–Knopoff model of earthquake faults}
       \field{year}{2023}
-      \verb{doi}
-      \verb https://doi.org/10.1063/5.0161339
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,6 +1,6 @@
 set term pdf
 set output "../plots/chaos_low.pdf"
-set termoption font ",8"
+set termoption font "Times,8"
 set border lw 0.5
 set fit errorvariables
 set fit logfile "/dev/null"
