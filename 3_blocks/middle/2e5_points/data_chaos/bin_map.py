@@ -2,7 +2,7 @@ import numpy as np
 input_file='map.dat'
 output_file='bin_nu.dat'
 nu_list=np.loadtxt(input_file)[:,2]
-bin_width=0.1
-bins=np.arange(1,5+bin_width,bin_width)
+bin_width=0.07
+bins=np.arange(1,4+bin_width,bin_width)
 nu_binned=np.histogram(nu_list,bins)[0]
 np.savetxt(output_file,np.vstack((bins[:-1],nu_binned)).T)
