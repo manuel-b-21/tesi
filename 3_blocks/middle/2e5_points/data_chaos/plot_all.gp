@@ -7,8 +7,8 @@ set fit logfile "/dev/null"
 set fit quiet
 #unif_min=187 #(m-1)*L=unif_min
 #unif_max=241 #(m-1)*L=unif_max
-unif_min=85
-unif_max=115
+unif_min=41
+unif_max=77
 T=0.05 #sampling time in ms
 set samples 10000
 
@@ -16,7 +16,7 @@ set multiplot
 
 #HEATMAP
 
-set label at graph -0.315,1 "{/:Bold a}" font ",10"
+set label at graph -0.235,1 "{/:Bold a}" font ",10"
 set xlabel "m"
 set ylabel "L"
 set tmargin 0
@@ -38,10 +38,10 @@ replot g(x) notitle dashtype 4 lc "black" lw 1
 #HISTOGRAM
 
 unset label
-set label at graph -0.17,1.1 "{/:Bold c}" font ",10"
+set label at graph -0.124,1.1 "{/:Bold c}" font ",10"
 set ytics auto
-set yrange [0:35]
-set xrange [1:5]
+set yrange [0:30]
+set xrange [1:3.5]
 set xlabel "{/Symbol n}"
 set ylabel "# of embedding pairs"
 set tmargin 0
@@ -54,17 +54,17 @@ plot 'bin_nu.dat' u 1:2 with boxes notitle lc rgb "dark-green"
 #JOINT
 
 unset label
-set label at graph -0.175,1.05 "{/:Bold b}" font ",10"
+set label at graph -0.16,1.05 "{/:Bold b}" font ",10"
 set errorbars 0.5
 set xlabel "w = (m-1)LT (ms)"
 set ylabel "{/Symbol n}" off 1,0
 set tmargin 0
 set bmargin 0
-set size 0.6,0.4
-set origin 0.45,0.55
+set size 0.57,0.4
+set origin 0.468,0.55
 set palette rgb 34,35,36 negative
-set xrange [1*T:350*T]
-set yrange [1:5]
+set xrange [1*T:250*T]
+set yrange [1:3.5]
 #set cbtics ("0" 0, "1" 1, "2" 2, "3" 3, "4" 4)
 set arrow from unif_min*T, graph 0 to unif_min*T, graph 1 nohead front dt 4 lc "black" lw 0.7
 set arrow from unif_max*T, graph 0 to unif_max*T, graph 1 nohead front dt 4 lc "black" lw 0.7
@@ -74,16 +74,16 @@ replot "joint_av.dat" u (($1)*T):($2==0? NaN : $2):3 w yerr pt 7 ps 0.3 lc rgb "
 #MLE
 
 unset label
-set label at graph -0.175,1.05 "{/:Bold d}" font ",10"
+set label at graph -0.16,1.05 "{/:Bold d}" font ",10"
 set bars small
 set xlabel "w = (m-1)LT (ms)"
 set ylabel "MLE (kHz)" off 1,0
 set tmargin 0
 set bmargin 0
-set size 0.502,0.3
+set size 0.498,0.3
 set origin 0.469,0.125
-set xrange [1*T:350*T]
-set yrange [0:5]
+set xrange [1*T:250*T]
+set yrange [0:1]
 f(x) = mle_mean
 fit [*:*][500:1500] f(x) "mle.dat" using (($1-1)*$2*T) : \
     ((($1-1)*$2<unif_max && ($1-1)*$2>unif_min && $3!=0)? $3/T*1000 : NaN) : ($4/T*1000) yerr via mle_mean

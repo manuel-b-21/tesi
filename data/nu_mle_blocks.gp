@@ -1,6 +1,6 @@
 set term pdf
 set output "nu_mle_blocks.pdf"
-set termoption font ",8"
+set termoption font "Times,8"
 set border lw 0.25
 set samples 10000
 
@@ -8,7 +8,7 @@ set multiplot
 
 #nu
 
-set label at graph -0.18,1 "{/:Bold a}" font ",12"
+set label at graph -0.15,1 "{/:Bold a}" font ",12"
 set tmargin 0
 set bmargin 0
 set size 0.48,0.5
@@ -37,7 +37,7 @@ set ylabel "MLE (Hz)"
 set xrange [1.5:10.5]
 set yrange [30:3000]
 set logscale y
-set label at graph -0.2,1 "{/:Bold b}" font ",12"
+set label at graph -0.15,1 "{/:Bold b}" font ",12"
 set xtics ("2" 2, "3" 3, "4" 4, "5" 5, "6" 6, "7" 7, "8" 8, "9" 9, "10" 10)
 plot "chaos_low.dat" u 1:4:5 w yerr pt 5 ps 0.25 lc "blue" notitle
 replot "chaos_low.dat" u 1:4 w l lw 0.5 lc "blue" notitle
