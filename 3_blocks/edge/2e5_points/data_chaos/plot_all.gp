@@ -1,6 +1,6 @@
 set term pdf
 set output "../plots/chaos_low.pdf"
-set termoption font ",8"
+set termoption font "Times,8"
 set border lw 0.5
 set fit errorvariables
 set fit logfile "/dev/null"
@@ -16,7 +16,7 @@ set multiplot
 
 #HEATMAP
 
-set label at graph -0.315,1 "{/:Bold a}" font ",10"
+set label at graph -0.25,1 "{/:Bold a}" font ",10"
 set xlabel "m"
 set ylabel "L"
 set tmargin 0
@@ -38,7 +38,7 @@ replot g(x) notitle dashtype 4 lc "black" lw 1
 #HISTOGRAM
 
 unset label
-set label at graph -0.17,1.1 "{/:Bold c}" font ",10"
+set label at graph -0.13,1.1 "{/:Bold c}" font ",10"
 set ytics auto
 set yrange [0:40]
 set xrange [1:3.5]
@@ -54,14 +54,14 @@ plot 'bin_nu.dat' u 1:2 with boxes notitle lc rgb "dark-green"
 #JOINT
 
 unset label
-set label at graph -0.175,1.05 "{/:Bold b}" font ",10"
+set label at graph -0.125,1.05 "{/:Bold b}" font ",10"
 set errorbars 0.5
 set xlabel "w = (m-1)LT (ms)"
 set ylabel "{/Symbol n}" off 1,0
 set tmargin 0
 set bmargin 0
-set size 0.6,0.4
-set origin 0.45,0.55
+set size 0.58,0.4
+set origin 0.46,0.55
 set palette rgb 34,35,36 negative
 set xrange [1*T:250*T]
 set yrange [1:3.5]
@@ -74,14 +74,14 @@ replot "joint_av.dat" u (($1)*T):($2==0? NaN : $2):3 w yerr pt 7 ps 0.3 lc rgb "
 #MLE
 
 unset label
-set label at graph -0.175,1.05 "{/:Bold d}" font ",10"
+set label at graph -0.125,1.05 "{/:Bold d}" font ",10"
 set bars small
 set xlabel "w = (m-1)LT (ms)"
 set ylabel "MLE (kHz)" off 1,0
 set tmargin 0
 set bmargin 0
-set size 0.52,0.3
-set origin 0.45,0.125
+set size 0.5075,0.3
+set origin 0.46,0.125
 set xrange [1*T:250*T]
 set yrange [0:2]
 f(x) = mle_mean
