@@ -4,24 +4,25 @@
 \section{Mechanical Burridge-Knopoff model}
 \label{sec: mechanical bk}
 
-The Burridge-Knopoff (BK) spring-block model \cite{bk} is a two-dimensional system of massive blocks
-interconnected by springs. Additionally, each block is connected to a single moving plate by another
-set of springs, and connected frictionally to a single fixed plate, as shown in Fig. \ref{fig bk}.
+The Burridge-Knopoff (BK) spring-block model \cite{ref:bk} is a two-dimensional system of massive blocks
+lying on a rough horizontal surface. Each block is connected to its nearest neighbors by a set of springs,
+and linked by another spring to an upper horizontal ceiling moving with constant velocity with respect to the lower plate,
+as shown in Fig. \ref{fig bk}.
 
 \begin{figure}[H]
     \centering
-    \subfloat{\includegraphics[width=0.43\linewidth]{images/BK1.png}}\\[0.43cm]
-    \subfloat{\includegraphics[width=0.43\linewidth]{images/BK2.png}}
+    \subfloat{\includegraphics[width=0.42\linewidth]{images/BK1.png}}\\[0.43cm]
+    \subfloat{\includegraphics[width=0.42\linewidth]{images/BK2.png}}
     \caption{Visual representation of the Burridge-Knopoff spring-block model. $K_1$ and $K_2$
     are the elastic constants, respectively, of the horizontal and vertical springs, while $K_L$
     is the elastic constant of the springs connecting the blocks and the moving plate.
     The figure below represents the interaction between a block and its four nearest neighbors,
-    as a function of the displacement $x_{i,j}$. Figure adapted from Ref. \cite{ofc}.}
+    as a function of the displacement $x_{i,j}$. Figure adapted from Ref. \cite{ref:ofc}.}
     \label{fig bk}
 \end{figure}
 
-The blocks are thus driven by the relative movement of the two rigid plates. When the force on one block
-reaches the threshold value $F_{\text{th}}$, the block slips, and it is reasonable to assume that the
+The blocks are driven by the relative movement of the two rigid plates. When the force on one block
+reaches some threshold value $F_{\text{th}}$, the block slips, and it is reasonable to assume that the
 force on that block becomes zero. Then, the force on the four nearest neighbors is increased, often
 resulting in further slips, and an avalanche can occur.
 
@@ -34,20 +35,129 @@ of one or more of the system's constituent parts.
 \label{subsec: diff eqs for two blocks}
 
 The mechanical BK model for the motion of two coupled blocks is shown schematically in
-Fig. \ref{fig: 2 blocks motion}.
+Fig. \ref{fig: 2 blocks motion}. The upper ceiling moves with respect to the surface with
+a constant velocity $u_d$. Let $x_1$, $x_2$ be the displacements of the block positions
+relative to a state in which the springs are relaxed, and $u_1$, $u_2$ the velocities of the blocks in the
+lower surface frame, so that $u_i=u_d+\dot{x}_i$ with $i=1,2$.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{images/bk_2_blocks.png}
-    \caption{ciao}
+    \caption{Two-blocks mechanical BK model. The upper ceiling, which the blocks
+    are coupled to via springs with elastic constant $k$, is dragged with constant
+    velocity $u_d$ with respect to the underlying surface. This surface exerts a nonlinear,
+    velocity-dependent friction $F$ to each block's motion. Figure adapted from Ref. \cite{ref:electronic_analog}.}
     \label{fig: 2 blocks motion}
 \end{figure}
+
+The equations of motion are thus given by
+\begin{equation}
+\label{eq: 2 block motion}
+    \begin{gathered}
+    m\frac{\text{d}u_1}{\text{d}t} = -kx_1 - k_c(x_1-x_2) - F(u_1),\\[10pt]
+    \frac{\text{d}x_1}{\text{d}t} = u_1 - u_d,\\[10pt]
+    m\frac{\text{d}u_2}{\text{d}t} = -kx_2 - k_c(x_2-x_1) - F(u_2),\\[10pt]
+    \frac{\text{d}x_2}{\text{d}t} = u_2 - u_d,
+\end{gathered}
+\end{equation}
+where $m$ is the mass of the blocks, $k$ is the elastic constant of the springs that connect the blocks
+to the ceiling, $k_c$ is the elastic constant of the spring linking the two blocks, and $F(u)$ is the nonlinear
+velocity-dependent friction. The velocities are assumed to be non-negative.
+
+\subsection{Dimensionless system}
+\label{subsec: dimensionless 2 block motion}
+
+It is possible to render this system dimensionless by defining the following dimensionless quantities ($i$ takes the values 1 and 2):
+a time $\tau\equiv t\sqrt{k/m}$, a velocity $\nu_i\equiv u_i/u_0$, a position $\xi_i\equiv x_i \sqrt{k/m}/u_0$,
+a friction $\varphi(\nu_i)\equiv F(\nu_i)/(u_0\sqrt{mk})$ and a parameter $\lambda\equiv k_c/k$.
+The four equations of motion can then be written as
+\begin{equation}
+\label{eq: 2 block motion dimensionless}
+\begin{gathered}
+    \frac{\text{d}\nu_i}{\text{d}\tau}=-(1+\lambda)\xi_i+\lambda\xi_{3-i}-\varphi(\nu_i),\\[10pt]
+    \frac{\text{d}\xi_i}{\text{d}\tau}=\nu_i-\nu_d.
+\end{gathered}
+\end{equation}
+
+There exists a relative freedom in the choice of the friction $\varphi(\nu)$, provided that
+(i) $\varphi(\nu<0)=0$, (ii) $\varphi(\nu\geq0)\geq0$ and (iii) $\varphi(\nu)$ decreases down to zero from a
+maximum value $\varphi(0)$ that occurs at $\nu=0$.
+
+It is useful to define the equations of motion also in the case of a lower surface moving with a positive
+dimensionless velocity $\Delta\nu$, so that $\nu'_i=\nu_i+\Delta\nu$ and $\nu'_d=\nu_d+\Delta\nu$.
+The system of equations becomes:
+\begin{equation}
+    \label{eq: 2 block motion dimensionless moving surface}
+    \begin{gathered}
+        \frac{\text{d}\nu'_i}{\text{d}\tau}=-(1+\lambda)\xi_i+\lambda\xi_{3-i}-\varphi(\nu'_i-\Delta\nu),\\[10pt]
+        \frac{\text{d}\xi_i}{\text{d}\tau}=\nu'_i-\nu'_d.
+    \end{gathered}
+\end{equation}
+
+
+\section{Electronic analog}
+\label{sec: electronic analog}
+
+In order to analyze the properties of the BK model, it is possible to build an electronic circuit
+which differential equations are the same as Eqs. \ref{eq: 2 block motion dimensionless moving surface}.
+The first implementation was done by Field, Venturi and Nori \cite{ref:fvn} by drawing a direct parallelism
+between mechanical and electrical quantities. The idea was to use capacitance as mass,
+inductance as the reciprocal of elastic constant, voltage as velocity and current as position.
+However, this implementation has two main drawbacks. The first one is the usage of inductances, which are typically
+bulky and have intrinsically large tolerances compared with other components, resulting in higher uncertainties; moreover,
+their tunability is very low. The second issue is that the current is a state variable, and it is less straightforward
+to measure it with respect to voltage.
+
+It is possible to use another implementation \cite{ref:electronic_analog} which does not rely on inductances
+and uses only voltages as state variables. In order to do so it is necessary to rewrite the system equations
+as integral equations, so that they can be implemented by electronic integrators that are more stable than
+the differentiators. The new state variables are defined as $V_i\equiv \nu_i V_0$ and $W_i\equiv \xi_i V_0$ and
+the new time constant is given by $\tau=RC$, where $R$ and $C$ are suitably chosen resistance and capacitance.
+Integrating the system of Eqs. \ref{eq: 2 block motion dimensionless moving surface} for a moving surface and replacing
+$V'_i\equiv V_i+\Delta V$ and $V'_d\equiv V_d+\Delta V$, where $V_d\equiv V_0\nu_d$ and $\Delta V\equiv V_0\Delta\nu$,
+leads to the following system of equations:
+\begin{equation}
+    \label{eq: 2 block motion electronig}
+    \begin{gathered}
+        V_i+\Delta V=-\frac{1}{RC}\int\left[ (1+\lambda)W_i - \lambda W_{3-i}+V_0\varphi\left(\frac{V_i}{V_0}\right) \right]\text{d}t ,\\[10pt]
+        W_i=-\frac{1}{RC}\int(V_d-V_i)\,\text{d}t,
+    \end{gathered}
+\end{equation}
+
+where $\lambda=R/R_c$ and $R_c$ is a suitably chosen resistance.
+
+These differential equations are implemented by the circuit shown in Fig. \ref{fig:breadboard implementation},
+which makes use of resistors, capacitors, diodes and operational amplifiers, without any inductance.
+Assuming for a while that $\Delta V$ and the nonlinear element $\varphi(V_i/V_0)$ were not present,
+the two integrations above could be promptly implemented by considering the black part of the circuit diagram.
+The blue part refers thus to the nonlinear element, while the red part is a standard inverting operational amplifier,
+which is necessary for the coupling between two blocks.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]
+    {../1_block/breadboard/breadboard_implementation.png}
+    \caption{Inductorless representation of the BK model. The circuit diagram refers to a single block, labeled by $i=1,2$.
+    The bottom left plot shows the characteristic of the nonlinear element, i.e. the blue part of the diagram.
+    Figure adapted from Ref. \cite{ref:electronic_analog}.}
+    \label{fig:breadboard implementation}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
 
 
 \section{Breadboard implementation}\label{sec:breadboard}
 
 The inductorless electronic analog of the Burridge-Knopoff model
-\cite{main_paper} is represented in Fig.
+\cite{ref:electronic_analog} is represented in Fig.
 \ref{fig:breadboard implementation}. This circuit was implemented
 in a breadboard using 1N5817 Schottky diodes and different kinds
 of op-amps, namely UA741, OP07, TL081 and OP27; these op-amps were
@@ -74,7 +184,7 @@ behavior.
     \caption{Inductorless representation of the BK model.
     The blue part of the network refers to the nonlinear element,
     whose characteristic is drawn in the bottom left plot.
-    Figure adapted from Ref. \cite{main_paper}.}\label{fig:breadboard implementation}
+    Figure adapted from Ref. \cite{ref:electronic_analog}.}\label{fig:breadboard implementation}
 \end{figure}
 
 \begin{figure}[H]
