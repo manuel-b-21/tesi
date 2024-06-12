@@ -1,9 +1,9 @@
-PWD /home/aries/tesi/latex
+PWD /home/manuel/Desktop/tesi/latex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT main.tex
+INPUT /home/manuel/Desktop/tesi/latex/main.tex
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -1313,6 +1313,11 @@ INPUT ../7_blocks/edge/2e5_points/plots/chaos_low.pdf
 INPUT ../7_blocks/edge/2e5_points/plots/chaos_low.pdf
 INPUT ../7_blocks/edge/2e5_points/plots/chaos_low.pdf
 INPUT ../7_blocks/edge/2e5_points/plots/chaos_low.pdf
+INPUT ../7_blocks/middle/2e5_points/plots/chaos_low.pdf
+INPUT ../7_blocks/middle/2e5_points/plots/chaos_low.pdf
+INPUT ../7_blocks/middle/2e5_points/plots/chaos_low.pdf
+INPUT ../7_blocks/middle/2e5_points/plots/chaos_low.pdf
+INPUT ../7_blocks/middle/2e5_points/plots/chaos_low.pdf
 INPUT ../8_blocks/2e5_points/plots/chaos_low.pdf
 INPUT ../8_blocks/2e5_points/plots/chaos_low.pdf
 INPUT ../8_blocks/2e5_points/plots/chaos_low.pdf
