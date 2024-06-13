@@ -95,7 +95,7 @@ The system of equations becomes:
 \end{equation}
 
 
-\section{Electronic analog}
+\section{Electronic analog for the motion of two blocks}
 \label{sec: electronic analog}
 
 In order to analyze the properties of the BK model, it is possible to build an electronic circuit
@@ -126,12 +126,10 @@ leads to the following system of equations:
 
 where $\lambda=R/R_c$ and $R_c$ is a suitably chosen resistance.
 
-These differential equations are implemented by the circuit shown in Fig. \ref{fig:breadboard implementation},
+These differential equations are implemented by the circuit shown in Fig. \ref{fig: circuit diagram},
 which makes use of resistors, capacitors, diodes and operational amplifiers, without any inductance.
 Assuming for a while that $\Delta V$ and the nonlinear element $\varphi(V_i/V_0)$ were not present,
 the two integrations above could be promptly implemented by considering the black part of the circuit diagram.
-The blue part refers thus to the nonlinear element, while the red part is a standard inverting operational amplifier,
-which is necessary for the coupling between two blocks.
 
 \begin{figure}[H]
     \centering
@@ -139,37 +137,54 @@ which is necessary for the coupling between two blocks.
     {../1_block/breadboard/breadboard_implementation.png}
     \caption{Inductorless representation of the BK model. The circuit diagram refers to a single block, labeled by $i=1,2$.
     The bottom left plot shows the characteristic of the nonlinear element, i.e. the blue part of the diagram.
+    The red part is a standard inverting operational amplifier, which is necessary for the coupling between two blocks.
     Figure adapted from Ref. \cite{ref:electronic_analog}.}
-    \label{fig:breadboard implementation}
+    \label{fig: circuit diagram}
 \end{figure}
 
+The nonlinear term is instead represented by the blue part of the diagram and it is implemented as follows.
+A Schottky diode is inserted on the feedback network on the integrator producing $V_i$; this ensures that $V_i$ does not
+drop below $-V_{\text{diode}}$, where $V_{\text{diode}}\approx 0.3$ V. In order to not contradict the constraint
+that the ``velocity'' must be always non-negative, it is necessary to set $\Delta V = V_{\text{diode}}$.
+In this way the first of the constraints set in Sec. \ref{subsec: dimensionless 2 block motion}, i.e. $\varphi(V_i < 0 )=0$
+is satisfied, since the voltage cannot drop below zero.
+
+The nonlinear friction element consists in a linear drop for the analog of the velocity-weakening force, and it is
+implemented using two additional op-amps as follows. The output of the first op-amp is given by $V_0-V_iR_B/R_A$.
+Downstream of the resistor $r$, this voltage is prevented to drop below zero by an active
+clamp made of the second op-amp which has a diode in its feedback network. The resulting voltage is fed back into
+the integrator generating $V_i$ through an additional resistor $R-r$.
 
 
+\section{Characterization of the single block behavior}
+\label{sec: single block characterization}
 
+\subsection{Breadboard implementation}
+\label{subsec:breadboard implementation}
 
-
-
-
-
-
-
-
-\section{Breadboard implementation}\label{sec:breadboard}
-
-The inductorless electronic analog of the Burridge-Knopoff model
-\cite{ref:electronic_analog} is represented in Fig.
-\ref{fig:breadboard implementation}. This circuit was implemented
-in a breadboard using 1N5817 Schottky diodes and different kinds
-of op-amps, namely UA741, OP07, TL081 and OP27; these op-amps were
+The circuit represented in Fig. \ref{fig: circuit diagram} was implemented on a breadboard using 1N5817 Schottky diodes
+and OP27 op-amps; these op-amps were
 supplied with $V_{CC}=\pm12~\text{V}$. The nominal values for the
 resistances and capacitors are $R=R_c=10~\text{k}\Omega$,
 $R_A=R_B=10~\text{k}\Omega$, $r=1.8~\text{k}\Omega$ and
 $C=100~\text{nF}$. The input voltages are $V_0=1~\text{V}$ and
 the variable voltage $V_d$, while the output voltages are
 $V$ and $W$ (the subscript $i$ is omitted).
+The oscillating behavior of this circuit is shown in Fig. \ref{fig:oscillation breadboard}.
 
-The oscillating behavior of this circuit is shown in Fig.
-\ref{fig:oscillation breadboard}. The lower clamping in the Lissajous
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{../1_block/breadboard/single_block.pdf}
+    \caption{Oscillating behavior for the circuit implemented on
+    the breadboard. (a) Plot of $W$ and (b) of $V$ as a function of time,
+    for $V_d=1$ V.
+    (c) Phase portrait (Lissajous figure) of $V$ versus $W$. (d)
+    Frequency and (e) root mean square amplitude of the
+    output signal $W$ as a function of the parameter $V_d$.}
+    \label{fig:oscillation breadboard}
+\end{figure}
+
+The lower clamping in the Lissajous
 figure is intended and is due to the presence of the Schottky diodes.
 The frequency behavior at high voltages,
 namely $V_d \gtrsim 1$ V, is the same for each kind of op-amp.
@@ -177,56 +192,27 @@ On the other hand, the amplitudes possess an offset which depends on
 the selected op-amp; nonetheless, they all exhibit a mostly linear
 behavior.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\linewidth]
-    {../1_block/breadboard/breadboard_implementation.png}
-    \caption{Inductorless representation of the BK model.
-    The blue part of the network refers to the nonlinear element,
-    whose characteristic is drawn in the bottom left plot.
-    Figure adapted from Ref. \cite{ref:electronic_analog}.}\label{fig:breadboard implementation}
-\end{figure}
 
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{.58\textwidth}
-        \begin{subfigure}{\linewidth}
-            \centering
-            \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../1_block/breadboard/paper_implementation_op27/W_wf.pdf}\\
-            \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../1_block/breadboard/paper_implementation_op27/V_wf.pdf}
-        \end{subfigure}
-    \end{minipage}
-    \begin{subfigure}{.39\textwidth}
-        \centering
-        \includegraphics[width=\linewidth,trim={15cm 0 15cm 0},clip,right]
-        {../1_block/breadboard/paper_implementation_op27/Lissajous.pdf}
-    \end{subfigure}
-    \begin{subfigure}{.49\textwidth}
-        \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../1_block/breadboard/freq_bread.pdf}
-    \end{subfigure}
-    \begin{subfigure}{.49\textwidth}
-        \centering
-        \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../1_block/breadboard/rms_bread.pdf}
-    \end{subfigure}
-    \caption{Oscillating behavior for the circuit implemented on
-    the breadboard. (a) Plot of $W$ and (b) of $V$ as a function of time,
-    for $V_d=1$ V.
-    (c) Phase portrait (Lissajous figure) of $V$ versus $W$. (d)
-    Frequency and (e) root mean square amplitude of the
-    output signal $W$ as a function of the parameter $V_d$ and for
-    different kinds of op-amps.}\label{fig:oscillation breadboard}
-\end{figure}
 
+
+
+
+
+
+
+
+
+
+
+
+
+\section{AAAAAAAAAAAAAAAAAA}\label{sec:breadboard}
 
 \section{Prototypes}\label{sec:prototypes}
 
 In order to describe the coupling between many oscillators it is
 not possible use the breadboard implementation of the circuit
-shown in Fig. \ref{fig:breadboard implementation}, due to
+shown in Fig. \ref{fig: circuit diagram}, due to
 scalability issues. For the purpose of improving the system
 scalability, two smaller prototypical chips have been built.
 The circuit implemented in each chip is shown in Fig.
