@@ -51,6 +51,7 @@ lower surface frame, so that $u_i=u_d+\dot{x}_i$ with $i=1,2$.
 \end{figure}
 
 The equations of motion are thus given by
+
 \begin{equation}
 \label{eq: 2 block motion}
     \begin{gathered}
@@ -60,6 +61,7 @@ The equations of motion are thus given by
     \frac{\text{d}x_2}{\text{d}t} = u_2 - u_d,
 \end{gathered}
 \end{equation}
+
 where $m$ is the mass of the blocks, $k$ is the elastic constant of the springs that connect the blocks
 to the ceiling, $k_c$ is the elastic constant of the spring linking the two blocks, and $F(u)$ is the nonlinear
 velocity-dependent friction. The velocities are assumed to be non-negative.
@@ -71,6 +73,7 @@ It is possible to render this system dimensionless by defining the following dim
 a time $\tau\equiv t\sqrt{k/m}$, a velocity $\nu_i\equiv u_i/u_0$, a position $\xi_i\equiv x_i \sqrt{k/m}/u_0$,
 a friction $\varphi(\nu_i)\equiv F(\nu_i)/(u_0\sqrt{mk})$ and a parameter $\lambda\equiv k_c/k$.
 The four equations of motion can then be written as
+
 \begin{equation}
 \label{eq: 2 block motion dimensionless}
 \begin{gathered}
@@ -86,6 +89,7 @@ maximum value $\varphi(0)$ that occurs at $\nu=0$.
 It is useful to define the equations of motion also in the case of a lower surface moving with a positive
 dimensionless velocity $\Delta\nu$, so that $\nu'_i=\nu_i+\Delta\nu$ and $\nu'_d=\nu_d+\Delta\nu$.
 The system of equations becomes:
+
 \begin{equation}
     \label{eq: 2 block motion dimensionless moving surface}
     \begin{gathered}
@@ -116,6 +120,7 @@ the new time constant is given by $\tau=RC$, where $R$ and $C$ are suitably chos
 Integrating the system of Eqs. \ref{eq: 2 block motion dimensionless moving surface} for a moving surface and replacing
 $V'_i\equiv V_i+\Delta V$ and $V'_d\equiv V_d+\Delta V$, where $V_d\equiv V_0\nu_d$ and $\Delta V\equiv V_0\Delta\nu$,
 leads to the following system of equations:
+
 \begin{equation}
     \label{eq: 2 block motion electronig}
     \begin{gathered}
@@ -159,18 +164,56 @@ the integrator generating $V_i$ through an additional resistor $R-r$.
 \section{Characterization of the single block behavior}
 \label{sec: single block characterization}
 
+With the aim of analyzing the circuit represented in Fig. \ref{fig: circuit diagram},
+it is necessary to characterize its behavior. The first characterization concerns the
+function of a single block, in the absence of couplings.
+In this case $\lambda=0$ and the differential equations of the system can be simplified as
+(the subscript $i$ is omitted):
+
+\begin{equation}
+\label{eq: single block eq motion}
+\begin{gathered}
+    \frac{\text{d}^2V}{\text{d}t^2}+
+    \frac{1}{\tau}\varphi'\left(\frac{V}{V_0}\right)\frac{\text{d}V}{\text{d}t}+
+    \frac{1}{\tau^2}(V-V_d)=0\\[10pt]
+    \frac{\text{d}W}{\text{d}t}=\frac{1}{\tau}(V-V_d)
+\end{gathered}
+\end{equation}
+
+where $\varphi'$ is the derivative of the friction with respect to the velocity $V$.
+The equation for the velocity is of the kind met in the classical description of stick-slip
+vibrations \cite{ref:stick_slip}, i.e. of the self-sustained oscillations induced by friction.
+This means that a sinusoidal-like behavior for $V$ and $W$ has to be expected.
+
+In order to check the validity of these equations, the circuit was physically implemented
+in two different manners. The first implementation was done on a breadboard using large
+electronic components; the main issue with this system is that it is not scalable,
+due to the fact that a single circuit occupies half of the entire space on the breadboard.
+The second one consists instead in an integrated board in which 25 circuits
+like the one in Fig. \ref{fig: circuit diagram} were implemented;
+the scalability issue is solved in this case, so that this board could be utilized
+to study the behavior of many coupled blocks, as will be done in Chapter \ref{chap: multi block}.
+
 \subsection{Breadboard implementation}
 \label{subsec:breadboard implementation}
 
-The circuit represented in Fig. \ref{fig: circuit diagram} was implemented on a breadboard using 1N5817 Schottky diodes
+The breadboard implementation was made using 1N5817 Schottky diodes
 and OP27 op-amps; these op-amps were
 supplied with $V_{CC}=\pm12~\text{V}$. The nominal values for the
 resistances and capacitors are $R=R_c=10~\text{k}\Omega$,
 $R_A=R_B=10~\text{k}\Omega$, $r=1.8~\text{k}\Omega$ and
-$C=100~\text{nF}$. The input voltages are $V_0=1~\text{V}$ and
+$C=100~\text{nF}$, so that the characteristic time of the circuit is $\tau=1$ ms.
+The input voltages are $V_0=1~\text{V}$ and
 the variable voltage $V_d$, while the output voltages are
 $V$ and $W$ (the subscript $i$ is omitted).
-The oscillating behavior of this circuit is shown in Fig. \ref{fig:oscillation breadboard}.
+
+The single block behavior of this circuit is shown in Fig. \ref{fig:oscillation breadboard}.
+As expected by Eqs. \ref{eq: single block eq motion}, both the velocity $V$ and the position $W$
+exhibit an oscillating behavior. While $W$ closely resembles a sinusoidal wave, $V$ possesses
+a lower clamping that makes it different from a simple periodic wave; this clamping is due
+to the presence of the Schottky diodes, which prevent the velocity to become negative, as
+discussed in Sec. \ref{sec: electronic analog}.
+In the end, both the frequency and the amplitude of the waves depend on the driving voltage $V_d$.
 
 \begin{figure}[H]
     \centering
@@ -184,19 +227,36 @@ The oscillating behavior of this circuit is shown in Fig. \ref{fig:oscillation b
     \label{fig:oscillation breadboard}
 \end{figure}
 
-The lower clamping in the Lissajous
-figure is intended and is due to the presence of the Schottky diodes.
-The frequency behavior at high voltages,
-namely $V_d \gtrsim 1$ V, is the same for each kind of op-amp.
-On the other hand, the amplitudes possess an offset which depends on
-the selected op-amp; nonetheless, they all exhibit a mostly linear
-behavior.
+%The lower clamping in the Lissajous
+%figure is intended and is due to the presence of the Schottky diodes.
+%The frequency behavior at high voltages,
+%namely $V_d \gtrsim 1$ V, is the same for each kind of op-amp.
+%On the other hand, the amplitudes possess an offset which depends on
+%the selected op-amp; nonetheless, they all exhibit a mostly linear
+%behavior.
 
+\subsection{Integrated board implementation}
+\label{subsec:integrated board implementation}
 
+The circuit diagram for each of the 25 chips on the integrated board is equivalent to the
+one shown in Fig. \ref{fig: circuit diagram}. The only differences with the breadboard implementation
+concern the nonlinear components, i.e. the use of DFLS1100 Schottky diodes and quad operational
+amplifiers OP470, which offer comparable performances to the components used in the previous section,
+i.e. 1N5817 Schottky diodes and OP27 op-amps.
 
+The single block behavior of this circuit is shown in Fig. \ref{fig:oscillation board}.
 
-
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{../1_block/board_new/single_block.pdf}
+    \caption{Oscillating behavior for the circuit implemented on
+    the integrated board. (a) Plot of $W$ and (b) of $V$ as a function of time,
+    for $V_d=1$ V.
+    (c) Phase portrait (Lissajous figure) of $V$ versus $W$. (d)
+    Frequency and (e) root mean square amplitude of the
+    output signal $W$ as a function of the parameter $V_d$.}
+    \label{fig:oscillation board}
+\end{figure}
 
 
 

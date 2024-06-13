@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1718207540 "main.bcf" "main.bbl" "main" 1718207715
-  "main.bcf" 1718207714 106805 6edb9cdf8662cef3fc5da0b918781bc3 "pdflatex"
-  "references.bib" 1718186001 876 92fd104ce93fdcac719d7da5dbc8d9dd ""
+["biber main"] 1718276961 "main.bcf" "main.bbl" "main" 1718276977
+  "main.bcf" 1718276977 106919 bc77300c059a452d2c9e2f34c6d381fa "pdflatex"
+  "references.bib" 1718271593 1041 474efab2db7f319b2858e52a8fadb0b2 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1718207713 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1718207715
+["pdflatex"] 1718276976 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1718276977
   "../10_blocks/2e5_points/plots/chaos_low.pdf" 1718186001 116467 3325d2b434f87c4ceae8be9c6ee3c034 ""
   "../1_block/board/Lissajous.pdf" 1714648983 24794 222587bd143e6b3d04066859b9dda403 ""
   "../1_block/board/V_wf.pdf" 1714648983 46694 795d9c13f76d61f0fc081167ce7d948a ""
@@ -17,6 +17,7 @@
   "../1_block/board_new/W_wf.pdf" 1714648983 45746 918029b6d0e42620f2302a246f21bbd4 ""
   "../1_block/board_new/freq_board.pdf" 1714648983 18615 049c2bbc5067ee1b1d5ac81fa1cb8124 ""
   "../1_block/board_new/rms_board.pdf" 1714648983 19145 58968ef945ff1620fd7b7ce889be05d9 ""
+  "../1_block/board_new/single_block.pdf" 1718207025 219824 af8ba97fc5bb93c1d4c484e420bd81b0 ""
   "../1_block/breadboard/breadboard_implementation.png" 1714648983 129312 7ceca366effdd62f1b098aa6d2817670 ""
   "../1_block/breadboard/single_block.pdf" 1718207138 234928 87de815ed3e65e5dae44d67c63c1a3f7 ""
   "../1_block/images/freq_comparison.pdf" 1714648983 19480 890075554129cf92660e24b7e987b490 ""
@@ -206,19 +207,19 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1712243053 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712243161 2801282 2c606fb8afe9ab0f58f5ded3df82a40c ""
   "0_introduction.tex" 1717669505 68 3d0fc056c0e0ccd2e8b3c12130f54ef0 ""
-  "1_single.tex" 1718207711 18909 19c9bb27384c931e6ae4a6bf2cbc90b6 ""
-  "2_multi.tex" 1718187156 4213 ecbfdedc00d5fcc8d36b04cc97de9134 ""
+  "1_single.tex" 1718276975 22262 03a9b0a3057501336190cf464725d841 ""
+  "2_multi.tex" 1718276818 4239 82f5c40fac44c34dd9a2d3eed9350c07 ""
   "3_earthquakes.tex" 1717685055 64 a8bad0288041a45628459996ca421857 ""
   "images/BK1.png" 1659605922 87728 7037b8e2237260486ec46be513558d65 ""
   "images/BK2.png" 1659605957 43635 2c572144ebf82ead617fb7313e2e9d4e ""
   "images/Logo Unitn.jpg" 1717668612 19859 58b3574e840941ed0054e3f8fd777ee3 ""
   "images/bk_2_blocks.png" 1717688217 68462 e1bd05d12ade95d2e439e64b779c9be9 ""
-  "main.aux" 1718207714 17902 34fa9e73df6ea442964e5896b389144e "pdflatex"
-  "main.bbl" 1718207541 5782 45b67eb491f4c59e0f62fb4e04f807c9 "biber main"
-  "main.out" 1718207714 4162 3e2ef065b35c81257b69083c00aa8b6a "pdflatex"
-  "main.run.xml" 1718207714 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.aux" 1718276977 19338 d93aa670929addb4108802c5c3561228 "pdflatex"
+  "main.bbl" 1718276962 6888 6f59991c8861ef80b0ae50f73d7af585 "biber main"
+  "main.out" 1718276977 4385 e92b007c6d0297e292f9fdfef528c072 "pdflatex"
+  "main.run.xml" 1718276977 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
   "main.tex" 1717686341 1332 50c447da719741879bfba0b8d43c6834 ""
-  "main.toc" 1718207714 2114 94c3612a5a5bbe7bb5c6825f8ae27a8d "pdflatex"
+  "main.toc" 1718276977 2217 a92236feedc27cd363f17f2f7a49e998 "pdflatex"
   "packages.sty" 1717668561 1050 563f5d7b61531a0d6b5bcf758f4adbbd ""
   "title.tex" 1718186001 847 007911186945b7c98df4828a9c8918f1 ""
   (generated)

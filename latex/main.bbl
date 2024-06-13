@@ -142,6 +142,33 @@
       \field{title}{Marginal Stability and Chaos in Coupled Faults Modeled by Nonlinear Circuits}
       \field{year}{1995}
     \endentry
+    \entry{ref:stick_slip}{article}{}
+      \name{author}{2}{}{%
+        {{hash=080d59dc7c3e36fe996c1635bd9dab48}{%
+           family={Popp},
+           familyi={P\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=80d9afbec216b46501e801145610c02a}{%
+           family={Stelter},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4ebbb3f6825686fc1c14d85fae41bbe}
+      \strng{fullhash}{d4ebbb3f6825686fc1c14d85fae41bbe}
+      \strng{bibnamehash}{d4ebbb3f6825686fc1c14d85fae41bbe}
+      \strng{authorbibnamehash}{d4ebbb3f6825686fc1c14d85fae41bbe}
+      \strng{authornamehash}{d4ebbb3f6825686fc1c14d85fae41bbe}
+      \strng{authorfullhash}{d4ebbb3f6825686fc1c14d85fae41bbe}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philos. Trans. Roy. Soc. A}
+      \field{title}{Stick-slip vibrations and chaos}
+      \field{year}{1990}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
