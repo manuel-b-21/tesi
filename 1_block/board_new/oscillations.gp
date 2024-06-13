@@ -24,6 +24,7 @@ set yrange [-0.5:3]
 #set format y "%.1f"
 set ytics 0,1,3
 plot "board_wf_avg_avg.dat" u 1:3 w l notitle lc "red" lw 0.5
+replot "../breadboard/paper_implementation_op27/bread_wf_avg_avg.dat" u 1:3 w l notitle lc "blue" lw 0.5
 
 unset label
 set label at graph -0.11,1 "{/:Bold b}" font ",10"
@@ -37,6 +38,7 @@ set ytics -1,1,1
 set yrange [-1.4:1.4]
 set xtics ("0" -0.025, "10" -0.015, "20" -0.005, "30" 0.005, "40" 0.015, "50" 0.025)
 plot "board_wf_avg_avg.dat" u 1:2 w l notitle lc "red" lw 0.5
+replot "../breadboard/paper_implementation_op27/bread_wf_avg_avg.dat" u 1:2 w l notitle lc "blue" lw 0.5
 
 #LISSAJOUS
 
@@ -57,6 +59,7 @@ set format x2 ""
 set xtics -2,1,2
 set ytics 0,1,3
 plot "board_wf_avg_avg.dat" u 2:3 w l notitle lc "red" lw 0.5
+replot "../breadboard/paper_implementation_op27/bread_wf_avg_avg.dat" u 2:3 w l notitle lc "blue" lw 0.5
 
 #FREQUENCY
 
@@ -78,6 +81,8 @@ set format x2 ""
 set xtics 0,0.5,3
 plot "measurements_block_1.txt" u 1:3 w l notitle lc "dark-red" lw 0.5
 replot "measurements_block_1.txt" u 1:3 w p lc "dark-red" ps 0.2 pt 5 notitle
+replot "../breadboard/paper_implementation_op27/measurements.txt" u 1:3 w l notitle lc "dark-blue" lw 0.5
+replot "../breadboard/paper_implementation_op27/measurements.txt" u 1:3 w p lc "dark-blue" ps 0.2 pt 5 notitle
 
 #AMPLITUDE
 
@@ -99,3 +104,5 @@ set format x2 ""
 set xtics 0,0.5,3
 plot "measurements_block_1.txt" u 1:2 w l notitle lc "dark-red" lw 0.5
 replot "measurements_block_1.txt" u 1:2 w p lc "dark-red" ps 0.2 pt 5 notitle
+replot "../breadboard/paper_implementation_op27/measurements.txt" u 1:2 w l notitle lc "dark-blue" lw 0.5
+replot "../breadboard/paper_implementation_op27/measurements.txt" u 1:2 w p lc "dark-blue" ps 0.2 pt 5 notitle

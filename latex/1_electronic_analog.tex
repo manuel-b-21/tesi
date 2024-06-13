@@ -122,7 +122,7 @@ $V'_i\equiv V_i+\Delta V$ and $V'_d\equiv V_d+\Delta V$, where $V_d\equiv V_0\nu
 leads to the following system of equations:
 
 \begin{equation}
-    \label{eq: 2 block motion electronig}
+    \label{eq: 2 block motion electronic}
     \begin{gathered}
         V_i+\Delta V=-\frac{1}{RC}\int\left[ (1+\lambda)W_i - \lambda W_{3-i}+V_0\varphi\left(\frac{V_i}{V_0}\right) \right]\text{d}t ,\\[10pt]
         W_i=-\frac{1}{RC}\int(V_d-V_i)\,\text{d}t,
@@ -241,21 +241,70 @@ In the end, both the frequency and the amplitude of the waves depend on the driv
 The circuit diagram for each of the 25 chips on the integrated board is equivalent to the
 one shown in Fig. \ref{fig: circuit diagram}. The only differences with the breadboard implementation
 concern the nonlinear components, i.e. the use of DFLS1100 Schottky diodes and quad operational
-amplifiers OP470, which offer comparable performances to the components used in the previous section,
+amplifiers OP470, which should offer comparable performances to the components used in the previous section,
 i.e. 1N5817 Schottky diodes and OP27 op-amps.
 
-The single block behavior of this circuit is shown in Fig. \ref{fig:oscillation board}.
+A comparison between the single block behavior of this circuit and the one implemented in the previous section
+is shown in Fig. \ref{fig:oscillation board}. The most notable difference is the amplitude of the waveforms and of
+the Lissajous figures, which is higher in the integrated board case. Another discrepancy between the two plots lies
+in the frequency behavior at low driving voltage $V_d$, i.e. the initial ``drop'' in the frequency is more pronounced
+in the breadboard case with respect to the integrated circuit. These distinctions are all probably due to the different diodes
+and op-amps utilized in the two cases, but they do not modify the actual dynamics of the circuit.
+
+Despite being slightly different, both implementations comply with the oscillating behavior predicted by
+Eqs. \ref{eq: single block eq motion}. It is thus reasonable to assume that both the integrated circuit and the one on the
+breadboard can potentially be a consistent physical implementation of the BK model. In order to furtherly strenghten
+this hypothesis, an analysis on the behavior of two coupled blocks will be carried out in the next section.
+From now on, only the integrated board implementation will be considered, due to the scalability issues that were discussed
+beforehand.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{../1_block/board_new/single_block.pdf}
     \caption{Oscillating behavior for the circuit implemented on
-    the integrated board. (a) Plot of $W$ and (b) of $V$ as a function of time,
-    for $V_d=1$ V.
+    the integrated board (red) and the one implemented on the breadboard (blue).
+    (a) Plot of $W$ and (b) of $V$ as a function of time, for $V_d=1$ V.
     (c) Phase portrait (Lissajous figure) of $V$ versus $W$. (d)
     Frequency and (e) root mean square amplitude of the
     output signal $W$ as a function of the parameter $V_d$.}
     \label{fig:oscillation board}
+\end{figure}
+
+
+\section{Characterization of the double block behavior}
+\label{sec: double block characterization}
+
+The coupling between two blocks is performed by connecting the inverted voltage $-W_2$ of the second block to the
+inverting input of the op-amp generating $V_1$ on the first block (see Fig. \ref{fig: circuit diagram}), and viceversa, in order
+to comply with Eqs. \ref{eq: 2 block motion electronic}.
+
+The behavior of the two coupled blocks is shown in Fig. \ref{fig:2 blocks waveforms}.
+By looking at the waveforms $V_i(t)$ and $W_i(t)$ it is possible to notice that the simple periodic behavior
+is no longer observed. Furthermore, the Lissajous figures do not show a stationary orbit like the single block case.
+This hints that the dynamics in the presence of coupling might be chaotic, i.e. deterministic but unpredictable,
+and surely non-periodic.
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.49\textwidth}
+        \begin{subfigure}{\linewidth}
+            \centering
+            \includegraphics[width=\linewidth,trim={0cm 0 11cm 0},clip,center]
+            {../2_blocks/4e4_points/plots/waveforms_1.pdf}
+        \end{subfigure}
+    \end{minipage}
+    \begin{minipage}{.49\textwidth}
+        \begin{subfigure}{\linewidth}
+            \centering
+            \includegraphics[width=\linewidth,trim={0cm 0 11cm 0},clip,center]
+            {../2_blocks/4e4_points/plots/waveforms_2.pdf}
+        \end{subfigure}
+    \end{minipage}
+    \caption{Chaotic behavior of two coupled blocks for $V_d=0.05$ V.
+    Phase portraits of $V_i$ vs $W_i$ for the first (a) and second (b) block, for a total time of 1 s.
+    Time series plots for $W_1$ (c), $V_1$ (e), $W_2$ (d) and $V_2$ (f), for a total time of 100 ms.}
+    \label{fig:2 blocks waveforms}
 \end{figure}
 
 
@@ -266,7 +315,9 @@ The single block behavior of this circuit is shown in Fig. \ref{fig:oscillation 
 
 
 
-\section{AAAAAAAAAAAAAAAAAA}\label{sec:breadboard}
+
+
+\begin{comment}
 
 \section{Prototypes}\label{sec:prototypes}
 
@@ -453,3 +504,5 @@ amplitude behavior of the board is not linear.
     OP27 op-amps and the first prototypical chip.}
     \label{fig:comparison}
 \end{figure}
+
+\end{comment}

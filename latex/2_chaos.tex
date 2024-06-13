@@ -1,40 +1,10 @@
-\chapter{Chaos analysis of multiple oscillators}
+\chapter{Chaos analysis of multiple coupled blocks}
 \label{chap: multi block}
 
 \section{Two blocks}
 
-The coupling between two oscillators is performed by connecting
-the inverted voltage $-W_2$ of the second oscillator to the
-first one and viceversa, as shown in Fig.
-\ref{fig:breadboard implementation}. A chaotic behavior can be observed,
-as can be seen in Fig. \ref{fig:2 blocks waveforms}.
-
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{.49\textwidth}
-        \begin{subfigure}{\linewidth}
-            \centering
-            \includegraphics[width=\linewidth,trim={0cm 0 11cm 0},clip,center]
-            {../2_blocks/4e4_points/plots/waveforms_1.pdf}
-        \end{subfigure}
-    \end{minipage}
-    \begin{minipage}{.49\textwidth}
-        \begin{subfigure}{\linewidth}
-            \centering
-            \includegraphics[width=\linewidth,trim={0cm 0 11cm 0},clip,center]
-            {../2_blocks/4e4_points/plots/waveforms_2.pdf}
-        \end{subfigure}
-    \end{minipage}
-    \caption{Chaotic behavior of two coupled blocks for
-    $V_d=0.05$ V and for a total time of 100 ms. Phase portraits of $V_i$
-    vs $W_i$ for the first (a) and second (b) block. Time series plots
-    for $W_1$ (c), $V_1$ (e), $W_2$ (d) and $V_2$ (f).}
-    \label{fig:2 blocks waveforms}
-\end{figure}
-
 In order to quantify the degree of chaos of this system, it is possible
-to carry out an analysis
+to carry out a ``chasing chaos'' analysis.
 
 \begin{figure}[H]
     \centering
