@@ -1171,6 +1171,11 @@ INPUT ../2_blocks/4e4_points/plots/waveforms_2.pdf
 INPUT ../2_blocks/4e4_points/plots/waveforms_2.pdf
 INPUT ../2_blocks/4e4_points/plots/waveforms_2.pdf
 INPUT ../2_blocks/4e4_points/plots/waveforms_2.pdf
+INPUT ../2_blocks/bifurcation/bifurcation.pdf
+INPUT ../2_blocks/bifurcation/bifurcation.pdf
+INPUT ../2_blocks/bifurcation/bifurcation.pdf
+INPUT ../2_blocks/bifurcation/bifurcation.pdf
+INPUT ../2_blocks/bifurcation/bifurcation.pdf
 INPUT ./2_chaos.tex
 INPUT 2_chaos.tex
 INPUT ./2_chaos.tex
@@ -1267,3 +1272,4 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

@@ -6,7 +6,7 @@
 
 The Burridge-Knopoff (BK) spring-block model \cite{ref:bk} is a two-dimensional system of massive blocks
 lying on a rough horizontal surface. Each block is connected to its nearest neighbors by a set of springs,
-and linked by another spring to an upper horizontal ceiling moving with constant velocity with respect to the lower plate,
+and linked through another spring to an upper horizontal ceiling moving with constant velocity with respect to the lower plate,
 as shown in Fig. \ref{fig bk}.
 
 \begin{figure}[H]
@@ -183,7 +183,7 @@ In this case $\lambda=0$ and the differential equations of the system can be sim
 where $\varphi'$ is the derivative of the friction with respect to the velocity $V$.
 The equation for the velocity is of the kind met in the classical description of stick-slip
 vibrations \cite{ref:stick_slip}, i.e. of the self-sustained oscillations induced by friction.
-This means that a sinusoidal-like behavior for $V$ and $W$ has to be expected.
+This means that an oscillating behavior for $V$ and $W$ has to be expected.
 
 In order to check the validity of these equations, the circuit was physically implemented
 in two different manners. The first implementation was done on a breadboard using large
@@ -192,7 +192,7 @@ due to the fact that a single circuit occupies half of the entire space on the b
 The second one consists instead in an integrated board in which 25 circuits
 like the one in Fig. \ref{fig: circuit diagram} were implemented;
 the scalability issue is solved in this case, so that this board could be utilized
-to study the behavior of many coupled blocks, as will be done in Chapter \ref{chap: multi block}.
+to study the behavior of many coupled blocks, as will be done in the next chapters.
 
 \subsection{Breadboard implementation}
 \label{subsec:breadboard implementation}
@@ -210,8 +210,8 @@ $V$ and $W$ (the subscript $i$ is omitted).
 The single block behavior of this circuit is shown in Fig. \ref{fig:oscillation breadboard}.
 As expected by Eqs. \ref{eq: single block eq motion}, both the velocity $V$ and the position $W$
 exhibit an oscillating behavior. While $W$ closely resembles a sinusoidal wave, $V$ possesses
-a lower clamping that makes it different from a simple periodic wave; this clamping is due
-to the presence of the Schottky diodes, which prevent the velocity to become negative, as
+a lower clamping that makes it different from a simple wave; this clamping is due
+to the presence of the Schottky diodes, which prevent that the velocity becomes negative, as
 discussed in Sec. \ref{sec: electronic analog}.
 In the end, both the frequency and the amplitude of the waves depend on the driving voltage $V_d$.
 
@@ -284,6 +284,14 @@ is no longer observed. Furthermore, the Lissajous figures do not show a stationa
 This hints that the dynamics in the presence of coupling might be chaotic, i.e. deterministic but unpredictable,
 and surely non-periodic.
 
+Another way to check the presence of chaos in the system is to make use of a bifurcation diagram, i.e. the distribution
+of the local maxima of a state variable (position, velocity) as a function of an external parameter (driving force).
+This diagram is shown in Fig. \ref{fig: bifurcation} for the position $W_1$ ($W_2$ behaves similarly) as a function of $V_d$.
+The scan of the $V_d$ parameter was carried out by switching off the circuit's power supply, changing the voltage $V_d$,
+and the switching the power supply back on. This ensured that the recorded evolution was independent of the previous state.
+It is possible to notice that the dynamics is richer for $V_d\lesssim0.1$ V, where several maxima can be detected.
+In contrast, for $V_d\gtrsim0.1$ V, only one maximum can be observed; in this regime the system behaves similarly
+to the single block case, manifesting periodic sinusoidal-like oscillations.
 
 \begin{figure}[H]
     \centering
@@ -307,11 +315,19 @@ and surely non-periodic.
     \label{fig:2 blocks waveforms}
 \end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{../2_blocks/bifurcation/bifurcation.pdf}
+    \caption{Bifurcation diagram for two coupled blocks.
+    The local maxima of $W_1$ are plotted as a function of the external parameter $V_d$,
+    which is varied in steps of 10 mV.}
+    \label{fig: bifurcation}
+\end{figure}
 
-
-
-
-
+It is therefore safe to assume that, for low driving voltages $V_d$, the coupled system of two blocks shows a chaotic behavior.
+The reason why this does not occur at higher voltages might be that the driving force is so strong that the blocks
+behave independently of it. Nonetheless, these analyses are not enough to say that this circuit is actually a chaotic system.
+In order to prove this statement, a deeper chaos analysis is carried out in the next chapter.
 
 
 
