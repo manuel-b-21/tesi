@@ -7,8 +7,8 @@ set fit logfile "/dev/null"
 set fit quiet
 #unif_min=187 #(m-1)*L=unif_min
 #unif_max=241 #(m-1)*L=unif_max
-unif_min=41.5
-unif_max=64
+unif_min=29
+unif_max=61
 T=0.05 #sampling time in ms
 set samples 10000
 

@@ -7,8 +7,8 @@ set fit logfile "/dev/null"
 set fit quiet
 #unif_min=193 #(m-1)*L=unif_min
 #unif_max=217 #(m-1)*L=unif_max
-unif_min=71
-unif_max=106
+unif_min=61
+unif_max=115
 T=0.05 #sampling time in ms
 set samples 10000
 
@@ -63,7 +63,7 @@ set bmargin 0
 set size 0.59,0.4
 set origin 0.455,0.55
 set palette rgb 34,35,36 negative
-set xrange [1*T:300*T]
+set xrange [1*T:250*T]
 set yrange [1:4.5]
 #set cbtics ("0" 0, "1" 1, "2" 2, "3" 3, "4" 4)
 set arrow from unif_min*T, graph 0 to unif_min*T, graph 1 nohead front dt 4 lc "black" lw 0.7
@@ -82,7 +82,7 @@ set tmargin 0
 set bmargin 0
 set size 0.502,0.3
 set origin 0.469,0.125
-set xrange [1*T:300*T]
+set xrange [1*T:250*T]
 set yrange [0:5]
 f(x) = mle_mean
 fit [*:*][500:1500] f(x) "mle.dat" using (($1-1)*$2*T) : \

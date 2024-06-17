@@ -1245,6 +1245,11 @@ INPUT ../10_blocks/2e5_points/plots/chaos_low.pdf
 INPUT ../10_blocks/2e5_points/plots/chaos_low.pdf
 INPUT ../10_blocks/2e5_points/plots/chaos_low.pdf
 INPUT ../10_blocks/2e5_points/plots/chaos_low.pdf
+INPUT ../15_blocks/edge/2e5_points/plots/chaos_low.pdf
+INPUT ../15_blocks/edge/2e5_points/plots/chaos_low.pdf
+INPUT ../15_blocks/edge/2e5_points/plots/chaos_low.pdf
+INPUT ../15_blocks/edge/2e5_points/plots/chaos_low.pdf
+INPUT ../15_blocks/edge/2e5_points/plots/chaos_low.pdf
 INPUT ../data/nu_mle_blocks.pdf
 INPUT ../data/nu_mle_blocks.pdf
 INPUT ../data/nu_mle_blocks.pdf

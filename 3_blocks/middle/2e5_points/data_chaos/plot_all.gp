@@ -40,7 +40,7 @@ replot g(x) notitle dashtype 4 lc "black" lw 1
 unset label
 set label at graph -0.13,1.1 "{/:Bold c}" font ",10"
 set ytics auto
-set yrange [0:30]
+set yrange [0:45]
 set xrange [1:3.5]
 set xlabel "{/Symbol n}"
 set ylabel "# of embedding pairs"
