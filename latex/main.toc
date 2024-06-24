@@ -21,6 +21,7 @@
 \contentsline {section}{\numberline {2.9}Ten blocks}{15}{section.2.9}%
 \contentsline {section}{\numberline {2.10}Fifteen blocks}{16}{section.2.10}%
 \contentsline {section}{\numberline {2.11}Twenty blocks}{17}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Conclusions}{17}{section.2.12}%
+\contentsline {section}{\numberline {2.12}Twentyfive blocks}{17}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Conclusions}{18}{section.2.13}%
 \contentsline {chapter}{\numberline {3}Earthquake simulation}{19}{chapter.3}%
-\contentsline {chapter}{Bibliography}{21}{chapter*.27}%
+\contentsline {chapter}{Bibliography}{21}{chapter*.28}%

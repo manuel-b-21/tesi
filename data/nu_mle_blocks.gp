@@ -15,7 +15,7 @@ set size 0.48,0.5
 set origin 0,0.3
 set xlabel "Number of coupled blocks"
 set ylabel "{/Symbol n}"
-set xrange [1.5:20.5]
+set xrange [1.5:25.5]
 set yrange [2.1:2.95]
 set key top right
 #set xtics ("2" 2, "3" 3, "4" 4, "5" 5, "6" 6, "7" 7, "8" 8, "9" 9, "10" 10, "11" 11, "12" 12, "13" 13, "14" 14, "15" 15)
@@ -34,7 +34,7 @@ set size 0.5,0.5
 set origin 0.49,0.3
 set xlabel "Number of coupled blocks"
 set ylabel "MLE (Hz)"
-set xrange [1.5:20.5]
+set xrange [1.5:25.5]
 set yrange [30:3000]
 set logscale y
 set label at graph -0.15,1 "{/:Bold b}" font ",12"

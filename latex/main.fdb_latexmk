@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1718614986 "main.bcf" "main.bbl" "main" 1718704136
-  "main.bcf" 1718704136 106919 bc77300c059a452d2c9e2f34c6d381fa "pdflatex"
+["biber main"] 1718614986 "main.bcf" "main.bbl" "main" 1718887900
+  "main.bcf" 1718887900 106919 bc77300c059a452d2c9e2f34c6d381fa "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1718704134 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1718704136
+["pdflatex"] 1718887898 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1718887900
   "../10_blocks/2e5_points/plots/chaos_low.pdf" 1718696909 109019 12b732397cee71804348de77e66b3d33 ""
   "../15_blocks/edge/2e5_points/plots/chaos_low.pdf" 1718696909 110821 5bd06238ed34d6fd627293cd1ac951e1 ""
   "../15_blocks/middle/2e5_points/plots/chaos_low.pdf" 1718696909 110212 27561ba8d761ea3cf8b600fdcc0e447f ""
@@ -12,6 +12,7 @@
   "../1_block/breadboard/breadboard_implementation.png" 1714648983 129312 7ceca366effdd62f1b098aa6d2817670 ""
   "../1_block/breadboard/single_block.pdf" 1718207138 234928 87de815ed3e65e5dae44d67c63c1a3f7 ""
   "../20_blocks/2e5_points/plots/chaos_low.pdf" 1718703045 110614 bd794f8cc9655629eb3544e4a8db6dda ""
+  "../25_blocks/edge/2e5_points/plots/chaos_low.pdf" 1718887677 112533 a122d665f2546850cfe6e4a08dad3e28 ""
   "../2_blocks/1e5_points/plots/chaos.pdf" 1718186001 116452 f4d437c1073c9669f615d5467741313e ""
   "../2_blocks/4e4_points/plots/waveforms_1.pdf" 1718696909 61418 c554d79efea57d7786deee145c71fafe ""
   "../2_blocks/4e4_points/plots/waveforms_2.pdf" 1718696909 62458 704c9b101d1668c18498f0f6547af482 ""
@@ -27,7 +28,7 @@
   "../8_blocks/2e5_points/plots/chaos_low.pdf" 1718186001 115257 52aa640498df461cdba663edf774ab99 ""
   "../9_blocks/edge/2e5_points/plots/chaos_low.pdf" 1718696909 112582 de4fc26210b1aa7154c48eb649e98845 ""
   "../9_blocks/middle/2e5_points/plots/chaos_low.pdf" 1718186001 113105 1ee7f95c9b0e86fcf80952f30daed44f ""
-  "../data/nu_mle_blocks.pdf" 1718704131 15240 6b4d15f9f52ca931e0d0505d84070248 ""
+  "../data/nu_mle_blocks.pdf" 1718887898 15023 33fbdc35087fa2502f6da72997f80fd6 ""
   "/etc/texmf/web2c/texmf.cnf" 1712240471 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/manuel/Desktop/tesi/latex/main.tex" 1718696909 1343 eec0fd0885858939a2c7326c08167910 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -194,18 +195,18 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712243161 2801282 2c606fb8afe9ab0f58f5ded3df82a40c ""
   "0_introduction.tex" 1717669505 68 3d0fc056c0e0ccd2e8b3c12130f54ef0 ""
   "1_electronic_analog.tex" 1718696909 26958 75ec46a3808ac0b9efb8a39bf20f4c78 ""
-  "2_chaos.tex" 1718703208 3573 fb91a4b7290ddb8fb988c98dc97cda06 ""
+  "2_chaos.tex" 1718887850 3790 79f53e595172746ef8fef16f0b99ad72 ""
   "3_earthquakes.tex" 1718696909 31 dcc7c11d89c0769d93d46356fc1e9640 ""
   "images/BK1.png" 1659605922 87728 7037b8e2237260486ec46be513558d65 ""
   "images/BK2.png" 1659605957 43635 2c572144ebf82ead617fb7313e2e9d4e ""
   "images/Logo Unitn.jpg" 1717668612 19859 58b3574e840941ed0054e3f8fd777ee3 ""
   "images/bk_2_blocks.png" 1717688217 68462 e1bd05d12ade95d2e439e64b779c9be9 ""
-  "main.aux" 1718704136 16572 79ac4f540cdef8c43171db58bb424db0 "pdflatex"
+  "main.aux" 1718887900 16905 6798c6c21dc18685f1116e584cb02afa "pdflatex"
   "main.bbl" 1718703200 6888 6f59991c8861ef80b0ae50f73d7af585 "biber main"
-  "main.out" 1718704136 4225 c6396a36d62781b6afc5b85f6ce2e946 "pdflatex"
-  "main.run.xml" 1718704136 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.out" 1718887900 4369 257cce2cd047b1f4c2ae79f611e00792 "pdflatex"
+  "main.run.xml" 1718887900 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
   "main.tex" 1718696909 1343 eec0fd0885858939a2c7326c08167910 ""
-  "main.toc" 1718704136 2088 a288e776beceae81eb9a8a5f99841a02 "pdflatex"
+  "main.toc" 1718887900 2168 e8e92da2a88ab77e2c40fdcb2362e40b "pdflatex"
   "packages.sty" 1718696909 1071 37999c7dc39ecddee1f6fb9783ee351f ""
   "title.tex" 1718696909 913 8a6cf4b0c216eca7b59e42c09a4c47b7 ""
   (generated)
