@@ -9,6 +9,7 @@ set palette rgb 33,13,10
 set samples 10000
 set yrange [0.5:20.5]
 set ytics 2,2,20
+set cbrange [1:5]
 plot "map.dat" u 1:2:3 w image pixels notitle
 
 #unif_min=71 #(m-1)*L=unif_min
