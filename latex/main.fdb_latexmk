@@ -1,12 +1,13 @@
 # Fdb version 3
-["biber main"] 1718614986 "main.bcf" "main.bbl" "main" 1719500046
-  "main.bcf" 1719500046 106919 bc77300c059a452d2c9e2f34c6d381fa "pdflatex"
+["biber main"] 1718614986 "main.bcf" "main.bbl" "main" 1719591041
+  "main.bcf" 1719591040 106919 bc77300c059a452d2c9e2f34c6d381fa "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1719500044 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1719500046
+["pdflatex"] 1719591039 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1719591041
   "../10_blocks/2e5_points/plots/chaos_low.pdf" 1718696909 109019 12b732397cee71804348de77e66b3d33 ""
   "../11_blocks/edge/2e5_points/plots/chaos_low.pdf" 1719499849 112297 4dc6c5cb7c42f580992a21af34c072f7 ""
+  "../11_blocks/middle/2e5_points/plots/chaos_low.pdf" 1719590474 117482 6a2181d22015b955d54546317ae4b732 ""
   "../15_blocks/edge/2e5_points/plots/chaos_low.pdf" 1718696909 110821 5bd06238ed34d6fd627293cd1ac951e1 ""
   "../15_blocks/middle/2e5_points/plots/chaos_low.pdf" 1719220749 111097 d15d5e6e03d1e3bcf80f2aac28d3dd36 ""
   "../1_block/board_new/single_block.pdf" 1718696909 651102 6d0a297b3c128dd72b37ad156f9dd2c4 ""
@@ -30,7 +31,7 @@
   "../8_blocks/2e5_points/plots/chaos_low.pdf" 1718186001 115257 52aa640498df461cdba663edf774ab99 ""
   "../9_blocks/edge/2e5_points/plots/chaos_low.pdf" 1718696909 112582 de4fc26210b1aa7154c48eb649e98845 ""
   "../9_blocks/middle/2e5_points/plots/chaos_low.pdf" 1718186001 113105 1ee7f95c9b0e86fcf80952f30daed44f ""
-  "../data/nu_mle_blocks.pdf" 1719500044 15171 09f1c79e65b866c63f15f811d95cb2c5 ""
+  "../data/nu_mle_blocks.pdf" 1719591039 14841 e981aee8f32b35d032cfcfcd062fa837 ""
   "/etc/texmf/web2c/texmf.cnf" 1712240471 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/manuel/Desktop/tesi/latex/main.tex" 1718696909 1343 eec0fd0885858939a2c7326c08167910 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -197,18 +198,18 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712243161 2801282 2c606fb8afe9ab0f58f5ded3df82a40c ""
   "0_introduction.tex" 1717669505 68 3d0fc056c0e0ccd2e8b3c12130f54ef0 ""
   "1_electronic_analog.tex" 1719498383 26949 cc9dc2a93393ff2892a702229bf45ece ""
-  "2_chaos.tex" 1719498383 4200 3cc6b63c33078e6b03dab9e357417cfa ""
+  "2_chaos.tex" 1719590572 4398 155aeefcec25df427d27f5898719237e ""
   "3_earthquakes.tex" 1718696909 31 dcc7c11d89c0769d93d46356fc1e9640 ""
   "images/BK1.png" 1659605922 87728 7037b8e2237260486ec46be513558d65 ""
   "images/BK2.png" 1659605957 43635 2c572144ebf82ead617fb7313e2e9d4e ""
   "images/Logo Unitn.jpg" 1717668612 19859 58b3574e840941ed0054e3f8fd777ee3 ""
   "images/bk_2_blocks.png" 1717688217 68462 e1bd05d12ade95d2e439e64b779c9be9 ""
-  "main.aux" 1719500046 17457 2cedd7fc63146cf740e04b1c91dc32a4 "pdflatex"
+  "main.aux" 1719591040 17680 f1766884a8c886cdc0822bc6d82ee96e "pdflatex"
   "main.bbl" 1718703200 6888 6f59991c8861ef80b0ae50f73d7af585 "biber main"
-  "main.out" 1719500046 4493 65087a45cf93c197f7625b6fb1e57c06 "pdflatex"
-  "main.run.xml" 1719500046 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.out" 1719591040 4493 3c7823c5fdfa91b4c8b6a17023d6a99d "pdflatex"
+  "main.run.xml" 1719591040 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
   "main.tex" 1718696909 1343 eec0fd0885858939a2c7326c08167910 ""
-  "main.toc" 1719500046 2244 6fe60bb008611e005ac41bfc8ef05644 "pdflatex"
+  "main.toc" 1719591040 2244 155f7a526ab514e40218f33932646efe "pdflatex"
   "packages.sty" 1718696909 1071 37999c7dc39ecddee1f6fb9783ee351f ""
   "title.tex" 1718696909 913 8a6cf4b0c216eca7b59e42c09a4c47b7 ""
   (generated)
