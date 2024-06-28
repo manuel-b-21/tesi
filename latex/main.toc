@@ -20,9 +20,9 @@
 \contentsline {section}{\numberline {2.8}Nine blocks}{14}{section.2.8}%
 \contentsline {section}{\numberline {2.9}Ten blocks}{15}{section.2.9}%
 \contentsline {section}{\numberline {2.10}Eleven blocks}{16}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Fifteen blocks}{16}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Twenty blocks}{17}{section.2.12}%
+\contentsline {section}{\numberline {2.11}Fifteen blocks}{17}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Twenty blocks}{18}{section.2.12}%
 \contentsline {section}{\numberline {2.13}Twentyfive blocks}{18}{section.2.13}%
 \contentsline {section}{\numberline {2.14}Conclusions}{19}{section.2.14}%
 \contentsline {chapter}{\numberline {3}Earthquake simulation}{21}{chapter.3}%
-\contentsline {chapter}{Bibliography}{23}{chapter*.30}%
+\contentsline {chapter}{Bibliography}{23}{chapter*.31}%
