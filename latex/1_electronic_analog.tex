@@ -139,7 +139,7 @@ the two integrations above could be promptly implemented by considering the blac
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]
-    {../1_block/breadboard/breadboard_implementation.png}
+    {../blocks/1_block/breadboard/breadboard_implementation.png}
     \caption{Inductorless representation of the BK model. The circuit diagram refers to a single block, labeled by $i=1,2$.
     The bottom left plot shows the characteristic of the nonlinear element, i.e. the blue part of the diagram.
     The red part is a standard inverting operational amplifier, which is necessary for the coupling between two blocks.
@@ -217,7 +217,7 @@ In the end, both the frequency and the amplitude of the waves depend on the driv
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{../1_block/breadboard/single_block.pdf}
+    \includegraphics[width=\linewidth]{../blocks/1_block/breadboard/single_block.pdf}
     \caption{Oscillating behavior for the circuit implemented on
     the breadboard. (a) Plot of $W$ and (b) of $V$ as a function of time,
     for $V_d=1$ V.
@@ -260,7 +260,7 @@ beforehand.
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{../1_block/board_new/single_block.pdf}
+    \includegraphics[width=\linewidth]{../blocks/1_block/board_new/single_block.pdf}
     \caption{Oscillating behavior for the circuit implemented on
     the integrated board (red) and the one implemented on the breadboard (blue).
     (a) Plot of $W$ and (b) of $V$ as a function of time, for $V_d=1$ V.
@@ -299,14 +299,14 @@ to the single block case, manifesting periodic sinusoidal-like oscillations.
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0cm 0 11cm 0},clip,center]
-            {../2_blocks/4e4_points/plots/waveforms_1.pdf}
+            {../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf}
         \end{subfigure}
     \end{minipage}
     \begin{minipage}{.49\textwidth}
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0cm 0 11cm 0},clip,center]
-            {../2_blocks/4e4_points/plots/waveforms_2.pdf}
+            {../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf}
         \end{subfigure}
     \end{minipage}
     \caption{Chaotic behavior of two coupled blocks for $V_d=0.05$ V.
@@ -317,7 +317,7 @@ to the single block case, manifesting periodic sinusoidal-like oscillations.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{../2_blocks/bifurcation/bifurcation.pdf}
+    \includegraphics[width=0.6\linewidth]{../blocks/2_blocks/bifurcation/bifurcation.pdf}
     \caption{Bifurcation diagram for two coupled blocks.
     The local maxima of $W_1$ are plotted as a function of the external parameter $V_d$,
     which is varied in steps of 10 mV.}
@@ -362,7 +362,7 @@ $V_d \lesssim 0.4$ V.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]
-    {../1_block/prototypes/prototype_implementation.png}
+    {../blocks/1_block/prototypes/prototype_implementation.png}
     \caption{Circuit diagram of one prototypical chip.}
     \label{fig:prototype implementation}
 \end{figure}
@@ -373,24 +373,24 @@ $V_d \lesssim 0.4$ V.
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../1_block/prototypes/W_wf.pdf}\\
+            {../blocks/1_block/prototypes/W_wf.pdf}\\
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../1_block/prototypes/V_wf.pdf}
+            {../blocks/1_block/prototypes/V_wf.pdf}
         \end{subfigure}
     \end{minipage}
     \begin{subfigure}{.39\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={15cm 0 15cm 0},clip,right]
-        {../1_block/prototypes/Lissajous.pdf}
+        {../blocks/1_block/prototypes/Lissajous.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../1_block/prototypes/freq_prot.pdf}
+        {../blocks/1_block/prototypes/freq_prot.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../1_block/prototypes/rms_prot.pdf}
+        {../blocks/1_block/prototypes/rms_prot.pdf}
     \end{subfigure}
     \caption{Oscillating behavior for the circuit implemented on
     the prototypical chips. (a) Plot of $W$ and (b) of $V$ as a
@@ -425,24 +425,24 @@ intended and is probably due to intrinsic limitations in the current.
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../1_block/board/W_wf.pdf}\\
+            {../blocks/1_block/board/W_wf.pdf}\\
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../1_block/board/V_wf.pdf}
+            {../blocks/1_block/board/V_wf.pdf}
         \end{subfigure}
     \end{minipage}
     \begin{subfigure}{.39\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={15cm 0 15cm 0},clip,right]
-        {../1_block/board/Lissajous.pdf}
+        {../blocks/1_block/board/Lissajous.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../1_block/board/freq_board.pdf}
+        {../blocks/1_block/board/freq_board.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../1_block/board/rms_board.pdf}
+        {../blocks/1_block/board/rms_board.pdf}
     \end{subfigure}
     \caption{Oscillating behavior for the circuit implemented on
     the board. (a) Plot of $W$ and (b) of $V$ as a
@@ -463,24 +463,24 @@ intended and is probably due to intrinsic limitations in the current.
         \begin{subfigure}{\linewidth}
             \centering
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../1_block/board_new/W_wf.pdf}\\
+            {../blocks/1_block/board_new/W_wf.pdf}\\
             \includegraphics[width=\linewidth,trim={0 6cm 0 6cm},clip,left]
-            {../1_block/board_new/V_wf.pdf}
+            {../blocks/1_block/board_new/V_wf.pdf}
         \end{subfigure}
     \end{minipage}
     \begin{subfigure}{.39\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={15cm 0 15cm 0},clip,right]
-        {../1_block/board_new/Lissajous.pdf}
+        {../blocks/1_block/board_new/Lissajous.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../1_block/board_new/freq_board.pdf}
+        {../blocks/1_block/board_new/freq_board.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../1_block/board_new/rms_board.pdf}
+        {../blocks/1_block/board_new/rms_board.pdf}
     \end{subfigure}
     \caption{Oscillating behavior for the circuit implemented on
     the new board. (a) Plot of $W$ and (b) of $V$ as a
@@ -506,12 +506,12 @@ amplitude behavior of the board is not linear.
     \centering
     \begin{subfigure}{.49\textwidth}
         \includegraphics[width=\linewidth,trim={10cm 0 9cm 0},clip,left]
-        {../1_block/images/freq_comparison.pdf}
+        {../blocks/1_block/images/freq_comparison.pdf}
     \end{subfigure}
     \begin{subfigure}{.49\textwidth}
         \centering
         \includegraphics[width=\linewidth,trim={9cm 0 10cm 0},clip,right]
-        {../1_block/images/rms_comparison.pdf}
+        {../blocks/1_block/images/rms_comparison.pdf}
     \end{subfigure}
     \caption{(a) Frequency and (b) root mean square amplitude
     of the output signal $W$ as a function of the parameter $V_d$
