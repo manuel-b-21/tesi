@@ -1,7 +1,7 @@
 import numpy as np
 
-input_file='3_blocks.csv'
-output_file='3_blocks_avg.dat'
+input_file='8_blocks.csv'
+output_file='8_blocks_avg.dat'
 data=np.loadtxt(input_file)
 avg_step=10 #average every avg_step points
 length=int(len(data[:,0])/avg_step)
