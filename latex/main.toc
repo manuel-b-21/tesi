@@ -11,6 +11,7 @@
 \contentsline {section}{\numberline {1.4}Characterization of the double block behavior}{7}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Chaos analysis of multiple coupled blocks}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Chaos plots}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Conclusions}{34}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Earthquake simulation}{35}{chapter.3}%
-\contentsline {chapter}{Bibliography}{37}{chapter*.36}%
+\contentsline {section}{\numberline {2.2}Conclusions}{37}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Attractor plots}{38}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Earthquake simulation}{45}{chapter.3}%
+\contentsline {chapter}{Bibliography}{47}{chapter*.43}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.25)  3 JUL 2024 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.25)  4 JUL 2024 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -879,7 +879,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
  (./title.tex
-<images/Logo Unitn.jpg, id=64, 440.39531pt x 188.20313pt>
+<images/Logo Unitn.jpg, id=68, 440.39531pt x 188.20313pt>
 File: images/Logo Unitn.jpg Graphic file (type jpg)
 <use images/Logo Unitn.jpg>
 Package pdftex.def Info: images/Logo Unitn.jpg  used on input line 4.
@@ -909,12 +909,12 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ]) [5] (./1_electronic_analog.tex
 Chapter 1.
-<images/BK1.png, id=111, 687.16725pt x 317.988pt>
+<images/BK1.png, id=116, 687.16725pt x 317.988pt>
 File: images/BK1.png Graphic file (type png)
 <use images/BK1.png>
 Package pdftex.def Info: images/BK1.png  used on input line 14.
 (pdftex.def)             Requested size: 169.69147pt x 78.52153pt.
-<images/BK2.png, id=113, 464.33475pt x 470.9595pt>
+<images/BK2.png, id=118, 464.33475pt x 470.9595pt>
 File: images/BK2.png Graphic file (type png)
 <use images/BK2.png>
 Package pdftex.def Info: images/BK2.png  used on input line 15.
@@ -923,7 +923,7 @@ Package pdftex.def Info: images/BK2.png  used on input line 15.
 
 
  <./images/BK1.png> <./images/BK2.png>]
-<images/bk_2_blocks.png, id=129, 1288.815pt x 577.15625pt>
+<images/bk_2_blocks.png, id=134, 1288.815pt x 577.15625pt>
 File: images/bk_2_blocks.png Graphic file (type png)
 <use images/bk_2_blocks.png>
 Package pdftex.def Info: images/bk_2_blocks.png  used on input line 45.
@@ -945,7 +945,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-<../blocks/1_block/breadboard/breadboard_implementation.png, id=156, 1388.18625pt x 893.3375pt>
+<../blocks/1_block/breadboard/breadboard_implementation.png, id=161, 1388.18625pt x 893.3375pt>
 File: ../blocks/1_block/breadboard/breadboard_implementation.png Graphic file (type png)
 <use ../blocks/1_block/breadboard/breadboard_implementation.png>
 Package pdftex.def Info: ../blocks/1_block/breadboard/breadboard_implementation.png  used on input line 142.
@@ -959,7 +959,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4 <../blocks/1_block/breadboard/breadboard_implementation.png>]
-<../blocks/1_block/breadboard/single_block.pdf, id=174, 361.35pt x 216.81pt>
+<../blocks/1_block/breadboard/single_block.pdf, id=179, 361.35pt x 216.81pt>
 File: ../blocks/1_block/breadboard/single_block.pdf Graphic file (type pdf)
 <use ../blocks/1_block/breadboard/single_block.pdf>
 Package pdftex.def Info: ../blocks/1_block/breadboard/single_block.pdf  used on input line 220.
@@ -973,7 +973,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
-<../blocks/1_block/board_new/single_block.pdf, id=185, 361.35pt x 216.81pt>
+<../blocks/1_block/board_new/single_block.pdf, id=190, 361.35pt x 216.81pt>
 File: ../blocks/1_block/board_new/single_block.pdf Graphic file (type pdf)
 <use ../blocks/1_block/board_new/single_block.pdf>
 Package pdftex.def Info: ../blocks/1_block/board_new/single_block.pdf  used on input line 263.
@@ -987,17 +987,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6 <../blocks/1_block/breadboard/single_block.pdf>]
-<../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf, id=209, 642.4pt x 481.8pt>
+<../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf, id=214, 642.4pt x 481.8pt>
 File: ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf>
 Package pdftex.def Info: ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf  used on input line 302.
 (pdftex.def)             Requested size: 197.97646pt x 289.56007pt.
-<../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf, id=211, 642.4pt x 481.8pt>
+<../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf, id=216, 642.4pt x 481.8pt>
 File: ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf>
 Package pdftex.def Info: ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf  used on input line 309.
 (pdftex.def)             Requested size: 197.97646pt x 289.56007pt.
-<../blocks/2_blocks/bifurcation/bifurcation.pdf, id=213, 642.4pt x 481.8pt>
+<../blocks/2_blocks/bifurcation/bifurcation.pdf, id=218, 642.4pt x 481.8pt>
 File: ../blocks/2_blocks/bifurcation/bifurcation.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/bifurcation/bifurcation.pdf>
 Package pdftex.def Info: ../blocks/2_blocks/bifurcation/bifurcation.pdf  used on input line 320.
@@ -1023,7 +1023,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8 <../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf> <../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf> <../blocks/2_blocks/bifurcation/bifurcation.pdf>] (./2_chaos.tex
 Chapter 2.
-<../blocks/2_blocks/1e5_points/plots/chaos.pdf, id=286, 361.35pt x 216.81pt>
+<../blocks/2_blocks/1e5_points/plots/chaos.pdf, id=291, 361.35pt x 216.81pt>
 File: ../blocks/2_blocks/1e5_points/plots/chaos.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/1e5_points/plots/chaos.pdf>
 Package pdftex.def Info: ../blocks/2_blocks/1e5_points/plots/chaos.pdf  used on input line 10.
@@ -1046,12 +1046,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10 <../blocks/2_blocks/1e5_points/plots/chaos.pdf>]
-<../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf, id=318, 361.35pt x 216.81pt>
+<../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf, id=323, 361.35pt x 216.81pt>
 File: ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 29.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf, id=319, 361.35pt x 216.81pt>
+<../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf, id=324, 361.35pt x 216.81pt>
 File: ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 45.
@@ -1068,7 +1068,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11 <../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf>]
-<../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf, id=346, 361.35pt x 216.81pt>
+<../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf, id=351, 361.35pt x 216.81pt>
 File: ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf  used on input line 63.
@@ -1085,7 +1085,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12 <../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf>]
-<../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf, id=373, 361.35pt x 216.81pt>
+<../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf, id=378, 361.35pt x 216.81pt>
 File: ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 82.
@@ -1102,7 +1102,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13 <../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf>]
-<../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf, id=400, 361.35pt x 216.81pt>
+<../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf, id=405, 361.35pt x 216.81pt>
 File: ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 98.
@@ -1119,7 +1119,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14 <../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf>]
-<../blocks/6_blocks/2e5_points/plots/chaos_low.pdf, id=428, 361.35pt x 216.81pt>
+<../blocks/6_blocks/2e5_points/plots/chaos_low.pdf, id=433, 361.35pt x 216.81pt>
 File: ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf  used on input line 116.
@@ -1136,7 +1136,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15 <../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf>]
-<../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf, id=456, 361.35pt x 216.81pt>
+<../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf, id=461, 361.35pt x 216.81pt>
 File: ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 134.
@@ -1153,7 +1153,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16 <../blocks/6_blocks/2e5_points/plots/chaos_low.pdf>]
-<../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf, id=483, 361.35pt x 216.81pt>
+<../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf, id=488, 361.35pt x 216.81pt>
 File: ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 150.
@@ -1170,7 +1170,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17 <../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf>]
-<../blocks/8_blocks/2e5_points/plots/chaos_low.pdf, id=510, 361.35pt x 216.81pt>
+<../blocks/8_blocks/2e5_points/plots/chaos_low.pdf, id=515, 361.35pt x 216.81pt>
 File: ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf  used on input line 168.
@@ -1187,7 +1187,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18 <../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf>]
-<../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf, id=537, 361.35pt x 216.81pt>
+<../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf, id=542, 361.35pt x 216.81pt>
 File: ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 186.
@@ -1204,7 +1204,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [19 <../blocks/8_blocks/2e5_points/plots/chaos_low.pdf>]
-<../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf, id=564, 361.35pt x 216.81pt>
+<../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf, id=569, 361.35pt x 216.81pt>
 File: ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 202.
@@ -1221,7 +1221,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [20 <../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf>]
-<../blocks/10_blocks/2e5_points/plots/chaos_low.pdf, id=592, 361.35pt x 216.81pt>
+<../blocks/10_blocks/2e5_points/plots/chaos_low.pdf, id=598, 361.35pt x 216.81pt>
 File: ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf  used on input line 220.
@@ -1238,7 +1238,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21 <../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf>]
-<../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf, id=620, 361.35pt x 216.81pt>
+<../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf, id=625, 361.35pt x 216.81pt>
 File: ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 238.
@@ -1255,7 +1255,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22 <../blocks/10_blocks/2e5_points/plots/chaos_low.pdf>]
-<../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf, id=647, 361.35pt x 216.81pt>
+<../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf, id=652, 361.35pt x 216.81pt>
 File: ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 254.
@@ -1272,7 +1272,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [23 <../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf>]
-<../blocks/12_blocks/2e5_points/plots/chaos_low.pdf, id=674, 361.35pt x 216.81pt>
+<../blocks/12_blocks/2e5_points/plots/chaos_low.pdf, id=679, 361.35pt x 216.81pt>
 File: ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf  used on input line 272.
@@ -1289,7 +1289,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [24 <../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf>]
-<../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf, id=701, 361.35pt x 216.81pt>
+<../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf, id=706, 361.35pt x 216.81pt>
 File: ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 290.
@@ -1306,7 +1306,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [25 <../blocks/12_blocks/2e5_points/plots/chaos_low.pdf>]
-<../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf, id=728, 361.35pt x 216.81pt>
+<../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf, id=733, 361.35pt x 216.81pt>
 File: ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 306.
@@ -1323,7 +1323,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [26 <../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf>]
-<../blocks/14_blocks/2e5_points/plots/chaos_low.pdf, id=757, 361.35pt x 216.81pt>
+<../blocks/14_blocks/2e5_points/plots/chaos_low.pdf, id=762, 361.35pt x 216.81pt>
 File: ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf  used on input line 324.
@@ -1340,7 +1340,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [27 <../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf>]
-<../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf, id=784, 361.35pt x 216.81pt>
+<../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf, id=789, 361.35pt x 216.81pt>
 File: ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 342.
@@ -1357,7 +1357,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [28 <../blocks/14_blocks/2e5_points/plots/chaos_low.pdf>]
-<../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf, id=811, 361.35pt x 216.81pt>
+<../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf, id=816, 361.35pt x 216.81pt>
 File: ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 358.
@@ -1374,7 +1374,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [29 <../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf>]
-<../blocks/16_blocks/2e5_points/plots/chaos_low.pdf, id=838, 361.35pt x 216.81pt>
+<../blocks/16_blocks/2e5_points/plots/chaos_low.pdf, id=843, 361.35pt x 216.81pt>
 File: ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf  used on input line 376.
@@ -1391,10 +1391,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [30 <../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf>]
-<../blocks/20_blocks/2e5_points/plots/chaos_low.pdf, id=865, 361.35pt x 216.81pt>
-File: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf>
-Package pdftex.def Info: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf  used on input line 394.
+<../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf, id=870, 361.35pt x 216.81pt>
+File: ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 394.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1408,10 +1408,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [31 <../blocks/16_blocks/2e5_points/plots/chaos_low.pdf>]
-<../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf, id=893, 361.35pt x 216.81pt>
+<../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf, id=898, 361.35pt x 216.81pt>
+File: ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 411.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32 <../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf>]
+<../blocks/20_blocks/2e5_points/plots/chaos_low.pdf, id=926, 361.35pt x 216.81pt>
+File: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf  used on input line 429.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33 <../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf>]
+<../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf, id=953, 361.35pt x 216.81pt>
 File: ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf>
-Package pdftex.def Info: ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 412.
+Package pdftex.def Info: ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 447.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1424,11 +1458,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[32 <../blocks/20_blocks/2e5_points/plots/chaos_low.pdf>]
-<../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf, id=921, 361.35pt x 216.81pt>
+[34 <../blocks/20_blocks/2e5_points/plots/chaos_low.pdf>]
+<../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf, id=980, 361.35pt x 216.81pt>
 File: ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf>
-Package pdftex.def Info: ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 428.
+Package pdftex.def Info: ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 463.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1441,12 +1475,211 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[33 <../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf>]
-<../blocks/data/nu_mle_blocks.pdf, id=948, 361.35pt x 216.81pt>
+[35 <../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[36 <../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf>]
+<../blocks/data/nu_mle_blocks.pdf, id=1034, 361.35pt x 216.81pt>
 File: ../blocks/data/nu_mle_blocks.pdf Graphic file (type pdf)
 <use ../blocks/data/nu_mle_blocks.pdf>
-Package pdftex.def Info: ../blocks/data/nu_mle_blocks.pdf  used on input line 448.
+Package pdftex.def Info: ../blocks/data/nu_mle_blocks.pdf  used on input line 484.
 (pdftex.def)             Requested size: 404.02908pt x 153.34085pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[37
+
+ <../blocks/data/nu_mle_blocks.pdf>]
+<../blocks/2_blocks/attractor.pdf, id=1063, 642.4pt x 481.8pt>
+File: ../blocks/2_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/2_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/2_blocks/attractor.pdf  used on input line 499.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/3_blocks/edge/attractor.pdf, id=1064, 642.4pt x 481.8pt>
+File: ../blocks/3_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/3_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/3_blocks/edge/attractor.pdf  used on input line 506.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/4_blocks/attractor.pdf, id=1065, 642.4pt x 481.8pt>
+File: ../blocks/4_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/4_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/4_blocks/attractor.pdf  used on input line 513.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/5_blocks/edge/attractor.pdf, id=1066, 642.4pt x 481.8pt>
+File: ../blocks/5_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/5_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/5_blocks/edge/attractor.pdf  used on input line 520.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/6_blocks/attractor.pdf, id=1067, 642.4pt x 481.8pt>
+File: ../blocks/6_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/6_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/6_blocks/attractor.pdf  used on input line 527.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/7_blocks/edge/attractor.pdf, id=1068, 642.4pt x 481.8pt>
+File: ../blocks/7_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/7_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/7_blocks/edge/attractor.pdf  used on input line 534.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/8_blocks/attractor.pdf, id=1069, 642.4pt x 481.8pt>
+File: ../blocks/8_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/8_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/8_blocks/attractor.pdf  used on input line 541.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/9_blocks/edge/attractor.pdf, id=1070, 642.4pt x 481.8pt>
+File: ../blocks/9_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/9_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/9_blocks/edge/attractor.pdf  used on input line 548.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/10_blocks/attractor.pdf, id=1071, 642.4pt x 481.8pt>
+File: ../blocks/10_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/10_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/10_blocks/attractor.pdf  used on input line 561.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/11_blocks/edge/attractor.pdf, id=1072, 642.4pt x 481.8pt>
+File: ../blocks/11_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/11_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/11_blocks/edge/attractor.pdf  used on input line 568.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/12_blocks/attractor.pdf, id=1073, 642.4pt x 481.8pt>
+File: ../blocks/12_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/12_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/12_blocks/attractor.pdf  used on input line 575.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/13_blocks/edge/attractor.pdf, id=1074, 642.4pt x 481.8pt>
+File: ../blocks/13_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/13_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/13_blocks/edge/attractor.pdf  used on input line 582.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/14_blocks/attractor.pdf, id=1075, 642.4pt x 481.8pt>
+File: ../blocks/14_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/14_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/14_blocks/attractor.pdf  used on input line 589.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/15_blocks/edge/attractor.pdf, id=1076, 642.4pt x 481.8pt>
+File: ../blocks/15_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/15_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/15_blocks/edge/attractor.pdf  used on input line 596.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/16_blocks/attractor.pdf, id=1077, 642.4pt x 481.8pt>
+File: ../blocks/16_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/16_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/16_blocks/attractor.pdf  used on input line 603.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/17_blocks/edge/attractor.pdf, id=1078, 642.4pt x 481.8pt>
+File: ../blocks/17_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/17_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/17_blocks/edge/attractor.pdf  used on input line 610.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/18_blocks/attractor.pdf, id=1079, 642.4pt x 481.8pt>
+File: ../blocks/18_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/18_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/18_blocks/attractor.pdf  used on input line 623.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/19_blocks/edge/attractor.pdf, id=1080, 642.4pt x 481.8pt>
+File: ../blocks/19_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/19_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/19_blocks/edge/attractor.pdf  used on input line 630.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/20_blocks/attractor.pdf, id=1081, 642.4pt x 481.8pt>
+File: ../blocks/20_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/20_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/20_blocks/attractor.pdf  used on input line 637.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/21_blocks/edge/attractor.pdf, id=1082, 642.4pt x 481.8pt>
+File: ../blocks/21_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/21_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/21_blocks/edge/attractor.pdf  used on input line 644.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/22_blocks/attractor.pdf, id=1083, 642.4pt x 481.8pt>
+File: ../blocks/22_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/22_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/22_blocks/attractor.pdf  used on input line 651.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/23_blocks/edge/attractor.pdf, id=1084, 642.4pt x 481.8pt>
+File: ../blocks/23_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/23_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/23_blocks/edge/attractor.pdf  used on input line 658.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/24_blocks/attractor.pdf, id=1085, 642.4pt x 481.8pt>
+File: ../blocks/24_blocks/attractor.pdf Graphic file (type pdf)
+<use ../blocks/24_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/24_blocks/attractor.pdf  used on input line 665.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/25_blocks/edge/attractor.pdf, id=1086, 642.4pt x 481.8pt>
+File: ../blocks/25_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/25_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/25_blocks/edge/attractor.pdf  used on input line 672.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/3_blocks/middle/attractor.pdf, id=1087, 642.4pt x 481.8pt>
+File: ../blocks/3_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/3_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/3_blocks/middle/attractor.pdf  used on input line 685.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/5_blocks/middle/attractor.pdf, id=1088, 642.4pt x 481.8pt>
+File: ../blocks/5_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/5_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/5_blocks/middle/attractor.pdf  used on input line 692.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/7_blocks/middle/attractor.pdf, id=1089, 642.4pt x 481.8pt>
+File: ../blocks/7_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/7_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/7_blocks/middle/attractor.pdf  used on input line 699.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/9_blocks/middle/attractor.pdf, id=1090, 642.4pt x 481.8pt>
+File: ../blocks/9_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/9_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/9_blocks/middle/attractor.pdf  used on input line 706.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/11_blocks/middle/attractor.pdf, id=1091, 642.4pt x 481.8pt>
+File: ../blocks/11_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/11_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/11_blocks/middle/attractor.pdf  used on input line 713.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/13_blocks/middle/attractor.pdf, id=1092, 642.4pt x 481.8pt>
+File: ../blocks/13_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/13_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/13_blocks/middle/attractor.pdf  used on input line 720.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/15_blocks/middle/attractor.pdf, id=1093, 642.4pt x 481.8pt>
+File: ../blocks/15_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/15_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/15_blocks/middle/attractor.pdf  used on input line 727.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/17_blocks/middle/attractor.pdf, id=1094, 642.4pt x 481.8pt>
+File: ../blocks/17_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/17_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/17_blocks/middle/attractor.pdf  used on input line 734.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/19_blocks/middle/attractor.pdf, id=1095, 642.4pt x 481.8pt>
+File: ../blocks/19_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/19_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/19_blocks/middle/attractor.pdf  used on input line 747.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/21_blocks/middle/attractor.pdf, id=1096, 642.4pt x 481.8pt>
+File: ../blocks/21_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/21_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/21_blocks/middle/attractor.pdf  used on input line 754.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/23_blocks/middle/attractor.pdf, id=1097, 642.4pt x 481.8pt>
+File: ../blocks/23_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/23_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/23_blocks/middle/attractor.pdf  used on input line 761.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/25_blocks/middle/attractor.pdf, id=1098, 642.4pt x 481.8pt>
+File: ../blocks/25_blocks/middle/attractor.pdf Graphic file (type pdf)
+<use ../blocks/25_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/25_blocks/middle/attractor.pdf  used on input line 768.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1455,13 +1688,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[34 <../blocks/data/nu_mle_blocks.pdf> <../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf
-
-pdfTeX warning: pdflatex (file ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (./3_earthquakes.tex
-Chapter 3.
-) [35
-
+[38
 
 ]
 
@@ -1471,29 +1698,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[36
+[39 <../blocks/2_blocks/attractor.pdf> <../blocks/3_blocks/edge/attractor.pdf> <../blocks/4_blocks/attractor.pdf> <../blocks/5_blocks/edge/attractor.pdf> <../blocks/6_blocks/attractor.pdf> <../blocks/7_blocks/edge/attractor.pdf> <../blocks/8_blocks/attractor.pdf> <../blocks/9_blocks/edge/attractor.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[40 <../blocks/10_blocks/attractor.pdf> <../blocks/11_blocks/edge/attractor.pdf> <../blocks/12_blocks/attractor.pdf> <../blocks/13_blocks/edge/attractor.pdf> <../blocks/14_blocks/attractor.pdf> <../blocks/15_blocks/edge/attractor.pdf> <../blocks/16_blocks/attractor.pdf> <../blocks/17_blocks/edge/attractor.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[41 <../blocks/18_blocks/attractor.pdf> <../blocks/19_blocks/edge/attractor.pdf> <../blocks/20_blocks/attractor.pdf> <../blocks/21_blocks/edge/attractor.pdf> <../blocks/22_blocks/attractor.pdf> <../blocks/23_blocks/edge/attractor.pdf> <../blocks/24_blocks/attractor.pdf> <../blocks/25_blocks/edge/attractor.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[42 <../blocks/3_blocks/middle/attractor.pdf> <../blocks/5_blocks/middle/attractor.pdf> <../blocks/7_blocks/middle/attractor.pdf> <../blocks/9_blocks/middle/attractor.pdf> <../blocks/11_blocks/middle/attractor.pdf> <../blocks/13_blocks/middle/attractor.pdf> <../blocks/15_blocks/middle/attractor.pdf> <../blocks/17_blocks/middle/attractor.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[43 <../blocks/19_blocks/middle/attractor.pdf> <../blocks/21_blocks/middle/attractor.pdf> <../blocks/23_blocks/middle/attractor.pdf> <../blocks/25_blocks/middle/attractor.pdf>] (./3_earthquakes.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[44
 
 
-] [37] (./main.aux)
+]
+Chapter 3.
+) [45]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[46
+
+
+] [47] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 81D9AD441E3DB5405E21AB6C2A6935E5;3067.
+(rerunfilecheck)             Checksum: 436BB20AD11A17DF0195E499A39B1BFD;3200.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24289 strings out of 478287
- 427466 string characters out of 5849289
- 1185567 words of memory out of 5000000
- 41986 multiletter control sequences out of 15000+600000
+ 24582 strings out of 478287
+ 439630 string characters out of 5849289
+ 1187841 words of memory out of 5000000
+ 42222 multiletter control sequences out of 15000+600000
  481189 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,12n,91p,1149b,1861s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (42 pages, 3512617 bytes).
+Output written on main.pdf (52 pages, 5507561 bytes).
 PDF statistics:
- 1096 PDF objects out of 1200 (max. 8388607)
- 790 compressed objects within 8 object streams
- 102 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1598 PDF objects out of 1728 (max. 8388607)
+ 1121 compressed objects within 12 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 517 words of extra memory for PDF output out of 10000 (max. 10000000)
 
