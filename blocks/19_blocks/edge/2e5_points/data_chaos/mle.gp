@@ -9,7 +9,7 @@ set size ratio 0.7
 T=0.05 #sampling time in ms
 set xrange [1*T:300*T]
 #set yrange [0:70]
-unif_min=61
+unif_min=55
 unif_max=103
 #stats "mle.dat" u (($1-1)*$2<unif_max && ($1-1)*$2>unif_min && $3!=0)? $3/T*1000 : NaN nooutput name "mle"
 f(x) = mle_mean
