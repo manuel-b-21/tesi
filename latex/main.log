@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.25)  8 JUL 2024 11:27
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.25)  8 JUL 2024 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1594,17 +1594,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] [53] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2C27864A1487A12EC74683963E542B01;3200
-(rerunfilecheck)             After:  06249A019C7E0905A903F0A436552DBB;3200.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 06249A019C7E0905A903F0A436552DBB;3200.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1612,7 +1603,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  24427 strings out of 476191
  443129 string characters out of 5812072
- 1220285 words of memory out of 5000000
+ 1221279 words of memory out of 5000000
  44704 multiletter control sequences out of 15000+600000
  477667 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

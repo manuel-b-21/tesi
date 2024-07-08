@@ -8,4 +8,4 @@ set ylabel "V_6 (V)"
 set size ratio 0.8
 set xrange [-2:2]
 set yrange [-0.5:2.5]
-plot "11_blocks_middle_avg.dat" u ($3*10):($2*10) every ::0::10000 w l notitle lc "dark-blue" lw 0.5
+plot "11_blocks_middle_avg.dat" u ($3*10):($2*10) every ::10000::20000 w l notitle lc "dark-blue" lw 0.5
