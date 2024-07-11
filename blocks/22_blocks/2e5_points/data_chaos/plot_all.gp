@@ -7,8 +7,8 @@ set fit logfile "/dev/null"
 set fit quiet
 #unif_min=193 #(m-1)*L=unif_min
 #unif_max=217 #(m-1)*L=unif_max
-unif_min=61
-unif_max=103
+unif_min=59.5
+unif_max=105
 T=0.05 #sampling time in ms
 set samples 10000
 
@@ -40,8 +40,9 @@ replot g(x) notitle dashtype 4 lc "black" lw 1
 unset label
 set label at graph -0.24,1.05 "{/:Bold c}" font ",10"
 set ytics auto
-set yrange [0:40]
-set xrange [1:5]
+set yrange [0:35]
+set xrange [1.5:5]
+set cbrange [1.5:5]
 set xlabel "{/Symbol n}"
 set ylabel "# of embedding pairs"
 set tmargin 0
@@ -64,8 +65,9 @@ set size 0.59,0.4
 set origin 0.455,0.55
 set palette rgb 34,35,36 negative
 set xrange [1*T:300*T]
+set cbrange [*:*]
 set yrange [1:4.5]
-set label at graph 0.55,0.3 "n_{blocks}=x  (boundary)" font ",10" front
+set label at graph 0.55,0.3 "n_{blocks}=22  (boundary)" font ",10" front
 #set cbtics ("0" 0, "1" 1, "2" 2, "3" 3, "4" 4)
 set arrow from unif_min*T, graph 0 to unif_min*T, graph 1 nohead front dt 4 lc "black" lw 0.7
 set arrow from unif_max*T, graph 0 to unif_max*T, graph 1 nohead front dt 4 lc "black" lw 0.7

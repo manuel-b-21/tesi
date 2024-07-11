@@ -1,7 +1,7 @@
 import numpy as np
 
-unif_min=61 #(m-1)L
-unif_max=103 #(m-1)L
+unif_min=46.5 #(m-1)L
+unif_max=85.5 #(m-1)L
 T=0.05 #sampling time in ms
 
 input_nu='joint_av.dat'
@@ -17,7 +17,7 @@ input_mle='mle.dat'
 mle_all=np.loadtxt(input_mle)
 mle_unif=mle_all[(mle_all[:,0]-1)*mle_all[:,1]<unif_max]
 mle_unif=mle_unif[(mle_unif[:,0]-1)*mle_unif[:,1]>unif_min]
-mle_unif=mle_unif[mle_unif[:,2]/T*1000<2000]
+mle_unif=mle_unif[mle_unif[:,2]/T*1000<2500]
 mle_unif=mle_unif[mle_unif[:,2]/T*1000>500]
 mle_unif=mle_unif[mle_unif[:,2]!=0]
 mle_weights=1/(mle_unif[:,3]/T*1000)**2
