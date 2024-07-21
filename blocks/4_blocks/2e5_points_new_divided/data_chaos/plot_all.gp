@@ -68,7 +68,7 @@ set xrange [1*T:150*T]
 set yrange [1:4.5]
 set cbrange [*:*]
 set label at graph 0.6,0.9 "n_{blocks}=4  (boundary)" font ",10" front
-set label at graph 0.6,0.75 "Increased quantization" font ",10" front
+set label at graph 0.6,0.75 "divided once" font ",10" front
 #set cbtics ("0" 0, "1" 1, "2" 2, "3" 3, "4" 4)
 set arrow from unif_min*T, graph 0 to unif_min*T, graph 1 nohead front dt 4 lc "black" lw 0.7
 set arrow from unif_max*T, graph 0 to unif_max*T, graph 1 nohead front dt 4 lc "black" lw 0.7
