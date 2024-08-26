@@ -169,6 +169,517 @@
       \field{title}{Stick-slip vibrations and chaos}
       \field{year}{1990}
     \endentry
+    \entry{ref:fractal_dim}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9e0fcf41ff6a7021035d49250d7240ad}{%
+           family={Theiler},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e0fcf41ff6a7021035d49250d7240ad}
+      \strng{fullhash}{9e0fcf41ff6a7021035d49250d7240ad}
+      \strng{bibnamehash}{9e0fcf41ff6a7021035d49250d7240ad}
+      \strng{authorbibnamehash}{9e0fcf41ff6a7021035d49250d7240ad}
+      \strng{authornamehash}{9e0fcf41ff6a7021035d49250d7240ad}
+      \strng{authorfullhash}{9e0fcf41ff6a7021035d49250d7240ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Optical Society of America A Vol. 7, Issue 6, pp. 1055-1073}
+      \field{title}{Estimating fractal dimension}
+      \field{year}{1990}
+    \endentry
+    \entry{ref:chaos_definition}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d06ad86febae95db82db2b4c4400be37}{%
+           family={Devaney},
+           familyi={D\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{d06ad86febae95db82db2b4c4400be37}
+      \strng{fullhash}{d06ad86febae95db82db2b4c4400be37}
+      \strng{bibnamehash}{d06ad86febae95db82db2b4c4400be37}
+      \strng{authorbibnamehash}{d06ad86febae95db82db2b4c4400be37}
+      \strng{authornamehash}{d06ad86febae95db82db2b4c4400be37}
+      \strng{authorfullhash}{d06ad86febae95db82db2b4c4400be37}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{An Introduction to Chaotic Dynamical Systems}
+      \field{year}{2022}
+    \endentry
+    \entry{ref:fractal_book}{book}{}
+      \name{author}{1}{}{%
+        {{hash=80a0b1f6375e051f3f16064eeea259fb}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{80a0b1f6375e051f3f16064eeea259fb}
+      \strng{fullhash}{80a0b1f6375e051f3f16064eeea259fb}
+      \strng{bibnamehash}{80a0b1f6375e051f3f16064eeea259fb}
+      \strng{authorbibnamehash}{80a0b1f6375e051f3f16064eeea259fb}
+      \strng{authornamehash}{80a0b1f6375e051f3f16064eeea259fb}
+      \strng{authorfullhash}{80a0b1f6375e051f3f16064eeea259fb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Chaos In Dynamical Systems}
+      \field{year}{2002}
+    \endentry
+    \entry{ref:mandelbrot_fractal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8aac8e3d249eb28aa633e28bb5becb7b}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8aac8e3d249eb28aa633e28bb5becb7b}
+      \strng{fullhash}{8aac8e3d249eb28aa633e28bb5becb7b}
+      \strng{bibnamehash}{8aac8e3d249eb28aa633e28bb5becb7b}
+      \strng{authorbibnamehash}{8aac8e3d249eb28aa633e28bb5becb7b}
+      \strng{authornamehash}{8aac8e3d249eb28aa633e28bb5becb7b}
+      \strng{authorfullhash}{8aac8e3d249eb28aa633e28bb5becb7b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science, Vol. 279, No. 5352}
+      \field{title}{Is nature fractal?}
+      \field{year}{1998}
+    \endentry
+    \entry{ref:strange_attractors_non_chaotic}{article}{}
+      \name{author}{4}{}{%
+        {{hash=40bf295f32df98b854dccbb12f6a5c3e}{%
+           family={Grebogi},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=80a0b1f6375e051f3f16064eeea259fb}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=919a1a1af708212ced80d874d317cae9}{%
+           family={Pelikan},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7ed0a7092c3837e93a367c74bd8756bf}{%
+           family={Yorke},
+           familyi={Y\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{36a64bca47e2338e222a9042fbd0712a}
+      \strng{fullhash}{899b54f0293852dc15dc995166c83fc2}
+      \strng{bibnamehash}{36a64bca47e2338e222a9042fbd0712a}
+      \strng{authorbibnamehash}{36a64bca47e2338e222a9042fbd0712a}
+      \strng{authornamehash}{36a64bca47e2338e222a9042fbd0712a}
+      \strng{authorfullhash}{899b54f0293852dc15dc995166c83fc2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica 13D 261-268}
+      \field{title}{Strange attractors that are not chaotic}
+      \field{year}{1984}
+    \endentry
+    \entry{ref:abarbanel_fourier_spectra}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b76ffc51dfb797af931de103894ce5d9}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={H.\bibnamedelimi Abarbanel},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{b76ffc51dfb797af931de103894ce5d9}
+      \strng{fullhash}{b76ffc51dfb797af931de103894ce5d9}
+      \strng{bibnamehash}{b76ffc51dfb797af931de103894ce5d9}
+      \strng{authorbibnamehash}{b76ffc51dfb797af931de103894ce5d9}
+      \strng{authornamehash}{b76ffc51dfb797af931de103894ce5d9}
+      \strng{authorfullhash}{b76ffc51dfb797af931de103894ce5d9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rev. Mod. Phys. , Vol. 65, No. 4}
+      \field{title}{The analysis of observed chaotic data in physical systems}
+      \field{year}{1993}
+    \endentry
+    \entry{ref:chaos_two_dim_theorem}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ee971e48aa128cf0fac6175fa8decc2}{%
+           family={Bendixson},
+           familyi={B\bibinitperiod},
+           given={Ivar},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Institut Mittag-Leffler}%
+      }
+      \strng{namehash}{7ee971e48aa128cf0fac6175fa8decc2}
+      \strng{fullhash}{7ee971e48aa128cf0fac6175fa8decc2}
+      \strng{bibnamehash}{7ee971e48aa128cf0fac6175fa8decc2}
+      \strng{authorbibnamehash}{7ee971e48aa128cf0fac6175fa8decc2}
+      \strng{authornamehash}{7ee971e48aa128cf0fac6175fa8decc2}
+      \strng{authorfullhash}{7ee971e48aa128cf0fac6175fa8decc2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Mathematica}
+      \field{title}{Sur les courbes définies par des équations différentielles}
+      \field{volume}{24}
+      \field{year}{1901}
+    \endentry
+    \entry{ref:packard1980geometry}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e41b7f4466300a9adac5ce03e95a8d87}{%
+           family={Packard},
+           familyi={P\bibinitperiod},
+           given={Norman\bibnamedelima H.},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3d990cc8cc031e931587c280055340cd}{%
+           family={Crutchfield},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8989d3ee480656dd3eb385ab19b9d332}{%
+           family={Farmer},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi Doyne},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cf23619a20ae13bbbdfcb691618f6b82}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{79eaaf0688e1a18f568881db68db9893}
+      \strng{fullhash}{f2ef5743e0326cd912a08482860918c6}
+      \strng{bibnamehash}{79eaaf0688e1a18f568881db68db9893}
+      \strng{authorbibnamehash}{79eaaf0688e1a18f568881db68db9893}
+      \strng{authornamehash}{79eaaf0688e1a18f568881db68db9893}
+      \strng{authorfullhash}{f2ef5743e0326cd912a08482860918c6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review letters}
+      \field{number}{9}
+      \field{title}{Geometry from a time series}
+      \field{volume}{45}
+      \field{year}{1980}
+      \field{pages}{712}
+      \range{pages}{1}
+    \endentry
+    \entry{ref:bradley2015nonlinear}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3bb3f456a519669549c7ba1d724d38e3}{%
+           family={Bradley},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=127aad58be2d66e178793eb55e69b551}{%
+           family={Kantz},
+           familyi={K\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{f9de087434f3d8652391fe3abbd18ce3}
+      \strng{fullhash}{f9de087434f3d8652391fe3abbd18ce3}
+      \strng{bibnamehash}{f9de087434f3d8652391fe3abbd18ce3}
+      \strng{authorbibnamehash}{f9de087434f3d8652391fe3abbd18ce3}
+      \strng{authornamehash}{f9de087434f3d8652391fe3abbd18ce3}
+      \strng{authorfullhash}{f9de087434f3d8652391fe3abbd18ce3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
+      \field{number}{9}
+      \field{title}{Nonlinear time-series analysis revisited}
+      \field{volume}{25}
+      \field{year}{2015}
+    \endentry
+    \entry{ref:takens2006detecting}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=99788348d8a956579b9fa93354879a62}{%
+           family={Takens},
+           familyi={T\bibinitperiod},
+           given={Floris},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{99788348d8a956579b9fa93354879a62}
+      \strng{fullhash}{99788348d8a956579b9fa93354879a62}
+      \strng{bibnamehash}{99788348d8a956579b9fa93354879a62}
+      \strng{authorbibnamehash}{99788348d8a956579b9fa93354879a62}
+      \strng{authornamehash}{99788348d8a956579b9fa93354879a62}
+      \strng{authorfullhash}{99788348d8a956579b9fa93354879a62}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Dynamical Systems and Turbulence, Warwick 1980: proceedings of a symposium held at the University of Warwick 1979/80}
+      \field{title}{Detecting strange attractors in turbulence}
+      \field{year}{2006}
+      \field{pages}{366\bibrangedash 381}
+      \range{pages}{16}
+    \endentry
+    \entry{ref:mane2006dimension}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=93fde90ebfc37d94f488bae868e28519}{%
+           family={Mañé},
+           familyi={M\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{93fde90ebfc37d94f488bae868e28519}
+      \strng{fullhash}{93fde90ebfc37d94f488bae868e28519}
+      \strng{bibnamehash}{93fde90ebfc37d94f488bae868e28519}
+      \strng{authorbibnamehash}{93fde90ebfc37d94f488bae868e28519}
+      \strng{authornamehash}{93fde90ebfc37d94f488bae868e28519}
+      \strng{authorfullhash}{93fde90ebfc37d94f488bae868e28519}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Dynamical Systems and Turbulence, Warwick 1980: Proceedings of a Symposium Held at the University of Warwick 1979/80}
+      \field{title}{On the dimension of the compact invariant sets of certain non-linear maps}
+      \field{year}{2006}
+      \field{pages}{230\bibrangedash 242}
+      \range{pages}{13}
+    \endentry
+    \entry{ref:ding1993estimating}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b5883de6d1f035fe3bf7d9898aa49213}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Mingzhou},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9f654a92d8a2a67fb7102f51f641511f}{%
+           family={Grebogi},
+           familyi={G\bibinitperiod},
+           given={Celso},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c6b186cdd6fc661bfb29ebbf3ba8d64b}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=57b9c7cd14116b2c7e88520b152201b8}{%
+           family={Sauer},
+           familyi={S\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6182e68f7c9c52a8dc75c4afdde36dd6}{%
+           family={Yorke},
+           familyi={Y\bibinitperiod},
+           given={James\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f56a3dfaa673553f687f4f46553e9e47}
+      \strng{fullhash}{bb68c12ad526ed6a50dcf12223967104}
+      \strng{bibnamehash}{f56a3dfaa673553f687f4f46553e9e47}
+      \strng{authorbibnamehash}{f56a3dfaa673553f687f4f46553e9e47}
+      \strng{authornamehash}{f56a3dfaa673553f687f4f46553e9e47}
+      \strng{authorfullhash}{bb68c12ad526ed6a50dcf12223967104}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{number}{3-4}
+      \field{title}{Estimating correlation dimension from a chaotic time series: when does plateau onset occur?}
+      \field{volume}{69}
+      \field{year}{1993}
+      \field{pages}{404\bibrangedash 424}
+      \range{pages}{21}
+    \endentry
+    \entry{ref:grassberger1991nonlinear}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3cd1291c7a91fcb1a8ac54e2e8699f32}{%
+           family={Grassberger},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3f917f8d0eea8255430415c671650bd4}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=27b2568aa1941c51516df1f57636f191}{%
+           family={Schaffrath},
+           familyi={S\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific}%
+      }
+      \strng{namehash}{723e48cd762c5c2e1f1f22270c970332}
+      \strng{fullhash}{723e48cd762c5c2e1f1f22270c970332}
+      \strng{bibnamehash}{723e48cd762c5c2e1f1f22270c970332}
+      \strng{authorbibnamehash}{723e48cd762c5c2e1f1f22270c970332}
+      \strng{authornamehash}{723e48cd762c5c2e1f1f22270c970332}
+      \strng{authorfullhash}{723e48cd762c5c2e1f1f22270c970332}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Bifurcation and Chaos}
+      \field{number}{03}
+      \field{title}{Nonlinear time sequence analysis}
+      \field{volume}{1}
+      \field{year}{1991}
+      \field{pages}{521\bibrangedash 547}
+      \range{pages}{27}
+    \endentry
+    \entry{ref:perinelli2018identification}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3778bdad23441ff03a7b62fdd67243c7}{%
+           family={Perinelli},
+           familyi={P\bibinitperiod},
+           given={Alessio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de518f53bd84d77dfd75533a96a48441}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{fullhash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{bibnamehash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{authorbibnamehash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{authornamehash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{authorfullhash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review E}
+      \field{number}{5}
+      \field{title}{Identification of suitable embedding dimensions and lags for time series generated by chaotic, finite-dimensional systems}
+      \field{volume}{98}
+      \field{year}{2018}
+      \field{pages}{052226}
+      \range{pages}{1}
+    \endentry
+    \entry{ref:perinelli2020chasing}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3778bdad23441ff03a7b62fdd67243c7}{%
+           family={Perinelli},
+           familyi={P\bibinitperiod},
+           given={Alessio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de518f53bd84d77dfd75533a96a48441}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{fullhash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{bibnamehash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{authorbibnamehash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{authornamehash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \strng{authorfullhash}{5cebca3e5678ddcfc70bdd65e3ba3cb2}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
+      \field{number}{12}
+      \field{title}{Chasing chaos by improved identification of suitable embedding dimensions and lags}
+      \field{volume}{30}
+      \field{year}{2020}
+    \endentry
+    \entry{ref:casdagli1991state}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0455ee747208ca48ab6a06ab854095ec}{%
+           family={Casdagli},
+           familyi={C\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9c7e2f2c6bed2b5092fca690df63baa9}{%
+           family={Eubank},
+           familyi={E\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8989d3ee480656dd3eb385ab19b9d332}{%
+           family={Farmer},
+           familyi={F\bibinitperiod},
+           given={J\bibnamedelima Doyne},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d262cead031d825ec8b0b20b5e437a74}{%
+           family={Gibson},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e32e709dc7a1b4206bce3680bb81fa61}
+      \strng{fullhash}{c4f82c17ac99f3929ba5dc8bc56fa841}
+      \strng{bibnamehash}{e32e709dc7a1b4206bce3680bb81fa61}
+      \strng{authorbibnamehash}{e32e709dc7a1b4206bce3680bb81fa61}
+      \strng{authornamehash}{e32e709dc7a1b4206bce3680bb81fa61}
+      \strng{authorfullhash}{c4f82c17ac99f3929ba5dc8bc56fa841}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{number}{1-3}
+      \field{title}{State space reconstruction in the presence of noise}
+      \field{volume}{51}
+      \field{year}{1991}
+      \field{pages}{52\bibrangedash 98}
+      \range{pages}{47}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

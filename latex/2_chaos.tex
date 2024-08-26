@@ -1,3 +1,234 @@
-\chapter{What is chaos}
+\chapter{Chaos in theory and experiments}
 \label{chap: chaos}
 
+\section{Dynamical systems}
+\label{sec: dynamical systems}
+
+The concept of dynamical systems is quite general, since anything that moves can be considered as a
+dynamical system \cite{ref:fractal_dim}. If these changes are driven
+by specific rules, we say that the system is deterministic; otherwise, if the rules
+are random, it is stochastic. The main feature of chaotic systems is the fact that they are unpredictable
+despite being deterministic; in order to better explain the meaning of this statement, it is essential
+to involve some mathemathical definitions.
+
+The instantaneous state of a dynamical system is described by a vector $\mathbf{s}$ within a
+state space $\mathcal{S}$ (typically, $\mathcal{S}\subseteq \mathbb{R}^M$).
+The state vector evolves in time according to an evolution operator $\mathcal{E}_t$ such that:
+\begin{equation}
+\label{eq: state space evolution}
+    \mathbf{s}(t+t_0)=\mathcal{E}_t[\mathbf{s}(t_0)].
+\end{equation}
+
+In theoretical systems the state space $\mathcal{S}$ is well-defined and the evolution operator
+$\mathcal{E}_t$ is given; in most cases, $\mathcal{E}_t$ is defined by a set of differential equations
+which can be solved, analytically or numerically, to find the system's evolution $\mathbf{s}(t)$
+out of the initial conditions $\mathbf{s}(0)$.
+
+A dynamical system is defined to be linear if the superposition principle holds, i.e.:
+\begin{equation}
+\label{eq: linear systems}
+    \mathcal{E}_t[c_1\mathbf{s}_1+c_2\mathbf{s_2}]=c_1\mathcal{E}_t[\mathbf{s}_1]+
+    c_2\mathcal{E}_t[\mathbf{s}_2].
+\end{equation}
+If the last equality is not satisfied the system is said to be nonlinear.
+Nonlinearity is a necessary (but not sufficient) condition for the system to be chaotic.
+
+In experimentally observed systems the state space is not always fully accessible; moreover,
+the evolution operator $\mathcal{E}_t$ is rarely known.
+Observing a system consists in recording some signal $y(t)$ out of it through some measurement
+function $\mathcal{M}$ acting on the system's state, i.e. $y(t)=\mathcal{M}[\mathbf{s}(t)]$.
+This continuous signal is always sampled and digitized, producing a finite time series (or sequence)
+$\{y_n\}$ with $n=1,...,\ell$.
+
+
+\section{Formal definition of chaos}
+\label{sec: chaos in theory}
+
+An universally accepted mathematical definition of chaos does not exists but
+a commonly used definition is the following, originally formulated by Robert L.
+Devaney \cite{ref:chaos_definition}.
+
+Three conditions are necessary and
+sufficient to define a system as chaotic: (i) sensitivity to initial conditions;
+(ii) topological transitivity;
+(iii) density of periodic orbits.
+
+Going into detail:
+\begin{itemize}
+    \item[(i)] Sensitivity to initial conditions is a property that characterizes chaotic
+    systems and makes their evolution hard to predict.
+
+    Given two initial conditions $\mathbf{s}_1(0)$, $\mathbf{s}_2(0)$ that are arbitrarily close within the state
+    space ($||\mathbf{s}_1(0)-\mathbf{s}_2(0)||<\varepsilon$),
+    the system having sensitive dependence on initial conditions means that
+    the two trajectories evolving out of these initial conditions diverge exponentially in time, i.e.
+    for large $t$:
+    \begin{equation}
+    \label{eq: trajectory divergence}
+        ||\mathbf{s}_1(t)-\mathbf{s}_2(t)||\propto e^{\lambda t},
+    \end{equation}
+    where $\lambda$ is called maximum Lyapunov exponent (MLE).
+    In order for the system to be chaotic, $\lambda$ has to be positive.
+
+    It is also important that the orbits $\mathbf{s}_1(t)$, $\mathbf{s}_2(t)$ remain bounded at large $t$,
+    otherwise, if orbits went to infinity, it would be simple for their distance to diverge exponentially.
+    
+    The most important consequence of this property is that, as far as we are
+    able to precisely measure the initial state of a system, there will always be
+    a small error (given for example by measuring instruments) which can grow
+    rapidly over time. Therefore, even if we know exactly the deterministic laws
+    governing time evolution, our predictions on the behaviour of the system
+    after a certain time will no longer be reliable. Furthermore, if the precision
+    with which we measure the state of the system in the initial instant is
+    improved by a factor of $10$, we only gain a $\log(10)$ factor for the maximum
+    time for which the predictions are accurate.
+
+    \item[(ii)] Topological transitivity is the property according to which a chaotic trajectory eventually connects
+    any region of the state space with any other. In other words, the state space of a chaotic system
+    cannot be decomposed into disjoint subsets.
+
+    \item[(iii)] Density of periodic orbits means that for any given point in the state space
+    there is a periodic orbit that passes arbitrarily close to it, i.e. periodic orbits make up a dense set.
+
+\end{itemize}
+
+
+\section{The issue of detecting chaos}
+\label{sec: chaos in experiments}
+
+When dealing with experimentally observed systems, the precise laws that describe the dynamics are unknown.
+What is known is the time series, which can be used to assess condition (i) of Devaney's definition
+of chaos. Instead, conditions (ii) and (iii) are difficult to identify with the time series only.
+However, there are observable consequences. In particular, the time
+evolution of a chaotic system in the state space always converges to an object called strange
+attractor, characterized by a fractal structure \cite{ref:fractal_dim,ref:fractal_book}. This means that strange
+attractors exhibit self-similarity (or self-affinity\footnote{In general, it is more correct to speak
+of self-affinity, since in the case of self-similarity the
+object is scaled by the same amount in all space directions, but in self-affinity scaling is not
+necessary identical in all directions \cite{ref:mandelbrot_fractal}.}) and have a non-integer dimensionality.
+
+To understand what it means to have non-integer dimensionality, suppose
+to consider a fractal object with dimension $1 < D < 2$.
+We know in general that if we have an object of dimension $D$ (assuming that
+it has a mass density), taking an arbitrary point in it and considering an open
+ball centered in that point, we can measure the mass contained in the ball as
+a function of the radius. For small distances $m(r)\propto r^D$. For the same density
+and radius, the fractal ``weighs" more than a line but less then a surface, as if
+a dense set (which is the set of the periodic points) had been removed from the
+surface.
+
+Self-similarity, instead, is the exhibition of similar patterns at increasingly smaller
+scales; in other words, a fractal does not appear simplified when we see it zoomed. Despite strange attractors
+also existing in non-chaotic systems \cite{ref:strange_attractors_non_chaotic}, the estimate of the system's non-integer dimension
+is often used as a tool to identify chaos.
+
+Another important property allows
+us to identify chaos: the trajectory winds around forever never repeating on a
+strange attractor and the time series arising by chaotic systems are aperiodic
+and characterized by broad, noise-like Fourier spectra \cite{ref:abarbanel_fourier_spectra}.
+This also means that linear techniques
+such as fast Fourier transform (FFT) applied to sequences cannot distinguish between a chaotic system
+and a stochastic one, e.g. a Gaussian white noise source (GWN).
+
+One more necessary requirement to sustain a chaotic flow is that
+the number of independent dimensions has to be at least three, assuming no discontinuities \cite{ref:chaos_two_dim_theorem};
+this is due to the fact that
+with two or less independent variables the trajectory will eventually intersect itself, which
+cannot happen due to the aperiodic nature of chaotic dynamics.
+
+
+\section{The embedding procedure}
+\label{sec: embedding}
+
+In experimentally observed systems it is only possible to utilize the finite time series $\{y_n\}$,
+with the aim to at least obtain some invariant quantities, e.g. the maximum Lyapunov exponent or
+the ``effective" dimension of the system. Under certain conditions, a procedure exists with which
+it is possible to reconstruct the entire state space using only one variable, which is a
+function of the state space vector $\mathbf{s}(t)$. This procedure is called ``time delay embedding''
+\cite{ref:packard1980geometry}.
+
+Embedding consists in building a sequence of $m$-dimensional vectors $\mathbf{Y}_n$ by picking
+$m$ time-delayed samples of the sequence $y_n$, i.e.:
+\begin{equation}
+    \label{eq: embedding}
+    \mathbf{Y}_n=\left(y_n,y_{n+L},y_{n+2L},...,y_{n+(m-1)L}\right),
+\end{equation}
+where the parameter $L$ is an integer number and is called ``lag''. It is equivalent to make use of
+a ``causal'' version of Eq. \ref{eq: embedding} in which the chosen samples are $y_{n-kL}$ instead of
+$y_{n+kL}$, with $k=0,...,m-1$ \cite{ref:bradley2015nonlinear}. 
+
+It has been proven by Takens \cite{ref:takens2006detecting} and Ma{\~n}{\'e} \cite{ref:mane2006dimension} that
+if the parameters $m$ (dimension) and $L$ (lag) are suitably chosen,
+the reconstructed state space evolution is topologically identical to the actual state space dynamics.
+This means that a ``good” embedding provides a smooth one-to-one map from the
+original state space evolution to the reconstructed one, therefore enabling us to estimate the
+properties of the original system that are invariant under this mapping.
+
+The two conditions under which Takens' theorem holds regard the embedding parameters $(m,L)$.
+The first one requires that $m>2D$, where $D$ is the dimension of the manifold corresponding to the
+time evolution of the system, which is not known a priori; this condition can be relaxed to $m>D$ if
+estimating correlation dimension \cite{ref:ding1993estimating}.
+The second one states that $L$ is not a multiple of the period of any system's orbit \cite{ref:grassberger1991nonlinear}.
+
+Aside from these two minimal conditions, since Takens' theorem is an existence theorem, it does not
+give any hint on how to find the best embedding parameters. The reason for this is that as long as the
+two conditions are met, every choice for the couple $(m,L)$ is good for reconstruct the dynamics;
+however, this is valid only for noiseless, finely sampled and infinitely long sequences. In reality,
+the issue of optimal embedding is a very active field in the physics of chaos, and several techniques
+have been developed in order to overcome this problem \cite{ref:perinelli2018identification,ref:perinelli2020chasing,ref:casdagli1991state}.
+
+%m PROBLEMS
+Considering the dimension $m$, choosing $m\gg1$ ensures, in principle, that $m$ is
+greater than $2D$. However, if $m$ is too large the directions orthogonal to the deterministic noiseless
+trajectory will be dominated by noise and will not provide extra information; in other words, supposing
+that $m_0$ is the minimum dimension for which the system is correctly embedded, the remaining $m-m_0$
+dimensions would be populated by noise, being thus redundant and resulting in an increase of the
+computational cost. Moreover, the larger is the embedding dimension $m$,
+the fewer independent embedding vectors are available, which is an issue considering the finiteness
+of the time series.
+
+%L PROBLEMS
+The choice on the lag $L$ is also not trivial. If $L$ is too short, the elements of the embedding vectors
+$\mathbf{Y}_n$ will be strongly correlated, resulting in all the points being clustered on the
+diagonal of the reconstructed space; in presence of noise, therefore, the trajectory would be
+indistinguishable from the diagonal itself. On the other hand, a too large $L$ presents the opposite
+problem, i.e. the elements of $\mathbf{Y}_n$ to be completely uncorrelated with each other;
+this implies that the time evolution is ``blurred'', in the sense that the trajectory is folded over on itself
+and the system evolution is lost.
+
+
+\section{Correlation dimension}
+\label{sec: correlation dimension}
+
+
+
+
+
+
+
+
+\section{Maximum Lyapunov exponent}
+\label{sec: mle}
+
+
+
+
+
+
+
+\section{A method for detecting chaos}
+\label{sec: method}
+
+
+
+
+
+
+
+
+
+\begin{comment}
+
+
+
+\end{comment}
