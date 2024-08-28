@@ -153,7 +153,7 @@ $m$ time-delayed samples of the sequence $y_n$, i.e.:
     \label{eq: embedding}
     \mathbf{Y}_n=\left(y_n,y_{n+L},y_{n+2L},...,y_{n+(m-1)L}\right),
 \end{equation}
-where the parameter $L$ is an integer number and is called ``lag''. It is equivalent to make use of
+where the parameter $L$ is an integer number and is called ``lag''. It is perfectly equivalent to make use of
 a ``causal'' version of Eq. \ref{eq: embedding} in which the chosen samples are $y_{n-kL}$ instead of
 $y_{n+kL}$, with $k=0,...,m-1$ \cite{ref:bradley2015nonlinear}. 
 
@@ -200,28 +200,198 @@ and the system evolution is lost.
 \section{Correlation dimension}
 \label{sec: correlation dimension}
 
+Before addressing the issue of optimal embedding, it is important to formally define the invariant
+quantities that will be used to decide if an experimentally observed system is chaotic or not,
+the first one being the correlation dimension \cite{ref:abarbanel_fourier_spectra}.
 
+The simplest definition of dimension is the (integer) number of coordinates that are
+needed to specify a state, e.g. the number of differential equations of a system.
+This is the geometrically related to the concept of how (hyper) volumes scale as a
+function of a characteristic length parameter.
+One way to estimate the dimension of a set of points is the box-counting method, which consists in partitioning the space in
+hypercubes of size $l$ and by counting, as a function of $l$, the fraction $\eta(l)$ of
+these hypercubes containing at least one point of the set. The dimension can then be calculated
+using the fact that $\eta(l\rightarrow0)\propto l^D$. Since this method is
+very sensitive and computationally demanding \cite{ref:greenside1982impracticality},
+it is useful to search for other ways to estimate the dimension.
 
+Given a set of points $\{\mathbf{Y}_n\}$ within an $m$-dimensional space partitioned in hypercubes
+of size $l$, and given $p_i$
+the fraction of points of the set that fall within the $i$-th hypercube,
+the generalized dimension is defined as \cite{ref:fractal_dim}:
+\begin{equation}
+    \label{eq: generalized dimension}
+    D_q=\lim_{l\rightarrow0}\frac{1}{q-1}\frac{\log(\sum_i p_i^q)}{\log l}.
+\end{equation}
 
+This definition provides a whole spectrum of invariant quantities for $-\infty<q<\infty$.
+For example, $D_0$ is exactly the dimension calculated with the box-counting method, i.e.:
+\begin{equation}
+    \label{eq: D_0}
+    D_0=\lim_{l\rightarrow0}\frac{\log(\sum_i1)}{\log l}
+    =\lim_{l\rightarrow0}\frac{\log\eta(l)}{\log l}.
+\end{equation}
 
+The dimension for $q\rightarrow1$ can instead be calculated using L'Hospital's rule, resulting in:
+\begin{equation}
+    \label{eq: D_1}
+    D_1=\lim_{l\rightarrow0}\frac{\sum_i p_i\log p_i}{\log l}.
+\end{equation}
+$D_1$ is called informational dimension \cite{ref:abarbanel_fourier_spectra} due to the numerator
+being related to information entropy. In a uniform fractal, in which
+$p_i=1/N$ for every $i$, $D_1=D_0$; instead, if the $p_i$ are different $D_1<D_0$.
+This is true in general for every $q$, namely $D_i\leq D_j$ if $i>j$, when the equality only
+holds in a uniform fractal.
+
+Finally, one of the most utilized dimensions in chaos theory is the correlation dimension, defined as:
+\begin{equation}
+    \label{eq: D_2}
+    D_2=\lim_{l\rightarrow0}\frac{\log(\sum_i p_i^2)}{\log l}.
+\end{equation}
+The numerator constitutes a two-point correlation function, measuring the probability of finding a
+pair of random points within a given partition element, just as the numerator in the definition of
+$D_1$ measures the probability of finding one point in a given element.
+
+The reason why correlation dimension is so utilized lies in the fact that there is a very
+efficient way to estimate it, observed by Grassberger and Procaccia \cite{ref:grassberger1983measuring}.
+Due to the exponential divergence of the trajectories, most pairs
+$(\mathbf{Y}_i,\mathbf{Y}_j)$ with $i\neq j$ will be dynamically uncorrelated
+pairs of essentially random points. The points lie however on the attractor, therefore they will be
+spatially correlated. This spatial correlation can be measured with the correlation integral
+$C(r)$, defined as:
+\begin{equation}
+    \label{eq: correlation integral}
+    C(r) = \lim_{\ell\rightarrow\infty} \frac{1}{\ell^2}\times\left\{
+        \text{number of pairs $(i,j)$ whose distance is less than $r$}
+    \right\},
+\end{equation}
+where $\ell$ is the total number of points in the reconstructed space.
+Grassberger and Procaccia proved that for small distances the correlation integral grows as
+$C(r)\propto r^{D_2}$. It is thus possible to estimate the correlation dimension
+by extracting random pairs of vectors in the embedded sequence, evaluating then a ``sample''
+version of Eq. \ref{eq: correlation integral}, namely:
+\begin{equation}
+    \label{eq: sample correlation integral}
+    C_{m,L}(r)=\frac{1}{N_{\text{pairs}}}\sum_{i,j}\theta\left(
+        r-||\mathbf{Y}_i-\mathbf{Y}_j||
+    \right),
+\end{equation}
+where $\theta(x)$ is the Heaviside function and the subscript $_{m,L}$ indicates the dependence of this
+sample correlation integral on the embedding parameters. 
+
+A source of error regarding the estimation of $C(r)$ are temporal correlations within the input sequence,
+which can lead to underestimates of the dimension $D_2$ \cite{ref:theiler1986spurious}
+or spurious contributions even in the case of stochastic sequences \cite{ref:osborne1989finite}.
+This issue can be avoided by selecting pairs of points that are distant in time more than some delay
+$c_0$, i.e. constraining $|i-j|\geq c_0$. Typically, $c_0$ is chosen to be the first zero of the
+autocorrelation function \cite{ref:theiler1986spurious} or its first minimum \cite{ref:albano1995kolmogorov}.
 
 
 
 \section{Maximum Lyapunov exponent}
 \label{sec: mle}
 
+The second fundamental invariant quantity that characterizes a chaotic system is the maximum Lyapunov
+exponent (MLE) \cite{ref:abarbanel_fourier_spectra}.
+There are as many Lyapunov exponents as the number of state space dimensions: each exponent $\lambda_i$
+corresponds to one of the independent directions along which fiducial volumes within the state space
+contract ($\lambda_i<0$) or expand ($\lambda_i>0$) in an infinitesimal time interval.
+The MLE $\lambda_1$ is the most relevant of the spectrum, since its sign establishes whether the system
+stabilizes on a fixed point ($\lambda_1<0$), stablizes on a limit cycle ($\lambda_1=0$) or is unstable
+($\lambda_1>0$). A positive MLE is the main hallmark of chaos.
 
+It is possible to estimate the MLE through the embedded sequence by making use of the so-called
+divergence rate method \cite{ref:gao1993local}. This method
+is based on the evaluation of the time-dependent divergence exponent $\Lambda(k)$,
+which quantifies the average separation of nearby trajectories.
+The estimation of this exponent is done by selecting random pairs $(i,j)$ of neighboring vectors
+in the embedded sequence $\{\mathbf{Y}_n\}$, i.e. such that $||\mathbf{Y}_i-\mathbf{Y}_j||<r$,
+where $r$ is some ``shell radius''; the divergence exponent is then calculated as:
+\begin{equation}
+    \label{eq: divergence exponent}
+    \Lambda_{m,L}(k)=\frac{1}{N_{\text{pairs}}}\sum_{i,j}\log\left(
+        \frac{||\mathbf{Y}_{i+k}-\mathbf{Y}_{j+k}||}{||\mathbf{Y}_i-\mathbf{Y}_j||}
+    \right),
+\end{equation}
+where the subscript $_{m,L}$ indicates once again the dependence on the embedding parameters.
 
+The time-dependent divergence exponent
+measures the progressive separation, as a function of the time delay $k$, of the trajectories corresponding
+to initially close points $\mathbf{Y}_i,\mathbf{Y}_j$.
+The initial proximity of the vector pairs is tuned by changing the shell
+radius $r$, which is typically estimated as the distance corresponding to the a given percentile $p$ of the
+sample distribution of all Euclidean distances 
+\cite{ref:franchi2014statistical,ref:ricci2020asymptotic}.
 
+Like in Section \ref{sec: correlation dimension}, it is important that the time separation between
+the pairs $(i,j)$ is greater than the autocorrelation time, i.e. $|i-j|\geq c_0$ 
+\cite{ref:theiler1986spurious,ref:albano1995kolmogorov}.
 
+If the underlying system is chaotic, $\Lambda(k)$ is expected to grow linearly with $k$,
+as a result of the exponentially increasing numerator within the logarithm of Eq. \ref{eq: divergence exponent}.
+Suitably fitting this linear growth provides the value of the MLE.
+The growth of $\Lambda(k)$ cannot continue for arbitrarily large values of $k$:
+eventually, the separation becomes comparable to the size of the attractor
+and the divergence exponent saturates.
 
 
 \section{A method for detecting chaos}
-\label{sec: method}
+\label{sec: method for chaos}
+
+The most utilized tools for detecting chaos, namely the embedding procedure, the correlation dimension
+and the maximum Lyapunov exponent, have now been introduced.
+It is now possible to establish an efficient procedure which not only searches for the best
+embedding parameters $(m,L)$, but also provides estimates for the invariant quantities that
+characterize chaos \cite{ref:perinelli2020chasing}.
+
+\subsection{The embedding lattice}
+\label{subsec: embedding lattice}
+
+The scalar sequence $\{y_n\}$ is obtained by sampling the signal $y(t)$ with a sampling time $T$;
+the time series is then supposed to be standardized as
+$y \rightarrow (y - \bar{y})/\bar{\sigma}$, where $\bar{y}$ and $\bar{\sigma}$ are the sequence's
+sample mean and sample standard deviation, respectively.
+
+Since a single optimal $(m,L)$ does
+not necessarily exist, the embedding of the sequence is carried out for several values of the
+embedding parameters, considering that a set of
+$(m, L)$ can provide reconstructions of the underlying dynamics that are equivalently good.
+More specifically, the procedure is carried out for each element of an embedding lattice, i.e.
+$\{(m,L)|m\in[2,m_{\max}],L\in[1,L_{\max}]\}$.
+
+Suitable embedding choices are expected to comply with two requirements concerning the
+corresponding embedding window $w=(m-1)LT$, which corresponds to the
+time span covered by each embedding vector.
+On the one hand, the embedding window has to be larger than the redundance time $\tau_R$, so that
+the points in the reconstructed space are not too close to the diagonal, as discussed in Section
+\ref{sec: embedding}. On the other hand, the embedding window has to be
+smaller than the irrelevance time $\tau_I$, after which the points are causally disconnected
+and the noise overcomes the dynamics.
+
+The above requirements can then be expressed as $\tau_R/T \lesssim w \lesssim \tau_I/T$.
+In the embedding lattice, each window $w$ identifies a hyperbola.
+Therefore, the irrelevance and redundance times correspond to two hyperbolae
+within the embedding lattice, and the region bounded by them is where suitable
+embedding choices can be expected.
 
 
+\subsection{The divergence exponent}
+\label{subsec: divergence exponent}
 
+The next step of the procedure consists in calculating the maximum Lyapunov exponent and
+the correlation dimension. An efficient manner to do this is making use of the divergence exponent
+$\Lambda(k)$. As was already discussed in Section \ref{sec: mle}, if $\Lambda(k)$ exhibits a
+linear behavior it is possible to estimate the MLE as the slope of the curve.
 
+For sufficiently large values of $k$, the divergence exponent $\Lambda(k)$
+reaches a saturation value $\Lambda_{\text{pl}}$, referred to as a ``plateau".
+In the case of a chaotic source of finite correlation dimension $\nu$, the plateau
+turns out to linearly depend on the logarithm of the percentile $p$ \cite{ref:perinelli2020chasing}:
+\begin{equation}
+    \label{eq: Lambda plateau}
+    \Lambda_{\text{pl}}=\Lambda'-\frac{1}{\nu}\log p,
+\end{equation}
+where $\Lambda'$ is a constant that depends on the embedding parameters.
 
 
 

@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1724600492 "main.bcf" "main.bbl" "main" 1724603278
-  "main.bcf" 1724603278 109109 cab4330931a67db1c7057a2cb5821d4c "pdflatex"
-  "references.bib" 1724600475 5384 f25a0664ea3aa3f5e96a02f1a2c8200c ""
+["biber main"] 1724768088 "main.bcf" "main.bbl" "main" 1724836482
+  "main.bcf" 1724836482 110721 2a9454fa4a4e01c9a1a5eb53c26072f5 "pdflatex"
+  "references.bib" 1724748231 7740 3cdf0ac7897a67702ef39a66cf341d33 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1724603275 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1724603278
+["pdflatex"] 1724836478 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1724836482
   "../blocks/10_blocks/2e5_points/plots/chaos_low.pdf" 1720166967 110713 35cf7467a4aa67dd9c34b7218dc40794 ""
   "../blocks/10_blocks/attractor.pdf" 1720166967 50008 86f1656d694de4340a9dee374532ae19 ""
   "../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf" 1720166967 113501 aeeaa04bff3675858e4eb04976277ad0 ""
@@ -267,18 +267,18 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712243161 2801282 2c606fb8afe9ab0f58f5ded3df82a40c ""
   "0_introduction.tex" 1717669505 68 3d0fc056c0e0ccd2e8b3c12130f54ef0 ""
   "1_electronic_analog.tex" 1724404343 19278 e80a7927bd1213abf4914a156bd4c55a ""
-  "2_chaos.tex" 1724603275 12182 e4254c278c30a974ad79a30ad86f5b65 ""
+  "2_chaos.tex" 1724836478 22217 f901459e59c19b54564ff316e7cf8244 ""
   "3_chaos_analysis.tex" 1724318000 53106 230b60b1fc1a521e85d414910070c2db ""
   "images/BK1.png" 1659605922 87728 7037b8e2237260486ec46be513558d65 ""
   "images/BK2.png" 1659605957 43635 2c572144ebf82ead617fb7313e2e9d4e ""
   "images/Logo Unitn.jpg" 1717668612 19859 58b3574e840941ed0054e3f8fd777ee3 ""
   "images/bk_2_blocks.png" 1717688217 68462 e1bd05d12ade95d2e439e64b779c9be9 ""
-  "main.aux" 1724603278 95762 e0512ad3ff8d78a6cf2f75a9a349163c "pdflatex"
-  "main.bbl" 1724600493 27811 170ea7ee146a432deb1c857451d8505c "biber main"
-  "main.out" 1724603278 4535 4b67f8ba1f826be6ee8ba5fb26f3f022 "pdflatex"
-  "main.run.xml" 1724603278 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.aux" 1724836482 98682 92896ef15e9ff31379e0e9e193ae1bab "pdflatex"
+  "main.bbl" 1724768089 39075 f5497ad6b6a12d1aeb3ad304138a5f3f "biber main"
+  "main.out" 1724836482 4708 c0783d84d275dff1a6fd360f8192f402 "pdflatex"
+  "main.run.xml" 1724836482 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
   "main.tex" 1721813894 2043 65a9ed115b0ecb561b5a5db4eff59ba0 ""
-  "main.toc" 1724603278 2038 907ccc2c6b7be04eda9dd9015089e825 "pdflatex"
+  "main.toc" 1724836482 2130 29510f029a6c6a220defd415676058ff "pdflatex"
   "packages.sty" 1718696909 1071 37999c7dc39ecddee1f6fb9783ee351f ""
   "title.tex" 1718696909 913 8a6cf4b0c216eca7b59e42c09a4c47b7 ""
   (generated)
