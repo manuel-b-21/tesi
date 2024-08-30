@@ -4,12 +4,26 @@
 \section{Mechanical Burridge-Knopoff model}
 \label{sec: mechanical bk}
 
-The Burridge-Knopoff (BK) spring-block model \cite{ref:bk} is a two-dimensional system of massive blocks
+Providing an accurate model of a complex physical system is often a hard, if not
+impossible, task. One of the most common and interesting situations occurs when a
+fairly simple model, which perhaps is far cry from the phenomenon
+behind the system, at least at first sight, actually shows a lot of properties that share
+very strong analogies with what happens in the real world. One of the most known
+and important examples of these systems are earthquakes.
+
+The dynamics of earthquakes is highly nonlinear and complex, and not yet fully
+understood. There are several models that try to simulate the statistical properties of
+a real earthquake. The most relevant of these properties is the Gutenberg-Richter law
+\cite{gutenberg1956energy}, a power-law that links the number of observed earthquakes to their magnitude,
+i.e. the energy released by the earthquake.
+
+One of the models that, when simulated, reproduces these properties fairly well is
+the Burridge-Knopoff (BK) spring-block model \cite{ref:bk}, a two-dimensional system of massive blocks
 lying on a rough horizontal surface. Each block is connected to its nearest neighbors by a set of springs,
 and linked through another spring to an upper horizontal ceiling moving with constant velocity with respect to the lower plate,
 as shown in Fig. \ref{fig bk}.
 
-\begin{figure}[H]
+\begin{figure}[h!]
     \centering
     \subfloat{\includegraphics[width=0.42\linewidth]{images/BK1.png}}\\[0.43cm]
     \subfloat{\includegraphics[width=0.42\linewidth]{images/BK2.png}}
@@ -40,7 +54,7 @@ a constant velocity $u_d$. Let $x_1$, $x_2$ be the displacements of the block po
 relative to a state in which the springs are relaxed, and $u_1$, $u_2$ the velocities of the blocks in the
 lower surface frame, so that $u_i=u_d+\dot{x}_i$ with $i=1,2$.
 
-\begin{figure}[H]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\linewidth]{images/bk_2_blocks.png}
     \caption{Two-blocks mechanical BK model. The upper ceiling, which the blocks
@@ -136,7 +150,7 @@ which makes use of resistors, capacitors, diodes and operational amplifiers, wit
 Assuming for a while that $\Delta V$ and the nonlinear element $\varphi(V_i/V_0)$ were not present,
 the two integrations above could be promptly implemented by considering the black part of the circuit diagram.
 
-\begin{figure}[H]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]
     {../blocks/1_block/breadboard/breadboard_implementation.png}
@@ -215,7 +229,7 @@ to the presence of the Schottky diodes, which prevent that the velocity becomes 
 discussed in Sec. \ref{sec: electronic analog}.
 In the end, both the frequency and the amplitude of the waves depend on the driving voltage $V_d$.
 
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{../blocks/1_block/breadboard/single_block.pdf}
     \caption{Oscillating behavior for the circuit implemented on
@@ -258,7 +272,7 @@ this hypothesis, an analysis on the behavior of two coupled blocks will be carri
 From now on, only the integrated board implementation will be considered, due to the scalability issues that were discussed
 beforehand.
 
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{../blocks/1_block/board_new/single_block.pdf}
     \caption{Oscillating behavior for the circuit implemented on
@@ -293,7 +307,7 @@ It is possible to notice that the dynamics is richer for $V_d\lesssim0.1$ V, whe
 In contrast, for $V_d\gtrsim0.1$ V, only one maximum can be observed; in this regime the system behaves similarly
 to the single block case, manifesting periodic sinusoidal-like oscillations.
 
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \begin{minipage}{.49\textwidth}
         \begin{subfigure}{\linewidth}
@@ -315,7 +329,7 @@ to the single block case, manifesting periodic sinusoidal-like oscillations.
     \label{fig:2 blocks waveforms}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.6\linewidth]{../blocks/2_blocks/bifurcation/bifurcation.pdf}
     \caption{Bifurcation diagram for two coupled blocks.
@@ -327,9 +341,9 @@ to the single block case, manifesting periodic sinusoidal-like oscillations.
 It is therefore safe to assume that, for low driving voltages $V_d$, the coupled system of two blocks shows a chaotic behavior.
 The reason why this does not occur at higher voltages might be that the driving force is so strong that the blocks
 behave independently of it. Nonetheless, these analyses are not enough to say that this circuit is actually a chaotic system.
-In order to prove this statement, it is necessary to define the mathemathical conditions that characterize
-a chaotic system.
-
+In Chapter \ref{chap: chaos} the mathemathical conditions that characterize
+a chaotic system are defined; making use of those, a method that establishes whether an experimental
+system is chaotic or not is presented.
 
 
 
