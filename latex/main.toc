@@ -19,6 +19,8 @@
 \contentsline {section}{\numberline {2.6}Correlation dimension}{19}{section.2.6}%
 \contentsline {section}{\numberline {2.7}The uniformity region}{20}{section.2.7}%
 \contentsline {section}{\numberline {2.8}A method for detecting chaos}{21}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Testing the procedure on a known chaotic system}{22}{section.2.9}%
+\contentsline {subsection}{\numberline {2.8.1}Testing the method}{22}{subsection.2.8.1}%
 \contentsline {chapter}{\numberline {3}Chaos analysis of the electronic Burridge-Knopoff model}{25}{chapter.3}%
-\contentsline {chapter}{Bibliography}{29}{chapter*.19}%
+\contentsline {section}{\numberline {3.1}Chaos analysis of two coupled blocks}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Chaos analysis of three coupled blocks}{26}{section.3.2}%
+\contentsline {chapter}{Bibliography}{29}{chapter*.20}%

@@ -1247,6 +1247,11 @@ INPUT ./3_chaos_analysis.tex
 INPUT 3_chaos_analysis.tex
 INPUT ./3_chaos_analysis.tex
 INPUT 3_chaos_analysis.tex
+INPUT ../blocks/2_blocks/1e5_points/plots/chaos.pdf
+INPUT ../blocks/2_blocks/1e5_points/plots/chaos.pdf
+INPUT ../blocks/2_blocks/1e5_points/plots/chaos.pdf
+INPUT ../blocks/2_blocks/1e5_points/plots/chaos.pdf
+INPUT ../blocks/2_blocks/1e5_points/plots/chaos.pdf
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

@@ -1,14 +1,15 @@
 # Fdb version 3
-["biber main"] 1725015720 "main.bcf" "main.bbl" "main" 1725025620
-  "main.bcf" 1725025620 113585 022c4a06045cf9036d564a5195125d0a "pdflatex"
-  "references.bib" 1725015715 10234 f9a773060b5661d900094c9a98bc1af2 ""
+["biber main"] 1725102027 "main.bcf" "main.bbl" "main" 1725102751
+  "main.bcf" 1725102751 113909 c4266b4f43ccea3f38943bda8d448340 "pdflatex"
+  "references.bib" 1725102027 10942 af0e51c5e539353b93cd19a740fc06b6 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1725025617 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1725025620
+["pdflatex"] 1725102746 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1725102751
   "../blocks/1_block/board_new/single_block.pdf" 1720166967 39100 0152d83fe6f36e70c393b6a6cfccd04f ""
   "../blocks/1_block/breadboard/breadboard_implementation.png" 1720166967 129312 7ceca366effdd62f1b098aa6d2817670 ""
   "../blocks/1_block/breadboard/single_block.pdf" 1720166967 25304 25df27ca9157c2d12d7401184b4c0134 ""
+  "../blocks/2_blocks/1e5_points/plots/chaos.pdf" 1720166967 118187 0d17c9d96945e0532ee5d8669fa77216 ""
   "../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf" 1720166967 61417 43dd1c81e5a07f0136ceacea9940cb70 ""
   "../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf" 1720166967 62458 704c9b101d1668c18498f0f6547af482 ""
   "../blocks/2_blocks/bifurcation/bifurcation.pdf" 1720166967 7789 82cc09678fa0353f325b9d557abb3b59 ""
@@ -196,10 +197,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1712243053 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712243161 2801282 2c606fb8afe9ab0f58f5ded3df82a40c ""
-  "0_introduction.tex" 1717669505 68 3d0fc056c0e0ccd2e8b3c12130f54ef0 ""
-  "1_electronic_analog.tex" 1725025457 20327 00c98d4aee7542731dc5297e09bde8f8 ""
-  "2_chaos.tex" 1725006810 36627 4eb42bd9b82fb85c79075b861dcd6c07 ""
-  "3_chaos_analysis.tex" 1725025614 96 93cf4920d6710cc2d470a1ae965b8880 ""
+  "0_introduction.tex" 1725098346 74 f7e8931de29152d5da04e1aa0b943d1f ""
+  "1_electronic_analog.tex" 1725098304 20325 9230391e2f10ba01a16b6e0fa21c3775 ""
+  "2_chaos.tex" 1725025747 36604 46cb10c57ba1efc230099662e52cfc15 ""
+  "3_chaos_analysis.tex" 1725102742 4620 41c769bd0cc184e410803f6f18928cea ""
   "images/BK1.png" 1659605922 87728 7037b8e2237260486ec46be513558d65 ""
   "images/BK2.png" 1659605957 43635 2c572144ebf82ead617fb7313e2e9d4e ""
   "images/Logo Unitn.jpg" 1717668612 19859 58b3574e840941ed0054e3f8fd777ee3 ""
@@ -213,12 +214,12 @@
   "images/lorenz_lyapunov.png" 1724949924 124793 61cf590202df09ffa6b90866c69f96d5 ""
   "images/lorenz_spectrum.png" 1724948016 50810 18fe5799c4416d802772c9fcec94ccb2 ""
   "images/rossler_embedding.png" 1724948514 427593 a607dee0f0fad0f8f94c0df15d8bf129 ""
-  "main.aux" 1725025620 33000 14a823f1784317bb177ab75617337c40 "pdflatex"
-  "main.bbl" 1725015720 49555 e7970dd66d2d02a07dba853c366fb41b "biber main"
-  "main.out" 1725025620 4902 bd63d4ad938a06975b8bf8fa6426e641 "pdflatex"
-  "main.run.xml" 1725025620 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.aux" 1725102751 36013 425be93b4c04343817e395e5b8d4b06c "pdflatex"
+  "main.bbl" 1725102028 53028 b687d677cf8526053e32dce70a6a8598 "biber main"
+  "main.out" 1725102751 5259 94dbbb7a163ef089f33d01e6c67d85b4 "pdflatex"
+  "main.run.xml" 1725102751 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
   "main.tex" 1725025614 55034 d30e008dd83fb7814812d41448e3c8ad ""
-  "main.toc" 1725025620 2116 1ccad3238018c25d3f1197d52a49bf0e "pdflatex"
+  "main.toc" 1725102751 2293 7878aa7a6b9490c78b1a765a91ce4a1d "pdflatex"
   "packages.sty" 1718696909 1071 37999c7dc39ecddee1f6fb9783ee351f ""
   "title.tex" 1718696909 913 8a6cf4b0c216eca7b59e42c09a4c47b7 ""
   (generated)

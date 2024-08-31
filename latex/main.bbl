@@ -1246,6 +1246,91 @@
       \field{pages}{1865\bibrangedash 1880}
       \range{pages}{16}
     \endentry
+    \entry{benettin1980lyapunov1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1cbb5d6a8fb1bffcf2d067150c5cc60a}{%
+           family={Benettin},
+           familyi={B\bibinitperiod},
+           given={Giancarlo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9a391da9548173ec8bf07892d5a9144b}{%
+           family={Galgani},
+           familyi={G\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=10dc1d404f21c2948f919f9e48960fde}{%
+           family={Giorgilli},
+           familyi={G\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f41c3aec7e830ed14952d4b3a5046ac0}{%
+           family={Strelcyn},
+           familyi={S\bibinitperiod},
+           given={Jean-Marie},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{56b6bebec55b31898d66020c466095db}
+      \strng{fullhash}{f46a381a04fe0d48d530de37afb3a06f}
+      \strng{bibnamehash}{56b6bebec55b31898d66020c466095db}
+      \strng{authorbibnamehash}{56b6bebec55b31898d66020c466095db}
+      \strng{authornamehash}{56b6bebec55b31898d66020c466095db}
+      \strng{authorfullhash}{f46a381a04fe0d48d530de37afb3a06f}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Meccanica}
+      \field{title}{Lyapunov characteristic exponents for smooth dynamical systems and for Hamiltonian systems; a method for computing all of them. Part 1: Theory}
+      \field{volume}{15}
+      \field{year}{1980}
+      \field{pages}{9\bibrangedash 20}
+      \range{pages}{12}
+    \endentry
+    \entry{benettin1980lyapunov2}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1cbb5d6a8fb1bffcf2d067150c5cc60a}{%
+           family={Benettin},
+           familyi={B\bibinitperiod},
+           given={Giancarlo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=91e3793214f77a045bfcc4900704298f}{%
+           family={Galgani},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dd67db545b325bec28daa80dea6f89ba}{%
+           family={Giorgilli},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=531fd42447ceaa5ffec3391b0403a702}{%
+           family={Strelcyn},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{56b6bebec55b31898d66020c466095db}
+      \strng{fullhash}{3c24a11e827bd1cc70723bc280445991}
+      \strng{bibnamehash}{56b6bebec55b31898d66020c466095db}
+      \strng{authorbibnamehash}{56b6bebec55b31898d66020c466095db}
+      \strng{authornamehash}{56b6bebec55b31898d66020c466095db}
+      \strng{authorfullhash}{3c24a11e827bd1cc70723bc280445991}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Meccanica}
+      \field{title}{Lyapunov characteristic exponents for smooth dynamical systems; a method for computing all of them. Part 2: Numerical application}
+      \field{volume}{15}
+      \field{year}{1980}
+      \field{pages}{21\bibrangedash 30}
+      \range{pages}{10}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
