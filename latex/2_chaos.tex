@@ -1,8 +1,6 @@
-\chapter{Chaos in theory and experiments}
-\label{chap: chaos}
+\chapter{Chaos in theory and experiments}\label{chap: chaos}
 
-\section{Dynamical systems}
-\label{sec: dynamical systems}
+\section{Dynamical systems}\label{sec: dynamical systems}
 
 The concept of dynamical systems is quite general, since anything that moves can be considered as a
 dynamical system~\cite{ref:fractal_dim}. If these changes are driven
@@ -36,13 +34,12 @@ Nonlinearity is a necessary (but not sufficient) condition for the system to be 
 In experimentally observed systems the state space is not always fully accessible; moreover,
 the evolution operator $\mathcal{E}_t$ is rarely known.
 Observing a system consists in recording some signal $y(t)$ out of it through some measurement
-function $\mathcal{M}$ acting on the system's state, i.e. $y(t)=\mathcal{M}[\mathbf{s}(t)]$.
+function $\mathcal{M}$ acting on the system's state, i.e.\ $y(t)=\mathcal{M}[\mathbf{s}(t)]$.
 This continuous signal is always sampled and digitized, producing a finite time series (or sequence)
-$\{y_n\}$ with $n=1,...,\ell$.
+$\{y_n\}$ with $n=1,\ldots,\ell$.
 
 
-\section{Formal definition of chaos}
-\label{sec: chaos in theory}
+\section{Formal definition of chaos}\label{sec: chaos in theory}
 
 An universally accepted mathematical definition of chaos does not exists but
 a commonly used definition is the following, originally formulated by Robert L.
@@ -88,13 +85,12 @@ Going into detail:
     cannot be decomposed into disjoint subsets.
 
     \item[(iii)] Density of periodic orbits means that for any given point in the state space
-    there is a periodic orbit that passes arbitrarily close to it, i.e. periodic orbits make up a dense set.
+    there is a periodic orbit that passes arbitrarily close to it, i.e.\ periodic orbits make up a dense set.
 
 \end{itemize}
 
 
-\section{The issue of detecting chaos}
-\label{sec: chaos in experiments}
+\section{The issue of detecting chaos}\label{sec: chaos in experiments}
 
 When dealing with experimentally observed systems, the precise laws that describe the dynamics are unknown.
 What is known is the time series, which can be used to assess condition (i) of Devaney's definition
@@ -109,7 +105,7 @@ of self-affinity, since in the case of self-similarity the
 object is scaled by the same amount in all space directions, but in self-affinity scaling is not
 necessary identical in all directions~\cite{ref:mandelbrot_fractal}.}) and have a non-integer dimensionality.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=.6\linewidth]{images/lorenz_attractor.png}
 \caption{
@@ -124,7 +120,7 @@ We know in general that if we have an object of dimension $D$ (assuming that
 it has a mass density), taking an arbitrary point in it and considering an open
 ball centered in that point, we can measure the mass contained in the ball as
 a function of the radius. For small distances $m(r)\propto r^D$. For the same density
-and radius, the fractal ``weighs" more than a line but less then a surface, as if
+and radius, the fractal ``weighs'' more than a line but less then a surface, as if
 a dense set (which is the set of the periodic points) had been removed from the
 surface.
 
@@ -134,12 +130,12 @@ as can be seen in Fig.~\ref{fig: henon fractal}. Despite strange attractors
 also existing in non-chaotic systems~\cite{ref:strange_attractors_non_chaotic}, the estimate of the system's non-integer dimension
 is often used as a tool to identify chaos.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=\linewidth]{images/henon_fractal.png}
     \caption{Self-similarity of the Henon attractor: at all magnification levels the same
-    qualitative structures are visible. Figure adapted from Ref.~\cite{henon2004two}.}
-    \label{fig: henon fractal}
+    qualitative structures are visible. Figure adapted from Ref.~\cite{henon2004two}.
+    }\label{fig: henon fractal}
 \end{figure}
 
 Another important property allows
@@ -148,9 +144,9 @@ strange attractor and the time series arising by chaotic systems are aperiodic
 and characterized by broad, noise-like Fourier spectra, as can be seen in Fig.~\ref{fig: lorenz spectrum}.
 This also means that linear techniques
 such as fast Fourier transform (FFT) applied to sequences cannot distinguish between a chaotic system
-and a stochastic one, e.g. a Gaussian white noise source (GWN).
+and a stochastic one, e.g.\ a Gaussian white noise source (GWN).
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=.6\linewidth]{images/lorenz_spectrum.png}
     \caption{
@@ -166,21 +162,19 @@ with two or less independent variables the trajectory will eventually intersect 
 cannot happen due to the aperiodic nature of chaotic dynamics.
 
 
-\section{The embedding procedure}
-\label{sec: embedding}
+\section{The embedding procedure}\label{sec: embedding}
 
 In experimentally observed systems it is only possible to utilize the finite time series $\{y_n\}$,
-with the aim to at least obtain some invariant quantities, e.g. the maximum Lyapunov exponent or
-the ``effective" dimension of the system. Under certain conditions, a procedure exists with which
+with the aim to at least obtain some invariant quantities, e.g.\ the maximum Lyapunov exponent or
+the ``effective'' dimension of the system. Under certain conditions, a procedure exists with which
 it is possible to reconstruct the entire state space using only one variable, which is a
-function of the state space vector $\mathbf{s}(t)$. This procedure is called ``time delay embedding''
-\cite{ref:packard1980geometry}.
+function of the state space vector $\mathbf{s}(t)$. This procedure is called ``time delay embedding''~\cite{ref:packard1980geometry}.
 
 Embedding consists in building a sequence of $m$-dimensional vectors $\mathbf{Y}_n$ by picking
 $m$ time-delayed samples of the sequence $y_n$, i.e.:
 \begin{equation}
     \label{eq: embedding}
-    \mathbf{Y}_n=\left(y_n,y_{n+L},y_{n+2L},...,y_{n+(m-1)L}\right),
+    \mathbf{Y}_n=\left(y_n,y_{n+L},y_{n+2L},\ldots,y_{n+(m-1)L}\right),
 \end{equation}
 where the parameter $L$ is an integer number and is called ``lag''. It is perfectly equivalent to make use of
 a ``causal'' version of Eq.~\ref{eq: embedding} in which the chosen samples are $y_{n-kL}$ instead of
@@ -190,7 +184,7 @@ An example of embedding can be seen in Fig.~\ref{fig: rossler embedding}.
 This procedure maps the time series into a ``reconstructed space'' in which the trajectory
 somehow resembles a strange attractor.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=\linewidth]{images/rossler_embedding.png}
     \caption{
@@ -235,13 +229,12 @@ $\mathbf{Y}_n$ will be strongly correlated, resulting in all the points being cl
 diagonal of the reconstructed space (see Fig.~\ref{fig: rossler embedding}b);
 in presence of noise, therefore, the trajectory would be
 indistinguishable from the diagonal itself. On the other hand, a too large $L$ presents the opposite
-problem, i.e. the elements of $\mathbf{Y}_n$ to be completely uncorrelated with each other;
+problem, i.e.\ the elements of $\mathbf{Y}_n$ to be completely uncorrelated with each other;
 this implies that the time evolution is ``blurred'', in the sense that the trajectory is folded over on itself
 and the system evolution is lost.
 
 
-\subsection{The embedding lattice}
-\label{subsec: embedding lattice}
+\subsection{The embedding lattice}\label{subsec: embedding lattice}
 
 Since a single optimal choice for $(m,L)$ does
 not necessarily exist, the embedding of the sequence can be carried out for several values of the
@@ -254,8 +247,8 @@ Suitable embedding choices are expected to comply with two requirements concerni
 corresponding embedding window $w=(m-1)LT$, which corresponds to the
 time span covered by each embedding vector.
 On the one hand, the embedding window has to be larger than the redundance time $\tau_R$, so that
-the points in the reconstructed space are not too close to the diagonal, as discussed in Section
-\ref{sec: embedding}. On the other hand, the embedding window has to be
+the points in the reconstructed space are not too close to the diagonal, as discussed in Section~\ref{sec: embedding}.
+On the other hand, the embedding window has to be
 smaller than the irrelevance time $\tau_I$, after which the points are causally disconnected
 and the noise overcomes the dynamics.
 
@@ -266,8 +259,7 @@ within the embedding lattice, and the region bounded by them is where suitable
 embedding choices can be expected.
 
 
-\section{Maximum Lyapunov exponent}
-\label{sec: mle}
+\section{Maximum Lyapunov exponent}\label{sec: mle}
 
 It is now important to formally define the invariant
 quantities that will be used to decide if an experimentally observed system is chaotic or not,
@@ -292,18 +284,17 @@ the associated Lyapunov exponent is zero. Finally, in Fig.~\ref{fig: lorenz lyap
 decay of a transient or perturbation to the attractor is illustrated.
 The associated exponent is negative.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{images/lorenz_lyapunov.png}   
 \caption{
     Short-term evolution of the separation vector between three pairs of
-    nearby points is for the Lorenz attractor \cite{lorenz1963deterministic}.
+    nearby points is for the Lorenz attractor~\cite{lorenz1963deterministic}.
     The true magnitude of the evolving
     vector appears to the right of each figure, (a) An expanding direction ($\lambda_1>0$). (b)
     A slower than exponential direction ($\lambda_2=0$). (c) A contracting direction ($\lambda_3<0$).
-    Figure adapted from Ref. \cite{wolf1986quantifying}.
-}
-\label{fig: lorenz lyapunov}
+    Figure adapted from Ref.~\cite{wolf1986quantifying}.
+}\label{fig: lorenz lyapunov}
 \end{figure}
 
 It is possible to estimate the MLE through the embedded sequence by making use of the so-called
@@ -311,7 +302,7 @@ divergence rate method~\cite{ref:gao1993local}. This method
 is based on the evaluation of the time-dependent divergence exponent $\Lambda(k)$,
 which quantifies the average separation of nearby trajectories.
 The estimation of this exponent is done by selecting random pairs $(i,j)$ of neighboring vectors
-in the embedded sequence $\{\mathbf{Y}_n\}$, i.e. such that $||\mathbf{Y}_i-\mathbf{Y}_j||<r$,
+in the embedded sequence $\{\mathbf{Y}_n\}$, i.e.\ such that $||\mathbf{Y}_i-\mathbf{Y}_j||<r$,
 where $r$ is some ``shell radius''; the divergence exponent is then calculated as:
 \begin{equation}
     \label{eq: divergence exponent}
@@ -326,44 +317,41 @@ measures the progressive separation, as a function of the time delay $k$, of the
 to initially close points $\mathbf{Y}_i,\mathbf{Y}_j$.
 The initial proximity of the vector pairs is tuned by changing the shell
 radius $r$, which is typically estimated as the distance corresponding to the a given percentile $p$ of the
-sample distribution of all Euclidean distances 
-\cite{ref:franchi2014statistical,ref:ricci2020asymptotic}.
+sample distribution of all Euclidean distances~\cite{ref:franchi2014statistical,ref:ricci2020asymptotic}.
 
 A source of error regarding the estimation of the MLE are temporal correlations within the input sequence.
 This issue can be avoided by selecting pairs of points that are distant in time more than some delay
-$c_0$, i.e. constraining $|i-j|\geq c_0$. Typically, $c_0$ is chosen to be the first zero of the
+$c_0$, i.e.\ constraining $|i-j|\geq c_0$. Typically, $c_0$ is chosen to be the first zero of the
 autocorrelation function~\cite{ref:theiler1986spurious} or its first minimum~\cite{ref:albano1995kolmogorov}.
 
 If the underlying system is chaotic, $\Lambda(k)$ is expected to grow linearly with $k$,
 as a result of the exponentially increasing numerator within the logarithm of Eq.~\ref{eq: divergence exponent}.
-Suitably fitting this linear growth provides the value of the MLE.
-The growth of $\Lambda(k)$ cannot continue for arbitrarily large values of $k$:
+Suitably fitting this linear growth provides the value of the MLE\@. The growth
+of $\Lambda(k)$ cannot continue for arbitrarily large values of $k$:
 eventually, the separation becomes comparable to the size of the attractor
 and the divergence exponent saturates.
 This can be seen in Fig.~\ref{fig: lorenz divergence}.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=.6\linewidth]{images/lorenz_divergence.png}
 \caption{
-    Time-dependent divergence exponent $\Lambda(k)$ for the Lorenz attractor \cite{lorenz1963deterministic},
+    Time-dependent divergence exponent $\Lambda(k)$ for the Lorenz attractor~\cite{lorenz1963deterministic},
     obtained by using the embedding pair
     $(3,3)$. The different plots correspond to eight different values of $r$:
     0.01\%, 0.03\%, 0.1\%, 0.3\%, 1\%, 3\%, 10\%, and 30\%. For the sake of
     clarity, only one point every five is plotted.
-    Figure adapted from Ref. \cite{ref:franchi2014statistical}.
-}
-\label{fig: lorenz divergence}
+    Figure adapted from Ref.~\cite{ref:franchi2014statistical}.
+}\label{fig: lorenz divergence}
 \end{figure}
 
 
-\section{Correlation dimension}
-\label{sec: correlation dimension}
+\section{Correlation dimension}\label{sec: correlation dimension}
 
 The second fundamental invariant quantity that characterizes a chaotic system is
 the correlation dimension~\cite{ref:abarbanel_fourier_spectra}.
 The simplest definition of dimension is the (integer) number of coordinates that are
-needed to specify a state, e.g. the number of differential equations of a system.
+needed to specify a state, e.g.\ the number of differential equations of a system.
 This is the geometrically related to the concept of how (hyper) volumes scale as a
 function of a characteristic length parameter.
 One way to estimate the dimension of a set of points is the box-counting method, which consists in partitioning the space in
@@ -438,8 +426,7 @@ where $\theta(x)$ is the Heaviside function and the superscript $^{m,L}$ indicat
 sample correlation integral on the embedding parameters. 
 
 Like in Section~\ref{sec: mle}, it is important that the time separation between
-the pairs $(i,j)$ is greater than the autocorrelation time, i.e. $|i-j|\geq c_0$ 
-\cite{ref:theiler1986spurious,ref:albano1995kolmogorov}.
+the pairs $(i,j)$ is greater than the autocorrelation time, i.e.\ $|i-j|\geq c_0$~\cite{ref:theiler1986spurious,ref:albano1995kolmogorov}.
 Ignoring this issue can lead to underestimates of the dimension $D_2$~\cite{ref:theiler1986spurious}
 or spurious contributions even in the case of stochastic sequences~\cite{ref:osborne1989finite}.
 
@@ -448,7 +435,7 @@ $\Lambda(k)$. As was already discussed in Section~\ref{sec: mle}, if $\Lambda(k)
 linear behavior it is possible to estimate the MLE as the slope of the curve.
 
 For sufficiently large values of $k$, the divergence exponent $\Lambda(k)$
-reaches a saturation value $\Lambda_{\text{pl}}$, referred to as a ``plateau" (see Fig.~\ref{fig: lorenz divergence}).
+reaches a saturation value $\Lambda_{\text{pl}}$, referred to as a ``plateau'' (see Fig.~\ref{fig: lorenz divergence}).
 In the case of a chaotic source of finite correlation dimension $\nu$, the plateau
 turns out to linearly depend on the logarithm of the percentile $p$~\cite{ref:perinelli2020chasing}:
 \begin{equation}
@@ -461,13 +448,12 @@ sample correlation dimension $\nu$ out of an input scalar sequence by
 carrying out a linear fit on a set of $(\log p, \Lambda_{\text{pl}})$ data points.
 
 
-\section{The uniformity region}
-\label{sec: uniformity region}
+\section{The uniformity region}\label{sec: uniformity region}
 
 It is now possible to define a criterion that establishes whether and embedding
 pair $(m,L)$ correctly reconstructs the state space or not.
 A possible approach consists in searching for a so-called ``uniformity region'' in the embedding
-lattice~\cite{ref:perinelli2020chasing}, i.e. a region in which the correlation dimension $\nu$
+lattice~\cite{ref:perinelli2020chasing}, i.e.\ a region in which the correlation dimension $\nu$
 does not change significantly.
 
 If a system having dimension $D$ is embedded with $m < D$, the full dimensionality of the system cannot
@@ -485,8 +471,7 @@ the entirety of this region. This uniformity region is the one in which the embe
 the redundance time $\tau_R$ and the irrelevance time $\tau_I$.
 
 
-\section{A method for detecting chaos}
-\label{sec: method for chaos}
+\section{A method for detecting chaos}\label{sec: method for chaos}
 
 The most utilized tools for detecting chaos, namely the embedding lattice, the maximum Lyapunov exponent
 and the correlation dimension, have now been introduced.
@@ -520,9 +505,9 @@ deviation of a set of $N_\Lambda$ different calculations, respectively,
 \begin{aligned}
     \label{eq: sample mean divergence exponent}
     \Lambda^{m,L}(k)&=\frac{1}{N_\Lambda}\sum_{i=1}^{N_\Lambda}\Lambda_i^{m,L}(k),\\
-    \sigma_{\Lambda^{m,L}}(k) &= \frac{1}{N_\Lambda-1}\sum_{i=1}^{N_\Lambda}\left[
+    \sigma_{\Lambda^{m,L}}(k) &= \frac{1}{N_\Lambda-1}\sum_{i=1}^{N_\Lambda}{\left[
         \Lambda_i^{m,L}(k)-\Lambda^{m,L}(k)
-    \right]^2.
+    \right]}^2.
 \end{aligned}
 \end{equation}
 
@@ -558,8 +543,7 @@ maximum Lyapunov exponent can be calculated from the divergence exponent. Moreov
 values of the embedding parameters can be deemed as valid with this method.
 
 
-\subsection{Testing the method}
-\label{subsec: testing the procedure}
+\subsection{Testing the method}\label{subsec: testing the procedure}
 
 In order to test if this approach actually works, this method has been tested on many of the most
 common chaotic systems~\cite{ref:perinelli2020chasing}. 
@@ -583,16 +567,15 @@ The sequence to analyze corresponds to $10^5$ samples of the $x$ coordinate of t
 The embedding lattice was set as $m\in[2,20]$ and $L\in[1,20]$. 
 The correlation dimension for each value of the embedding pair is shown in Fig.~\ref{fig: Lorenz heatmap}.
 A uniformity region can be identified around $\nu\simeq2.05$.
-In order to improve this estimate, the joint distribution, i.e. the correlation dimension as a function
+In order to improve this estimate, the joint distribution, i.e.\ the correlation dimension as a function
 of the embedding window, is shown in Fig.~\ref{fig: Lorenz joint}.
 Here the uniformity region is more visible, providing estimates for $\tau_R$ and $\tau_I$, as well as
 improving the evaluation of the correlation dimension, which now yields $\nu=2.051 \pm 0.008$.
 This value is in agreement with
-conventional assessments made by applying the standard Grassberger-Procaccia method
-\cite{ref:bradley2015nonlinear,sprott2001improved}
+conventional assessments made by applying the standard Grassberger-Procaccia method~\cite{ref:bradley2015nonlinear,sprott2001improved}
 and improves the uncertainty by more than one order of magnitude.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=.6\linewidth]{images/heatmap_Lorenz.png}
 \caption{Correlation dimension of a Lorenz sequence as a function of the embedding parameters, using an embedding lattice
@@ -603,11 +586,10 @@ The black solid line encompasses the lattice region corresponding to $\nu=2.05\p
 The black dash-dotted curves are two hyperbolae bounding the region of uniform $\nu$ and
 are defined by $(m-1)LT=0.4$ and $(m-1)LT=1.8$.
 Figure adapted from Ref.~\cite{ref:perinelli2020chasing}.
-}
-\label{fig: Lorenz heatmap}
+}\label{fig: Lorenz heatmap}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=.6\linewidth]{images/joint_Lorenz.png}
     \caption{Sample joint distribution of the correlation dimension $\nu$ as a function of the
@@ -618,8 +600,7 @@ Figure adapted from Ref.~\cite{ref:perinelli2020chasing}.
     corresponding to embedding windows between $0.75$ and $1.65$. Averaging $\nu$ within
     the uniformity region yields $2.051 \pm 0.008$.
     Figure adapted from Ref.~\cite{ref:perinelli2020chasing}.
-    }
-    \label{fig: Lorenz joint}
+    }\label{fig: Lorenz joint}
 \end{figure}
 
 The robustness of this approach can be furtherly tested by affecting the Lorenz sequence with
@@ -638,12 +619,12 @@ The signal-to-noise-ratio (SNR) of a sequence is then defined as:
 \end{equation}
 where $\sigma_x=7.93$ is the standard deviation of the Lorenz sequence used in~\cite{ref:perinelli2020chasing}.
 
-The sample joint distributions of the Lorenz sequence contaminated by noise are shown in Fig.
-\ref{fig: Lorenz noise joint} for SNR equal to 30 dB (a), 20 dB (b) and 10 dB (c).
+The sample joint distributions of the Lorenz sequence contaminated by noise are shown in Fig.~\ref{fig: Lorenz noise joint}
+for SNR equal to 30 dB (a), 20 dB (b) and 10 dB (c).
 The uniformity region can only be identified in the 30 dB case, although the corresponding estimated
 correlation dimension $\nu$ is about $15\%$ higher with respect to the noiseless case.
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=\linewidth]{images/joint_Lorenz_noise.png}
     \caption{Sample joint distribution of the correlation dimension $\nu$ as a function of the
@@ -655,8 +636,7 @@ correlation dimension $\nu$ is about $15\%$ higher with respect to the noiseless
     $\nu$ for each given value (bin) of the embedding window. A uniformity region can be identified
     only in the case in which $\text{SNR}=30~\text{dB}$.
     Figure adapted from Ref.~\cite{ref:perinelli2020chasing}.
-    }
-    \label{fig: Lorenz noise joint}
+    }\label{fig: Lorenz noise joint}
 \end{figure}
 
 In conclusion, the method described in Section~\ref{sec: method for chaos} seems able to correctly identify

@@ -1032,17 +1032,17 @@
         {{hash=0a2980cd86d920089fb02a247685ab19}{%
            family={Albano},
            familyi={A\bibinitperiod},
-           given={Alfonso\bibnamedelima M},
+           given={Alfonso\bibnamedelima M.},
            giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
         {{hash=3045eca2713a82a36865704034361c46}{%
            family={Rapp},
            familyi={R\bibinitperiod},
-           given={PE},
+           given={P.E.},
            giveni={P\bibinitperiod}}}%
         {{hash=ff52c3717e0932280ec9871653193467}{%
            family={Passamante},
            familyi={P\bibinitperiod},
-           given={A},
+           given={A.},
            giveni={A\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
