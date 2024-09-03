@@ -5,13 +5,29 @@
 \contentsline {subsection}{\numberline {1.1.1}Motion of two coupled blocks}{2}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Dimensionless system}{3}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}Electronic analog for the motion of two blocks}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Characterization of the single block behavior}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Breadboard implementation}{5}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.3}Characterization of the single block behavior}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Breadboard implementation}{6}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Integrated board implementation}{6}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Characterization of the double block behavior}{7}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Chaos analysis of multiple coupled blocks}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Chaos plots}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Conclusions}{48}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Attractor plots}{49}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Earthquake simulation}{55}{chapter.3}%
-\contentsline {chapter}{Bibliography}{57}{chapter*.52}%
+\contentsline {section}{\numberline {1.4}Characterization of the double block behavior}{8}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Chaos in theory and experiments}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Dynamical systems}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Formal definition of chaos}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}The issue of detecting chaos}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.4}The embedding procedure}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}The embedding lattice}{16}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Maximum Lyapunov exponent}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Correlation dimension}{19}{section.2.6}%
+\contentsline {section}{\numberline {2.7}The uniformity region}{20}{section.2.7}%
+\contentsline {section}{\numberline {2.8}A method for detecting chaos}{21}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Testing the method}{22}{subsection.2.8.1}%
+\contentsline {chapter}{\numberline {3}Chaos analysis of the electronic Burridge-Knopoff model}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Two coupled blocks}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Three coupled blocks}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Block on the boundary}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Block in the center}{28}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}The effects of the oscilloscope quantization}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Multiple coupled blocks}{32}{section.3.4}%
+\contentsline {chapter}{Appendices}{37}{section*.31}%
+\contentsline {chapter}{\numberline {A}Chaos analysis for oscilloscope quantization}{39}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}Chaos analysis on multiple coupled blocks}{41}{appendix.1.B}%
+\contentsline {chapter}{Bibliography}{59}{appendix*.65}%

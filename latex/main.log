@@ -1,25 +1,25 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.25)  19 JUL 2024 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  3 SEP 2024 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main
-(./main.tex
+**/home/manuel/Desktop/tesi/latex/main.tex
+(/home/manuel/Desktop/tesi/latex/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count181
-\c@chapter=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -33,9 +33,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count190
-\Gm@cntv=\count191
-\c@Gm@tempcnt=\count192
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -47,14 +47,14 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@dimlist=\toks17
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count193
+\c@tracingmulticols=\count197
 \mult@box=\box50
 \multicol@leftmargin=\dimen147
-\c@unbalance=\count194
-\c@collectmore=\count195
-\doublecol@number=\count196
-\multicoltolerance=\count197
-\multicolpretolerance=\count198
+\c@unbalance=\count198
+\c@collectmore=\count199
+\doublecol@number=\count266
+\multicoltolerance=\count267
+\multicolpretolerance=\count268
 \full@width=\dimen148
 \page@free=\dimen149
 \premulticols=\dimen150
@@ -104,31 +104,27 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box90
 \@tempa=\box91
 \@tempa=\box92
-\c@minrows=\count199
-\c@columnbadness=\count266
-\c@finalcolumnbadness=\count267
+\c@minrows=\count269
+\c@columnbadness=\count270
+\c@finalcolumnbadness=\count271
 \last@try=\dimen153
 \multicolovershoot=\dimen154
 \multicolundershoot=\dimen155
 \mult@nat@firstbox=\box93
 \colbreak@box=\box94
-\mc@col@check@num=\count268
+\mc@col@check@num=\count272
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 149.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+Package color Info: Driver file: pdftex.def on input line 149.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
@@ -146,22 +142,23 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@old@col=\dimen160
 \TX@target=\dimen161
 \TX@delta=\dimen162
-\TX@cols=\count269
+\TX@cols=\count273
 \TX@ftn=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
  (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks22
 \minrowclearance=\skip53
 )
 LaTeX Info: Redefining \color on input line 711.
-\rownum=\count270
+\rownum=\count274
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
 Package xcolor Info: Model `RGB' extended on input line 1368.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
@@ -182,36 +179,36 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen169
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count271
-\c@continuedfloat=\count272
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count273
-\c@subtable=\count274
+\c@subfigure=\count277
+\c@subtable=\count278
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/01/26 3.70 The Babel package
-\babel@savecnt=\count275
+\babel@savecnt=\count279
 \U@D=\dimen170
 \l@unhyphenated=\language87
- (/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count276
+\bbl@dirlevel=\count280
  (/usr/share/texlive/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2020/05/21 v.1.4.04 Italian support for the babel system
-\it@lettering=\count277
-\it@doublequoteactive=\count278
-\it@ISOcompliance=\count279
+\it@lettering=\count281
+\it@doublequoteactive=\count282
+\it@ISOcompliance=\count283
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language26). Reported on input line 105.
+(babel)             (\language59). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language26). Reported on input line 108.
+(babel)             (\language59). Reported on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count280
+\etb@tempcnta=\count284
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -239,13 +236,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count281
+\inf@bad=\count285
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count282
-\leftroot@=\count283
+\uproot@=\count286
+\leftroot@=\count287
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count284
-\DOTSCASE@=\count285
+\classnum@=\count288
+\DOTSCASE@=\count289
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -254,15 +251,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen173
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count286
-\c@MaxMatrixCols=\count287
+\macc@depth=\count290
+\c@MaxMatrixCols=\count291
 \dotsspace@=\muskip16
-\c@parentequation=\count288
-\dspbrk@lvl=\count289
+\c@parentequation=\count292
+\dspbrk@lvl=\count293
 \tag@help=\toks25
-\row@=\count290
-\column@=\count291
-\maxfields@=\count292
+\row@=\count294
+\column@=\count295
+\maxfields@=\count296
 \andhelp@=\toks26
 \eqnshift@=\dimen174
 \alignsep@=\dimen175
@@ -287,7 +284,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 ) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -304,10 +301,12 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen180
-\Hy@linkcounter=\count293
-\Hy@pagecounter=\count294
+\Hy@linkcounter=\count297
+\Hy@pagecounter=\count298
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
 File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
 ) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -315,9 +314,11 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count295
+\Hy@SavedSpaceFactor=\count299
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
@@ -326,7 +327,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count296
+\c@Hy@tempcnt=\count300
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -338,7 +339,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count297
+\Fld@menulength=\count301
 \Field@Width=\dimen182
 \Fld@charsize=\dimen183
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -354,27 +355,22 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count298
-\c@Item=\count299
-\c@Hfootnote=\count300
+\Hy@abspage=\count302
+\c@Item=\count303
+\c@Hfootnote=\count304
 )
-Package hyperref Info: Driver (autodetected): hxetex.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
- (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-)
-\pdfm@box=\box99
-\c@Hy@AnnotLevel=\count301
-\HyField@AnnotCount=\count302
-\Fld@listcount=\count303
-\c@bookmark@seq@number=\count304
- (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
  (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-) (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)
+\Fld@listcount=\count305
+\c@bookmark@seq@number=\count306
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
@@ -382,22 +378,22 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip57
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count305
+\c@float@type=\count307
 \float@exts=\toks29
-\float@box=\box100
+\float@box=\box99
 \@float@everytoks=\toks30
-\@floatcapt=\box101
+\@floatcapt=\box100
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count306
-\calc@Bcount=\count307
+\calc@Acount=\count308
+\calc@Bcount=\count309
 \calc@Adimen=\dimen184
 \calc@Bdimen=\dimen185
 \calc@Askip=\skip58
 \calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count308
+\calc@Ccount=\count310
 \calc@Cskip=\skip60
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
@@ -406,7 +402,7 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen186
@@ -415,12 +411,12 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 Package hyperref Info: Option `colorlinks' set `true' on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count309
-\csq@gtype=\count310
-\csq@glevel=\count311
-\csq@qlevel=\count312
-\csq@maxlvl=\count313
-\csq@tshold=\count314
+\csq@reset=\count311
+\csq@gtype=\count312
+\csq@glevel=\count313
+\csq@qlevel=\count314
+\csq@maxlvl=\count315
+\csq@tshold=\count316
 \csq@ltx@everypar=\toks31
  (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -433,17 +429,10 @@ File: csquotes.cfg
 Package: physics 
  (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-01-21 L3 programming layer (loader) 
- (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
- (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count315
-\l__color_backend_stack_int=\count316
-\g__color_backend_stack_int=\count317
-\g__graphics_track_int=\count318
-\l__pdf_internal_box=\box102
-\g__pdf_backend_object_int=\count319
-\g__pdf_backend_annotation_int=\count320
-\g__pdf_backend_link_int=\count321
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count317
+\l__pdf_internal_box=\box101
 ))
 Package: xparse 2022-01-12 L3 Experimental document command parser
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
@@ -463,7 +452,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks32
 \XKV@tempa@toks=\toks33
 )
-\XKV@depth=\count322
+\XKV@depth=\count318
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -471,15 +460,15 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box103
+\collectedbox=\box102
 )
 \tc@llx=\dimen188
 \tc@lly=\dimen189
 \tc@urx=\dimen190
 \tc@ury=\dimen191
-Package trimclip Info: Using driver 'tc-xetex.def'.
- (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def
-File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen192
 \adjbox@Height=\dimen193
@@ -491,11 +480,11 @@ File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 \adjbox@ptotalheight=\dimen199
  (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count323
+\c@checkoddpage=\count319
 ) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box104
-\sift@deathcycles=\count324
+\@vwid@box=\box103
+\sift@deathcycles=\count320
 \@vwid@loff=\dimen256
 \@vwid@roff=\dimen257
 )) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -503,9 +492,9 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip61
 \enit@outerparindent=\dimen258
 \enit@toks=\toks34
-\enit@inbox=\box105
-\enit@count@id=\count325
-\enitdp@description=\count326
+\enit@inbox=\box104
+\enit@count@id=\count321
+\enitdp@description=\count322
 ) (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup9
@@ -516,8 +505,8 @@ Package: import 2020/04/01  v 6.2
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks35
-\AP@partial=\box106
-\AP@footins=\box107
+\AP@partial=\box105
+\AP@footins=\box106
 ) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip62
@@ -529,60 +518,65 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@erf=\skip68
 \f@nch@O@olf=\skip69
 \f@nch@O@orf=\skip70
-)) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+ Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count323
+\c@@ppsavesec=\count324
+\c@@ppsaveapp=\count325
+)) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count327
+\lrq@indent=\count326
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count328
-\c@listtotal=\count329
-\c@listcount=\count330
-\c@liststart=\count331
-\c@liststop=\count332
-\c@citecount=\count333
-\c@citetotal=\count334
-\c@multicitecount=\count335
-\c@multicitetotal=\count336
-\c@instcount=\count337
-\c@maxnames=\count338
-\c@minnames=\count339
-\c@maxitems=\count340
-\c@minitems=\count341
-\c@citecounter=\count342
-\c@maxcitecounter=\count343
-\c@savedcitecounter=\count344
-\c@uniquelist=\count345
-\c@uniquename=\count346
-\c@refsection=\count347
-\c@refsegment=\count348
-\c@maxextratitle=\count349
-\c@maxextratitleyear=\count350
-\c@maxextraname=\count351
-\c@maxextradate=\count352
-\c@maxextraalpha=\count353
-\c@abbrvpenalty=\count354
-\c@highnamepenalty=\count355
-\c@lownamepenalty=\count356
-\c@maxparens=\count357
-\c@parenlevel=\count358
-\blx@tempcnta=\count359
-\blx@tempcntb=\count360
-\blx@tempcntc=\count361
-\c@blx@maxsection=\count362
-\c@blx@maxsegment@0=\count363
-\blx@notetype=\count364
-\blx@parenlevel@text=\count365
-\blx@parenlevel@foot=\count366
-\c@blx@sectionciteorder@0=\count367
-\blx@entrysetcounter=\count368
-\blx@biblioinstance=\count369
+\c@tabx@nest=\count327
+\c@listtotal=\count328
+\c@listcount=\count329
+\c@liststart=\count330
+\c@liststop=\count331
+\c@citecount=\count332
+\c@citetotal=\count333
+\c@multicitecount=\count334
+\c@multicitetotal=\count335
+\c@instcount=\count336
+\c@maxnames=\count337
+\c@minnames=\count338
+\c@maxitems=\count339
+\c@minitems=\count340
+\c@citecounter=\count341
+\c@maxcitecounter=\count342
+\c@savedcitecounter=\count343
+\c@uniquelist=\count344
+\c@uniquename=\count345
+\c@refsection=\count346
+\c@refsegment=\count347
+\c@maxextratitle=\count348
+\c@maxextratitleyear=\count349
+\c@maxextraname=\count350
+\c@maxextradate=\count351
+\c@maxextraalpha=\count352
+\c@abbrvpenalty=\count353
+\c@highnamepenalty=\count354
+\c@lownamepenalty=\count355
+\c@maxparens=\count356
+\c@parenlevel=\count357
+\blx@tempcnta=\count358
+\blx@tempcntb=\count359
+\blx@tempcntc=\count360
+\c@blx@maxsection=\count361
+\c@blx@maxsegment@0=\count362
+\blx@notetype=\count363
+\blx@parenlevel@text=\count364
+\blx@parenlevel@foot=\count365
+\c@blx@sectionciteorder@0=\count366
+\blx@entrysetcounter=\count367
+\blx@biblioinstance=\count368
 \labelnumberwidth=\skip71
 \labelalphawidth=\skip72
 \biblabelsep=\skip73
@@ -594,9 +588,9 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language88
-\c@mincomprange=\count370
-\c@maxcomprange=\count371
-\c@mincompwidth=\count372
+\c@mincomprange=\count369
+\c@maxcomprange=\count370
+\c@mincompwidth=\count371
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -606,74 +600,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count373
-\c@savedafterword=\count374
-\c@annotator=\count375
-\c@savedannotator=\count376
-\c@author=\count377
-\c@savedauthor=\count378
-\c@bookauthor=\count379
-\c@savedbookauthor=\count380
-\c@commentator=\count381
-\c@savedcommentator=\count382
-\c@editor=\count383
-\c@savededitor=\count384
-\c@editora=\count385
-\c@savededitora=\count386
-\c@editorb=\count387
-\c@savededitorb=\count388
-\c@editorc=\count389
-\c@savededitorc=\count390
-\c@foreword=\count391
-\c@savedforeword=\count392
-\c@holder=\count393
-\c@savedholder=\count394
-\c@introduction=\count395
-\c@savedintroduction=\count396
-\c@namea=\count397
-\c@savednamea=\count398
-\c@nameb=\count399
-\c@savednameb=\count400
-\c@namec=\count401
-\c@savednamec=\count402
-\c@translator=\count403
-\c@savedtranslator=\count404
-\c@shortauthor=\count405
-\c@savedshortauthor=\count406
-\c@shorteditor=\count407
-\c@savedshorteditor=\count408
-\c@labelname=\count409
-\c@savedlabelname=\count410
-\c@institution=\count411
-\c@savedinstitution=\count412
-\c@lista=\count413
-\c@savedlista=\count414
-\c@listb=\count415
-\c@savedlistb=\count416
-\c@listc=\count417
-\c@savedlistc=\count418
-\c@listd=\count419
-\c@savedlistd=\count420
-\c@liste=\count421
-\c@savedliste=\count422
-\c@listf=\count423
-\c@savedlistf=\count424
-\c@location=\count425
-\c@savedlocation=\count426
-\c@organization=\count427
-\c@savedorganization=\count428
-\c@origlocation=\count429
-\c@savedoriglocation=\count430
-\c@origpublisher=\count431
-\c@savedorigpublisher=\count432
-\c@publisher=\count433
-\c@savedpublisher=\count434
-\c@language=\count435
-\c@savedlanguage=\count436
-\c@origlanguage=\count437
-\c@savedoriglanguage=\count438
-\c@pageref=\count439
-\c@savedpageref=\count440
+\c@afterword=\count372
+\c@savedafterword=\count373
+\c@annotator=\count374
+\c@savedannotator=\count375
+\c@author=\count376
+\c@savedauthor=\count377
+\c@bookauthor=\count378
+\c@savedbookauthor=\count379
+\c@commentator=\count380
+\c@savedcommentator=\count381
+\c@editor=\count382
+\c@savededitor=\count383
+\c@editora=\count384
+\c@savededitora=\count385
+\c@editorb=\count386
+\c@savededitorb=\count387
+\c@editorc=\count388
+\c@savededitorc=\count389
+\c@foreword=\count390
+\c@savedforeword=\count391
+\c@holder=\count392
+\c@savedholder=\count393
+\c@introduction=\count394
+\c@savedintroduction=\count395
+\c@namea=\count396
+\c@savednamea=\count397
+\c@nameb=\count398
+\c@savednameb=\count399
+\c@namec=\count400
+\c@savednamec=\count401
+\c@translator=\count402
+\c@savedtranslator=\count403
+\c@shortauthor=\count404
+\c@savedshortauthor=\count405
+\c@shorteditor=\count406
+\c@savedshorteditor=\count407
+\c@labelname=\count408
+\c@savedlabelname=\count409
+\c@institution=\count410
+\c@savedinstitution=\count411
+\c@lista=\count412
+\c@savedlista=\count413
+\c@listb=\count414
+\c@savedlistb=\count415
+\c@listc=\count416
+\c@savedlistc=\count417
+\c@listd=\count418
+\c@savedlistd=\count419
+\c@liste=\count420
+\c@savedliste=\count421
+\c@listf=\count422
+\c@savedlistf=\count423
+\c@location=\count424
+\c@savedlocation=\count425
+\c@organization=\count426
+\c@savedorganization=\count427
+\c@origlocation=\count428
+\c@savedoriglocation=\count429
+\c@origpublisher=\count430
+\c@savedorigpublisher=\count431
+\c@publisher=\count432
+\c@savedpublisher=\count433
+\c@language=\count434
+\c@savedlanguage=\count435
+\c@origlanguage=\count436
+\c@savedoriglanguage=\count437
+\c@pageref=\count438
+\c@savedpageref=\count439
 \shorthandwidth=\skip79
 \shortjournalwidth=\skip80
 \shortserieswidth=\skip81
@@ -688,9 +682,6 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip90
 \localshortauthorwidth=\skip91
 \localshorteditorwidth=\skip92
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -700,19 +691,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count441
-\c@textcitetotal=\count442
-\c@textcitemaxnames=\count443
-\c@biburlbigbreakpenalty=\count444
-\c@biburlbreakpenalty=\count445
-\c@biburlnumpenalty=\count446
-\c@biburlucpenalty=\count447
-\c@biburllcpenalty=\count448
+\c@textcitecount=\count440
+\c@textcitetotal=\count441
+\c@textcitemaxnames=\count442
+\c@biburlbigbreakpenalty=\count443
+\c@biburlbreakpenalty=\count444
+\c@biburlnumpenalty=\count445
+\c@biburlucpenalty=\count446
+\c@biburllcpenalty=\count447
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count449
+\c@smartand=\count448
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -722,8 +713,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count450
-\c@bbx:relatedtotal=\count451
+\c@bbx:relatedcount=\count449
+\c@bbx:relatedtotal=\count450
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -746,8 +737,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
 (biblatex)             2022-01-21 L3 programming layer (loader) 
@@ -760,43 +750,32 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-
-
-LaTeX Warning: Unused global option(s):
-    [aps,secnumarabic,balancelastpage,amsmath,amssymb,nofootinbib,floatfix].
-
-(./main.aux)
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -811,7 +790,7 @@ LaTeX Font Info:    ... okay on input line 7.
 * \oddsidemargin=13.08826pt
 * \evensidemargin=35.85056pt
 * \topmargin=-52.36449pt
-* \headheight=12.0pt
+* \headheight=14.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
@@ -828,11 +807,41 @@ LaTeX Font Info:    ... okay on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count451
+\scratchdimen=\dimen259
+\scratchbox=\box107
+\nofMPsegments=\count452
+\nofMParguments=\count453
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count454
+\MPscratchDim=\dimen260
+\MPnumerator=\count455
+\makeMPintoPDFobject=\count456
+\everyMPtoPDFconversion=\toks37
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 7.
+LaTeX Info: Redefining \it@ocap on input line 8.
+LaTeX Info: Redefining \it@ccap on input line 8.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 8.
+
+Package hyperref Info: Link coloring ON on input line 8.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -840,11 +849,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count452
+\c@section@level=\count457
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -859,8 +868,7 @@ Package biblatex Info: ... file 'italian.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
 File: italian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout4 = `main.bcf'.
@@ -868,14 +876,17 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 7.
-Package biblatex Info: Reference segment=0 on input line 7.
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
  (./title.tex
-File: images/Logo Unitn.jpg Graphic file (type bmp)
-<images/Logo Unitn.jpg>
+<images/Logo Unitn.jpg, id=132, 440.39531pt x 188.20313pt>
+File: images/Logo Unitn.jpg Graphic file (type jpg)
+<use images/Logo Unitn.jpg>
+Package pdftex.def Info: images/Logo Unitn.jpg  used on input line 4.
+(pdftex.def)             Requested size: 312.9803pt x 133.75723pt.
  [1
 
-]) [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/Logo Unitn.jpg>]) [2
 
 ] (./main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
@@ -889,786 +900,507 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+) [3])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3] (./0_introduction.tex [4
+ [4] (./0_introduction.tex) [5
 
 
-]) [5] (./1_electronic_analog.tex
+] (./1_electronic_analog.tex
 Chapter 1.
-File: images/BK1.png Graphic file (type bmp)
-<images/BK1.png>
-File: images/BK2.png Graphic file (type bmp)
-<images/BK2.png>
-[1
+<images/BK1.png, id=198, 687.16725pt x 317.988pt>
+File: images/BK1.png Graphic file (type png)
+<use images/BK1.png>
+Package pdftex.def Info: images/BK1.png  used on input line 26.
+(pdftex.def)             Requested size: 169.69147pt x 78.52153pt.
+<images/BK2.png, id=200, 464.33475pt x 470.9595pt>
+File: images/BK2.png Graphic file (type png)
+<use images/BK2.png>
+Package pdftex.def Info: images/BK2.png  used on input line 27.
+(pdftex.def)             Requested size: 169.69147pt x 172.11078pt.
+
+Underfull \vbox (badness 1701) has occurred while \output is active []
+
+ [1
 
 
 ]
-File: images/bk_2_blocks.png Graphic file (type bmp)
-<images/bk_2_blocks.png>
+<images/bk_2_blocks.png, id=214, 1288.815pt x 577.15625pt>
+File: images/bk_2_blocks.png Graphic file (type png)
+<use images/bk_2_blocks.png>
+Package pdftex.def Info: images/bk_2_blocks.png  used on input line 56.
+(pdftex.def)             Requested size: 202.01454pt x 90.46225pt.
 
+Underfull \vbox (badness 6625) has occurred while \output is active []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+ [2 <./images/BK1.png> <./images/BK2.png> <./images/bk_2_blocks.png>] [3]
+<../blocks/1_block/breadboard/breadboard_implementation.png, id=244, 1388.18625pt x 893.3375pt>
+File: ../blocks/1_block/breadboard/breadboard_implementation.png Graphic file (type png)
+<use ../blocks/1_block/breadboard/breadboard_implementation.png>
+Package pdftex.def Info: ../blocks/1_block/breadboard/breadboard_implementation.png  used on input line 151.
+(pdftex.def)             Requested size: 404.02908pt x 260.00179pt.
+ [4]
+Underfull \vbox (badness 2245) has occurred while \output is active []
 
-[2]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3]
-File: ../blocks/1_block/breadboard/breadboard_implementation.png Graphic file (type bmp)
-<../blocks/1_block/breadboard/breadboard_implementation.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4]
+ [5 <../blocks/1_block/breadboard/breadboard_implementation.png>]
+<images/photo_breadboard.jpeg, id=265, 1505.625pt x 2007.5pt>
+File: images/photo_breadboard.jpeg Graphic file (type jpg)
+<use images/photo_breadboard.jpeg>
+Package pdftex.def Info: images/photo_breadboard.jpeg  used on input line 220.
+(pdftex.def)             Requested size: 202.01454pt x 269.34668pt.
+<../blocks/1_block/breadboard/single_block.pdf, id=269, 361.35pt x 216.81pt>
 File: ../blocks/1_block/breadboard/single_block.pdf Graphic file (type pdf)
 <use ../blocks/1_block/breadboard/single_block.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6]
+Package pdftex.def Info: ../blocks/1_block/breadboard/single_block.pdf  used on input line 236.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<images/photo_integrated_board.jpeg, id=272, 2007.5pt x 1505.625pt>
+File: images/photo_integrated_board.jpeg Graphic file (type jpg)
+<use images/photo_integrated_board.jpeg>
+Package pdftex.def Info: images/photo_integrated_board.jpeg  used on input line 258.
+(pdftex.def)             Requested size: 323.22449pt x 242.4212pt.
+ [6 <./images/photo_breadboard.jpeg>] [7 <../blocks/1_block/breadboard/single_block.pdf> <./images/photo_integrated_board.jpeg>]
+<../blocks/1_block/board_new/single_block.pdf, id=300, 361.35pt x 216.81pt>
 File: ../blocks/1_block/board_new/single_block.pdf Graphic file (type pdf)
 <use ../blocks/1_block/board_new/single_block.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[7]
+Package pdftex.def Info: ../blocks/1_block/board_new/single_block.pdf  used on input line 272.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf, id=305, 642.4pt x 481.8pt>
 File: ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf>
+Package pdftex.def Info: ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf  used on input line 307.
+(pdftex.def)             Requested size: 197.97646pt x 289.56007pt.
+<../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf, id=307, 642.4pt x 481.8pt>
 File: ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf>
+Package pdftex.def Info: ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf  used on input line 314.
+(pdftex.def)             Requested size: 197.97646pt x 289.56007pt.
+ [8 <../blocks/1_block/board_new/single_block.pdf>]
+<../blocks/2_blocks/bifurcation/bifurcation.pdf, id=331, 642.4pt x 481.8pt>
 File: ../blocks/2_blocks/bifurcation/bifurcation.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/bifurcation/bifurcation.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[8] Excluding 'comment' comment.)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[9] (./2_chaos.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[10
-
-
-]
+Package pdftex.def Info: ../blocks/2_blocks/bifurcation/bifurcation.pdf  used on input line 329.
+(pdftex.def)             Requested size: 242.4199pt x 181.81406pt.
+ [9 <../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf> <../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf> <../blocks/2_blocks/bifurcation/bifurcation.pdf>]) [10] (./2_chaos.tex
 Chapter 2.
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [11
+
+
+] [12]
+<images/lorenz_attractor.png, id=411, 1074.0125pt x 785.93625pt>
+File: images/lorenz_attractor.png Graphic file (type png)
+<use images/lorenz_attractor.png>
+Package pdftex.def Info: images/lorenz_attractor.png  used on input line 109.
+(pdftex.def)             Requested size: 242.4199pt x 177.39166pt.
+<images/henon_fractal.png, id=418, 1689.31125pt x 429.605pt>
+File: images/henon_fractal.png Graphic file (type png)
+<use images/henon_fractal.png>
+Package pdftex.def Info: images/henon_fractal.png  used on input line 134.
+(pdftex.def)             Requested size: 404.02908pt x 102.74677pt.
+<images/lorenz_spectrum.png, id=422, 999.735pt x 672.5125pt>
+File: images/lorenz_spectrum.png Graphic file (type png)
+<use images/lorenz_spectrum.png>
+Package pdftex.def Info: images/lorenz_spectrum.png  used on input line 150.
+(pdftex.def)             Requested size: 242.4199pt x 163.06868pt.
+ [13 <./images/lorenz_attractor.png>]
+<images/rossler_embedding.png, id=448, 1172.38pt x 818.05624pt>
+File: images/rossler_embedding.png Graphic file (type png)
+<use images/rossler_embedding.png>
+Package pdftex.def Info: images/rossler_embedding.png  used on input line 188.
+(pdftex.def)             Requested size: 404.02908pt x 281.91765pt.
+ [14 <./images/henon_fractal.png> <./images/lorenz_spectrum.png>] [15 <./images/rossler_embedding.png>] [16]
+<images/lorenz_lyapunov.png, id=499, 1072.005pt x 850.17625pt>
+File: images/lorenz_lyapunov.png Graphic file (type png)
+<use images/lorenz_lyapunov.png>
+Package pdftex.def Info: images/lorenz_lyapunov.png  used on input line 289.
+(pdftex.def)             Requested size: 404.02908pt x 320.42392pt.
+ [17 <./images/lorenz_lyapunov.png>]
+<images/lorenz_divergence.png, id=518, 1028.84375pt x 726.715pt>
+File: images/lorenz_divergence.png Graphic file (type png)
+<use images/lorenz_divergence.png>
+Package pdftex.def Info: images/lorenz_divergence.png  used on input line 337.
+(pdftex.def)             Requested size: 242.4199pt x 171.23268pt.
+
+Underfull \vbox (badness 6001) has occurred while \output is active []
+
+ [18 <./images/lorenz_divergence.png>] [19] [20] [21]
+<images/heatmap_Lorenz.png, id=587, 974.64125pt x 854.19125pt>
+File: images/heatmap_Lorenz.png Graphic file (type png)
+<use images/heatmap_Lorenz.png>
+Package pdftex.def Info: images/heatmap_Lorenz.png  used on input line 580.
+(pdftex.def)             Requested size: 242.4199pt x 212.45244pt.
+<images/joint_Lorenz.png, id=590, 1158.3275pt x 947.54pt>
+File: images/joint_Lorenz.png Graphic file (type png)
+<use images/joint_Lorenz.png>
+Package pdftex.def Info: images/joint_Lorenz.png  used on input line 594.
+(pdftex.def)             Requested size: 242.4199pt x 198.29527pt.
+ [22] [23 <./images/heatmap_Lorenz.png> <./images/joint_Lorenz.png>]
+<images/joint_Lorenz_noise.png, id=613, 1774.63pt x 644.4075pt>
+File: images/joint_Lorenz_noise.png Graphic file (type png)
+<use images/joint_Lorenz_noise.png>
+Package pdftex.def Info: images/joint_Lorenz_noise.png  used on input line 629.
+(pdftex.def)             Requested size: 404.02908pt x 146.70618pt.
+) [24 <./images/joint_Lorenz_noise.png>] (./3_chaos_analysis.tex
+Chapter 3.
+<../blocks/2_blocks/1e5_points/plots/chaos.pdf, id=631, 361.35pt x 216.81pt>
 File: ../blocks/2_blocks/1e5_points/plots/chaos.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/1e5_points/plots/chaos.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-Overfull \vbox (9.44254pt too high) has occurred while \output is active []
+Package pdftex.def Info: ../blocks/2_blocks/1e5_points/plots/chaos.pdf  used on input line 20.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+[25
 
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[12]
+] [26 <../blocks/2_blocks/1e5_points/plots/chaos.pdf>]
+<../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf, id=676, 361.35pt x 216.81pt>
+File: ../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf  used on input line 93.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf, id=680, 361.35pt x 216.81pt>
 File: ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 131.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [27]
+<../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf, id=688, 361.35pt x 216.81pt>
 File: ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[13]
-File: ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[14]
-File: ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[15]
-File: ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[16]
-File: ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[17]
-File: ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[18]
-File: ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[19]
-File: ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[20]
-File: ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[21]
-File: ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[22]
-File: ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[23]
-File: ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[24]
-File: ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[25]
-File: ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[26]
-File: ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[27]
-File: ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[28]
-File: ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[29]
-File: ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[30]
-File: ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[31]
-File: ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[32]
-File: ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[33]
-File: ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[34]
-File: ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[35]
-File: ../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[36]
-File: ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[37]
-File: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[38]
-File: ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[39]
-File: ../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[40]
-File: ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[41]
-File: ../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[42]
-File: ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[43]
-File: ../blocks/24_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/24_blocks/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[44]
-File: ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[45]
-File: ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
-<use ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[46]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[47]
-File: ../blocks/data/nu_mle_blocks.pdf Graphic file (type pdf)
-<use ../blocks/data/nu_mle_blocks.pdf>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[48
-
-]
-File: ../blocks/2_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/2_blocks/attractor.pdf>
+Package pdftex.def Info: ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 164.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+ [28 <../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf>]
+<../blocks/3_blocks/edge/attractor.pdf, id=717, 642.4pt x 481.8pt>
 File: ../blocks/3_blocks/edge/attractor.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/edge/attractor.pdf>
-File: ../blocks/4_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/4_blocks/attractor.pdf>
-File: ../blocks/5_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/5_blocks/edge/attractor.pdf>
-File: ../blocks/6_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/6_blocks/attractor.pdf>
-File: ../blocks/7_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/7_blocks/edge/attractor.pdf>
-File: ../blocks/8_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/8_blocks/attractor.pdf>
-File: ../blocks/9_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/9_blocks/edge/attractor.pdf>
-File: ../blocks/10_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/10_blocks/attractor.pdf>
-File: ../blocks/11_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/11_blocks/edge/attractor.pdf>
-File: ../blocks/12_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/12_blocks/attractor.pdf>
-File: ../blocks/13_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/13_blocks/edge/attractor.pdf>
-File: ../blocks/14_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/14_blocks/attractor.pdf>
-File: ../blocks/15_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/15_blocks/edge/attractor.pdf>
-File: ../blocks/16_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/16_blocks/attractor.pdf>
-File: ../blocks/17_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/17_blocks/edge/attractor.pdf>
-File: ../blocks/18_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/18_blocks/attractor.pdf>
-File: ../blocks/19_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/19_blocks/edge/attractor.pdf>
-File: ../blocks/20_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/20_blocks/attractor.pdf>
-File: ../blocks/21_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/21_blocks/edge/attractor.pdf>
-File: ../blocks/22_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/22_blocks/attractor.pdf>
-File: ../blocks/23_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/23_blocks/edge/attractor.pdf>
-File: ../blocks/24_blocks/attractor.pdf Graphic file (type pdf)
-<use ../blocks/24_blocks/attractor.pdf>
-File: ../blocks/25_blocks/edge/attractor.pdf Graphic file (type pdf)
-<use ../blocks/25_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/3_blocks/edge/attractor.pdf  used on input line 198.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/3_blocks/middle/attractor.pdf, id=718, 642.4pt x 481.8pt>
 File: ../blocks/3_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/middle/attractor.pdf>
-File: ../blocks/5_blocks/middle/attractor.pdf Graphic file (type pdf)
-<use ../blocks/5_blocks/middle/attractor.pdf>
-File: ../blocks/7_blocks/middle/attractor.pdf Graphic file (type pdf)
-<use ../blocks/7_blocks/middle/attractor.pdf>
-File: ../blocks/9_blocks/middle/attractor.pdf Graphic file (type pdf)
-<use ../blocks/9_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/3_blocks/middle/attractor.pdf  used on input line 199.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+ [29 <../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf>] [30 <../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf> <../blocks/3_blocks/edge/attractor.pdf> <../blocks/3_blocks/middle/attractor.pdf>] [31]
+<../blocks/data/nu_mle_blocks.pdf, id=799, 361.35pt x 216.81pt>
+File: ../blocks/data/nu_mle_blocks.pdf Graphic file (type pdf)
+<use ../blocks/data/nu_mle_blocks.pdf>
+Package pdftex.def Info: ../blocks/data/nu_mle_blocks.pdf  used on input line 304.
+(pdftex.def)             Requested size: 404.02908pt x 153.34085pt.
+<../blocks/11_blocks/edge/attractor.pdf, id=802, 642.4pt x 481.8pt>
+File: ../blocks/11_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/11_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/11_blocks/edge/attractor.pdf  used on input line 328.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/11_blocks/middle/attractor.pdf, id=803, 642.4pt x 481.8pt>
 File: ../blocks/11_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/11_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/11_blocks/middle/attractor.pdf  used on input line 335.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/13_blocks/edge/attractor.pdf, id=804, 642.4pt x 481.8pt>
+File: ../blocks/13_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/13_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/13_blocks/edge/attractor.pdf  used on input line 342.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/13_blocks/middle/attractor.pdf, id=805, 642.4pt x 481.8pt>
 File: ../blocks/13_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/13_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/13_blocks/middle/attractor.pdf  used on input line 349.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/15_blocks/edge/attractor.pdf, id=806, 642.4pt x 481.8pt>
+File: ../blocks/15_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/15_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/15_blocks/edge/attractor.pdf  used on input line 356.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/15_blocks/middle/attractor.pdf, id=807, 642.4pt x 481.8pt>
 File: ../blocks/15_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/15_blocks/middle/attractor.pdf>
+Package pdftex.def Info: ../blocks/15_blocks/middle/attractor.pdf  used on input line 363.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/17_blocks/edge/attractor.pdf, id=808, 642.4pt x 481.8pt>
+File: ../blocks/17_blocks/edge/attractor.pdf Graphic file (type pdf)
+<use ../blocks/17_blocks/edge/attractor.pdf>
+Package pdftex.def Info: ../blocks/17_blocks/edge/attractor.pdf  used on input line 370.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+<../blocks/17_blocks/middle/attractor.pdf, id=809, 642.4pt x 481.8pt>
 File: ../blocks/17_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/17_blocks/middle/attractor.pdf>
-File: ../blocks/19_blocks/middle/attractor.pdf Graphic file (type pdf)
-<use ../blocks/19_blocks/middle/attractor.pdf>
-File: ../blocks/21_blocks/middle/attractor.pdf Graphic file (type pdf)
-<use ../blocks/21_blocks/middle/attractor.pdf>
-File: ../blocks/23_blocks/middle/attractor.pdf Graphic file (type pdf)
-<use ../blocks/23_blocks/middle/attractor.pdf>
-File: ../blocks/25_blocks/middle/attractor.pdf Graphic file (type pdf)
-<use ../blocks/25_blocks/middle/attractor.pdf>
-)
+Package pdftex.def Info: ../blocks/17_blocks/middle/attractor.pdf  used on input line 377.
+(pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
+ [32 <../blocks/data/nu_mle_blocks.pdf>]
+Underfull \vbox (badness 7759) has occurred while \output is active []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+ [33 <../blocks/11_blocks/edge/attractor.pdf> <../blocks/11_blocks/middle/attractor.pdf> <../blocks/13_blocks/edge/attractor.pdf> <../blocks/13_blocks/middle/attractor.pdf> <../blocks/15_blocks/edge/attractor.pdf> <../blocks/15_blocks/middle/attractor.pdf> <../blocks/17_blocks/edge/attractor.pdf> <../blocks/17_blocks/middle/attractor.pdf>]
+<../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf, id=928, 361.35pt x 216.81pt>
+File: ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 397.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf, id=929, 361.35pt x 216.81pt>
+File: ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 407.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
 
-[49
+Underfull \vbox (badness 1558) has occurred while \output is active []
 
-]
+ [34 <../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf> <../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[50]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[51]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[52]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[53]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[54] (./3_earthquakes.tex
-Chapter 3.
-) [55
+pdfTeX warning: pdflatex (file ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]) [35] (./4_appendix.tex [36
 
 
-]
+] [37
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+] [38]
+Appendix A.
+<../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf, id=996, 361.35pt x 216.81pt>
+File: ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf  used on input line 12.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf, id=997, 361.35pt x 216.81pt>
+File: ../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf  used on input line 22.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf, id=1000, 361.35pt x 216.81pt>
+File: ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf  used on input line 34.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+[39
 
-[56
+ <../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf>] [40 <../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf> <../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Appendix B.
+<../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1078, 361.35pt x 216.81pt>
+File: ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 58.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1079, 361.35pt x 216.81pt>
+File: ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 68.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/6_blocks/2e5_points/plots/chaos_low.pdf, id=1080, 361.35pt x 216.81pt>
+File: ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf  used on input line 78.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1081, 361.35pt x 216.81pt>
+File: ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 88.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1082, 361.35pt x 216.81pt>
+File: ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 98.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/8_blocks/2e5_points/plots/chaos_low.pdf, id=1083, 361.35pt x 216.81pt>
+File: ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf  used on input line 108.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1084, 361.35pt x 216.81pt>
+File: ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 118.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1085, 361.35pt x 216.81pt>
+File: ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 128.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/10_blocks/2e5_points/plots/chaos_low.pdf, id=1086, 361.35pt x 216.81pt>
+File: ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf  used on input line 138.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1087, 361.35pt x 216.81pt>
+File: ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 148.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1088, 361.35pt x 216.81pt>
+File: ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 158.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/12_blocks/2e5_points/plots/chaos_low.pdf, id=1089, 361.35pt x 216.81pt>
+File: ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf  used on input line 168.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/14_blocks/2e5_points/plots/chaos_low.pdf, id=1090, 361.35pt x 216.81pt>
+File: ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf  used on input line 178.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1091, 361.35pt x 216.81pt>
+File: ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 188.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1092, 361.35pt x 216.81pt>
+File: ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 198.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/16_blocks/2e5_points/plots/chaos_low.pdf, id=1093, 361.35pt x 216.81pt>
+File: ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf  used on input line 208.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1094, 361.35pt x 216.81pt>
+File: ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 218.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1095, 361.35pt x 216.81pt>
+File: ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 228.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/18_blocks/2e5_points/plots/chaos_low.pdf, id=1096, 361.35pt x 216.81pt>
+File: ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf  used on input line 238.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1097, 361.35pt x 216.81pt>
+File: ../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 248.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1098, 361.35pt x 216.81pt>
+File: ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 258.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/20_blocks/2e5_points/plots/chaos_low.pdf, id=1099, 361.35pt x 216.81pt>
+File: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf  used on input line 268.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1100, 361.35pt x 216.81pt>
+File: ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 278.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1101, 361.35pt x 216.81pt>
+File: ../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 288.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/22_blocks/2e5_points/plots/chaos_low.pdf, id=1102, 361.35pt x 216.81pt>
+File: ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf  used on input line 298.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1103, 361.35pt x 216.81pt>
+File: ../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 308.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1104, 361.35pt x 216.81pt>
+File: ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 318.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/24_blocks/2e5_points/plots/chaos_low.pdf, id=1105, 361.35pt x 216.81pt>
+File: ../blocks/24_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/24_blocks/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/24_blocks/2e5_points/plots/chaos_low.pdf  used on input line 328.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1106, 361.35pt x 216.81pt>
+File: ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 338.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+<../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1107, 361.35pt x 216.81pt>
+File: ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
+<use ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf>
+Package pdftex.def Info: ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 348.
+(pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
+) [41
+
+ <../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf>] [42 <../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf> <../blocks/6_blocks/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [43 <../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf> <../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [44 <../blocks/8_blocks/2e5_points/plots/chaos_low.pdf> <../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [45 <../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf> <../blocks/10_blocks/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [46 <../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf> <../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [47 <../blocks/12_blocks/2e5_points/plots/chaos_low.pdf> <../blocks/14_blocks/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [48 <../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf> <../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [49 <../blocks/16_blocks/2e5_points/plots/chaos_low.pdf> <../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [50 <../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf> <../blocks/18_blocks/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [51 <../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf> <../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [52 <../blocks/20_blocks/2e5_points/plots/chaos_low.pdf> <../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [53 <../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf> <../blocks/22_blocks/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [54 <../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf> <../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [55 <../blocks/24_blocks/2e5_points/plots/chaos_low.pdf> <../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [56 <../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf>]
+Overfull \hbox (1.0449pt too wide) in paragraph at lines 38--38
+[]\OT1/cmr/m/n/10.95 James Theiler. \  Es-ti-mat-ing frac-tal di-men-sion". In: \OT1/cmr/m/it/10.95 JOSA a \OT1/cmr/m/n/10.95 7.6 (1990), pp. 1055{
+ []
+
+[57
 
 
-] [57] (./main.aux)
+] [58] [59] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EB5E1FF34527AD28D8AECF698755F15B;3200.
+(rerunfilecheck)             Checksum: B87AE59D0CAC1ACC7C692FD3D5F134C6;6512.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24472 strings out of 476191
- 445610 string characters out of 5812072
- 1226255 words of memory out of 5000000
- 44744 multiletter control sequences out of 15000+600000
- 477667 words of font info for 76 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 88i,13n,91p,1145b,4844s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24933 strings out of 478287
+ 449808 string characters out of 5849290
+ 1190008 words of memory out of 5000000
+ 42459 multiletter control sequences out of 15000+600000
+ 485886 words of font info for 89 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,15n,91p,1230b,2170s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (64 pages, 8576641 bytes).
+PDF statistics:
+ 1975 PDF objects out of 2073 (max. 8388607)
+ 1455 compressed objects within 15 object streams
+ 221 named destinations out of 1000 (max. 500000)
+ 630 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on main.pdf (62 pages).

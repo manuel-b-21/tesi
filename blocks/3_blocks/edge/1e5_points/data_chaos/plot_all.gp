@@ -41,8 +41,13 @@ replot g(x) notitle dashtype 4 lc "black" lw 1
 unset label
 set label at graph -0.25,1.05 "{/:Bold c}" font ",10"
 set ytics auto
+<<<<<<< HEAD
 set yrange [0:25]
 set xrange [1:5]
+=======
+set yrange [0:40]
+set xrange [1:4]
+>>>>>>> 9e5849fea75880b5282fd6e8c90d5e82127736bb
 set xlabel "{/Symbol n}"
 set ylabel "# of embedding pairs"
 set tmargin 0
@@ -65,13 +70,20 @@ set size 0.58,0.4
 set origin 0.46,0.55
 set palette rgb 34,35,36 negative
 set xrange [1*T:250*T]
+<<<<<<< HEAD
 set yrange [1:4.5]
 set cbrange [*:*]
+=======
+set yrange [1:3.5]
+>>>>>>> 9e5849fea75880b5282fd6e8c90d5e82127736bb
 #set cbtics ("0" 0, "1" 1, "2" 2, "3" 3, "4" 4)
 set arrow from unif_min*T, graph 0 to unif_min*T, graph 1 nohead front dt 4 lc "black" lw 0.7
 set arrow from unif_max*T, graph 0 to unif_max*T, graph 1 nohead front dt 4 lc "black" lw 0.7
 set label at graph 0.55,0.3 "n_{blocks}=3  (boundary)" font ",10" front
+<<<<<<< HEAD
 set label at graph 0.55,0.15 "N_{samples}=10^5" font ",10" front
+=======
+>>>>>>> 9e5849fea75880b5282fd6e8c90d5e82127736bb
 plot "joint.dat" u (($1)*T):2:3 w image pixels notitle
 replot "joint_av.dat" u (($1)*T):($2==0? NaN : $2):3 w yerr pt 7 ps 0.3 lc rgb "black" notitle
 

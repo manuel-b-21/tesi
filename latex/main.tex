@@ -1,4 +1,5 @@
-\documentclass[a4paper,11pt,aps,secnumarabic,balancelastpage,amsmath,amssymb,nofootinbib,floatfix, table,twoside,openright]{report}
+\documentclass[a4paper,11pt,table,twoside,openright]{report}
+%aps,secnumarabic,balancelastpage,amsmath,amssymb,nofootinbib,floatfix, 
 \usepackage{packages}
 \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
 \addbibresource{references.bib}
@@ -28,25 +29,50 @@
 \subfile{2_chaos.tex}
 \clearpage
 
-\subfile{3_earthquakes.tex}
+\subfile{3_chaos_analysis.tex}
 \clearpage
 
-\printbibliography
+\subfile{4_appendix.tex}
+\clearpage
+
+\printbibliography{}
 \addcontentsline{toc}{chapter}{Bibliography}
 
 
 \end{document}
 
+
+
+
 \begin{comment}
 
+
 CAPITOLO 1: Spiego il Burridge-Knopoff e l'analogo elettronico seguendo il paper (inductorless ecc).
-    Faccio vedere l'implementazione sulla breadboard e confronto con la board (single block analysis).
+            Faccio vedere l'implementazione sulla breadboard e confronto con la board (single block analysis).
 
-CAPITOLO 2: Spiego l'analisi del caos seguendo il paper (chasing chaos).
-    Faccio vedere il caos sulla board accoppiando vari blocchi.
+    DA FARE: ✓ Metti foto dell'implementazione breadboard e soprattutto di quella integrata.
+             - Risistema il bifurcation.
+             ✓ Parla un po' dei terremoti, cioè di perché è importante studiare il BK.
+             - Metti la waveform del double block con alto V_d, così si vede che non è caotico.
 
-CAPITOLO 3: Parlo dei terremoti, della legge di Gutenberg-Richter seguendo il paper (mia tesi hehehe).
-    Magari metto il cellular automaton o altri risultati simili.
-    Poi accoppio tutti i 25 con varie topologie e vedo cosa succede.
+
+CAPITOLO 2: Parla del caos guardando la tesi di dottorato di Perinelli.
+            Non devono esserci cose non spiegate e metti tante ref.
+
+    DA FARE: ✓ Spiega cosa sono MLE e nu.
+
+
+CAPITOLO 3: Faccio vedere il caos sulla board accoppiando vari blocchi.
+    
+    DA FARE: ✓ Parla del metodo di analisi che hai usato.
+             ✓ Spiega la nu che aumenta con la quantizzazione dell'oscilloscopio, cioè che aumenta
+               sia il valore che l'errore.
+             ✓ Di' che l'mle è una limitazione del metodo di calcolo usato, ma che comunque è intorno
+               al kHz che ha senso con la costante tempo del circuito; prendi la distanza tra boundary
+               e center come indicazione dell'errore sistematico del metodo.
+             - Parla del fatto che con lo standard method si vedono più esponenti.
+             - Di' che magari MLE dipende dal fatto che cambi la resistenza quando è nel middle.
+             - Controlla bit oscilloscopio
+             
 
 \end{comment}
