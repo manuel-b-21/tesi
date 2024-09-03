@@ -16,7 +16,7 @@ set origin 0,0.3
 set xlabel "Number of coupled blocks"
 set ylabel "{/Symbol n}"
 set xrange [1.5:25.5]
-set yrange [2.15:3.35]
+set yrange [2.15:3.05]
 set format y "%.1f"
 set key top right
 #set xtics ("2" 2, "3" 3, "4" 4, "5" 5, "6" 6, "7" 7, "8" 8, "9" 9, "10" 10, "11" 11, "12" 12, "13" 13, "14" 14, "15" 15)

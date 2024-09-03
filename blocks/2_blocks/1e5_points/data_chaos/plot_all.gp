@@ -69,7 +69,8 @@ set yrange [1:3]
 set cbtics ("0" 0, "1" 1, "2" 2, "3" 3, "4" 4, "5" 5, "6" 6, "7" 7)
 set arrow from unif_min*T, graph 0 to unif_min*T, graph 1 nohead front dt 4 lc "black" lw 0.7
 set arrow from unif_max*T, graph 0 to unif_max*T, graph 1 nohead front dt 4 lc "black" lw 0.7
-set label at graph 0.55,0.3 "n_{blocks}=2  (boundary)" font ",10" front
+set label at graph 0.55,0.3 "n_{blocks}=2" font ",10" front
+set label at graph 0.55,0.15 "N_{samples}=10^5" font ",10" front
 plot "joint.dat" u (($1)*T):2:3 w image pixels notitle
 replot "joint_av.dat" u (($1)*T):($2==0? NaN : $2):3 w yerr pt 7 ps 0.3 lc rgb "black" notitle
 
