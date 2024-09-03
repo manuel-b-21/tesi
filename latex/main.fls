@@ -1197,6 +1197,11 @@ INPUT ../blocks/2_blocks/bifurcation/bifurcation.pdf
 INPUT ../blocks/2_blocks/bifurcation/bifurcation.pdf
 INPUT ../blocks/2_blocks/bifurcation/bifurcation.pdf
 INPUT ../blocks/2_blocks/bifurcation/bifurcation.pdf
+INPUT ../blocks/2_blocks/two_blocks_nochaos.pdf
+INPUT ../blocks/2_blocks/two_blocks_nochaos.pdf
+INPUT ../blocks/2_blocks/two_blocks_nochaos.pdf
+INPUT ../blocks/2_blocks/two_blocks_nochaos.pdf
+INPUT ../blocks/2_blocks/two_blocks_nochaos.pdf
 INPUT ./2_chaos.tex
 INPUT 2_chaos.tex
 INPUT ./2_chaos.tex
