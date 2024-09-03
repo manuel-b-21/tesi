@@ -40,7 +40,7 @@ set bmargin 0
 set size 0.5,0.125
 set origin 0,0.125
 set xlabel "t (ms)"
-set ylabel "V_2 (V)"
+set ylabel "V_1 (V)"
 set ytics -0.4,0.4,1.4
 set yrange [-0.401:1.401]
 set xtics ("0" 0, "20" 0.02, "40" 0.04, "60" 0.06, "80" 0.08, "100" 0.1)

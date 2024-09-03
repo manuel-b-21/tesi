@@ -42,7 +42,7 @@ $\{y_n\}$ with $n=1,\ldots,\ell$.
 \section{Formal definition of chaos}\label{sec: chaos in theory}
 
 An universally accepted mathematical definition of chaos does not exists but
-a commonly used definition is the following, originally formulated by Robert L.
+a commonly used definition is the following, originally formulated by Robert
 Devaney~\cite{ref:chaos_definition}.
 
 Three conditions are necessary and
@@ -56,7 +56,7 @@ Going into detail:
     systems and makes their evolution hard to predict.
 
     Given two initial conditions $\mathbf{s}_1(0)$, $\mathbf{s}_2(0)$ that are arbitrarily close within the state
-    space ($||\mathbf{s}_1(0)-\mathbf{s}_2(0)||<\varepsilon$),
+    space ($||\mathbf{s}_1(0)-\mathbf{s}_2(0)||<\varepsilon$ for every $\varepsilon > 0$),
     the system having sensitive dependence on initial conditions means that
     the two trajectories evolving out of these initial conditions diverge exponentially in time, i.e.
     for large $t$:
@@ -98,8 +98,7 @@ of chaos. Instead, conditions (ii) and (iii) are difficult to identify with the 
 However, there are observable consequences. In particular, the time
 evolution of a chaotic system in the state space always converges to an object called strange
 attractor, characterized by a fractal structure~\cite{ref:fractal_dim,ref:fractal_book}.
-An example can be seen in Fig.~\ref{fig: lorenz attractor}.
-This means that strange
+An example can be seen in Fig.~\ref{fig: lorenz attractor}. Strange
 attractors exhibit self-similarity (or self-affinity\footnote{In general, it is more correct to speak
 of self-affinity, since in the case of self-similarity the
 object is scaled by the same amount in all space directions, but in self-affinity scaling is not
@@ -121,7 +120,7 @@ it has a mass density), taking an arbitrary point in it and considering an open
 ball centered in that point, we can measure the mass contained in the ball as
 a function of the radius. For small distances $m(r)\propto r^D$. For the same density
 and radius, the fractal ``weighs'' more than a line but less then a surface, as if
-a dense set (which is the set of the periodic points) had been removed from the
+a dense set (which is the set of the periodic orbits) had been removed from the
 surface.
 
 Self-similarity, instead, is the exhibition of similar patterns at increasingly smaller
@@ -188,8 +187,8 @@ somehow resembles a strange attractor.
     \centering
     \includegraphics[width=\linewidth]{images/rossler_embedding.png}
     \caption{
-    A time series from the Rossler system (a)~\cite{rossler1977continuous}
-    and a number of delay-coordinate embeddings of that time series with different values of the lag $L$ (b).
+    (a) A time series from the R{\"o}ssler system~\cite{rossler1977continuous}
+    and (b) a number of delay-coordinate embeddings of that time series with different values of the lag $L$.
     Figure adapted from Ref.~\cite{ref:bradley2015nonlinear}.}\label{fig: rossler embedding}
 \end{figure}
 
@@ -204,11 +203,12 @@ The two conditions under which Takens' theorem holds regard the embedding parame
 The first one requires that $m>2D$, where $D$ is the dimension of the manifold corresponding to the
 time evolution of the system, which is not known a priori; this condition can be relaxed to $m>D$ if
 estimating correlation dimension~\cite{ref:ding1993estimating}.
-The second one states that $L$ is not a multiple of the period of any system's orbit~\cite{ref:grassberger1991nonlinear}.
+The second one states that $L$ must not be a multiple of the period of any system's
+orbit~\cite{ref:grassberger1991nonlinear}.
 
 Aside from these two minimal conditions, since Takens' theorem is an existence theorem, it does not
 give any hint on how to find the best embedding parameters. The reason for this is that as long as the
-two conditions are met, every choice for the couple $(m,L)$ is good for reconstruct the dynamics;
+two conditions are met, every choice for the pair $(m,L)$ is good for reconstructing the dynamics;
 however, this is valid only for noiseless, finely sampled and infinitely long sequences. In reality,
 the issue of optimal embedding is a very active field in the physics of chaos, and several techniques
 have been developed in order to overcome this problem~\cite{ref:perinelli2018identification,ref:perinelli2020chasing,ref:casdagli1991state}.
@@ -238,16 +238,16 @@ and the system evolution is lost.
 
 Since a single optimal choice for $(m,L)$ does
 not necessarily exist, the embedding of the sequence can be carried out for several values of the
-embedding parameters, considering that several values for the pair
+embedding parameters, considering that many values for the pair
 $(m, L)$ can provide reconstructions of the underlying dynamics that are equivalently good.
 More specifically, the procedure is carried out for each element of an embedding lattice, i.e.
 $\{(m,L)|m\in[2,m_{\max}],L\in[1,L_{\max}]\}$.
 
 Suitable embedding choices are expected to comply with two requirements concerning the
 corresponding embedding window $w=(m-1)LT$, which corresponds to the
-time span covered by each embedding vector.
+time span covered by each embedding vector ($T$ is the sampling time of the sequence).
 On the one hand, the embedding window has to be larger than the redundance time $\tau_R$, so that
-the points in the reconstructed space are not too close to the diagonal, as discussed in Section~\ref{sec: embedding}.
+the points in the reconstructed space are not too close to the diagonal.
 On the other hand, the embedding window has to be
 smaller than the irrelevance time $\tau_I$, after which the points are causally disconnected
 and the noise overcomes the dynamics.
@@ -289,7 +289,7 @@ The associated exponent is negative.
 \includegraphics[width=\linewidth]{images/lorenz_lyapunov.png}   
 \caption{
     Short-term evolution of the separation vector between three pairs of
-    nearby points is for the Lorenz attractor~\cite{lorenz1963deterministic}.
+    nearby points for the Lorenz attractor~\cite{lorenz1963deterministic}.
     The true magnitude of the evolving
     vector appears to the right of each figure, (a) An expanding direction ($\lambda_1>0$). (b)
     A slower than exponential direction ($\lambda_2=0$). (c) A contracting direction ($\lambda_3<0$).
@@ -352,7 +352,7 @@ The second fundamental invariant quantity that characterizes a chaotic system is
 the correlation dimension~\cite{ref:abarbanel_fourier_spectra}.
 The simplest definition of dimension is the (integer) number of coordinates that are
 needed to specify a state, e.g.\ the number of differential equations of a system.
-This is the geometrically related to the concept of how (hyper) volumes scale as a
+This is geometrically related to the concept of how (hyper) volumes scale as a
 function of a characteristic length parameter.
 One way to estimate the dimension of a set of points is the box-counting method, which consists in partitioning the space in
 hypercubes of size $l$ and by counting, as a function of $l$, the fraction $\eta(l)$ of
@@ -385,7 +385,7 @@ The dimension for $q\rightarrow1$ can instead be calculated using L'Hospital's r
 \end{equation}
 $D_1$ is called informational dimension~\cite{ref:abarbanel_fourier_spectra} due to the numerator
 being related to information entropy. In a uniform fractal, in which
-$p_i=1/N$ for every $i$, $D_1=D_0$; instead, if the $p_i$ are different $D_1<D_0$.
+$p_i=1/N$ for every $i$, $D_1=D_0$; instead, if the $p_i$ are different, $D_1<D_0$.
 This is true in general for every $q$, namely $D_i\leq D_j$ if $i>j$, when the equality only
 holds in a uniform fractal.
 
@@ -433,7 +433,6 @@ or spurious contributions even in the case of stochastic sequences~\cite{ref:osb
 Another efficient manner to estimate the correlation dimension makes use of the divergence exponent
 $\Lambda(k)$. As was already discussed in Section~\ref{sec: mle}, if $\Lambda(k)$ exhibits a
 linear behavior it is possible to estimate the MLE as the slope of the curve.
-
 For sufficiently large values of $k$, the divergence exponent $\Lambda(k)$
 reaches a saturation value $\Lambda_{\text{pl}}$, referred to as a ``plateau'' (see Fig.~\ref{fig: lorenz divergence}).
 In the case of a chaotic source of finite correlation dimension $\nu$, the plateau
@@ -500,7 +499,7 @@ An important step in the algorithm is that, rather than
 considering a single calculation for each value of $k$, each point of $\Lambda^{m,L}(k)$
 and the respective uncertainty $\sigma_{\Lambda^{m,L}}(k)$ is determined
 as the pointwise sample mean and sample standard
-deviation of a set of $N_\Lambda$ different calculations, respectively,
+deviation of a set of $N_\Lambda$ different calculations, respectively:
 \begin{equation}
 \begin{aligned}
     \label{eq: sample mean divergence exponent}
@@ -539,8 +538,9 @@ can lead to an estimate of the actual MLE of the system.
 \end{itemize}
 
 The strenght of this procedure comes from the fact that both the correlation dimension and the
-maximum Lyapunov exponent can be calculated from the divergence exponent. Moreover, several
-values of the embedding parameters can be deemed as valid with this method.
+maximum Lyapunov exponent can be calculated from the divergence exponent.
+Moreover, with this method several
+values of the embedding parameters can be deemed as valid.
 
 
 \subsection{Testing the method}\label{subsec: testing the procedure}
@@ -611,7 +611,7 @@ observational noise. The elements $s_n$ of a noise-affected input sequence are g
 \end{equation}
 where $x_n$ are the elements of the Lorenz sequence, and $\eta_n$ are independent
 identically distributed random variables, which are distributed according to a normal distribution
-with zero mean and variance $\sigma_\eta^2$.
+with mean zero and variance $\sigma_\eta^2$.
 The signal-to-noise-ratio (SNR) of a sequence is then defined as:
 \begin{equation}
     \label{eq: snr}

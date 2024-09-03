@@ -40,7 +40,7 @@ resulting in further slips, and an avalanche can occur.
 
 The purpose of the BK model is the description of the dynamical behavior of
 real faults, whereby a constant, slow driving motion of plates produces an accumulation of ``stress''
-up to a threshold at which such stress is released through an abrupt motion $-$ i.e., an earthquake $-$
+up to a threshold at which such stress is released through an abrupt motion $-$ i.e.\ an earthquake $-$
 of one or more of the system's constituent parts.
 
 \subsection{Motion of two coupled blocks}\label{subsec: diff eqs for two blocks}
@@ -122,13 +122,13 @@ their tunability is very low. The second issue is that the current is a state va
 to measure it with respect to voltage.
 
 It is possible to use another implementation~\cite{ref:electronic_analog} which does not rely on inductances
-and uses only voltages as state variables. In order to do so it is necessary to rewrite the system equations
-as integral equations, so that they can be implemented by electronic integrators that are more stable than
+and uses only voltages as state variables. In order to do so it is necessary to rewrite the differential equations
+as integral equations, so that they can be implemented by electronic integrators, which are more stable than
 the differentiators. The new state variables are defined as $V_i\equiv \nu_i V_0$ and $W_i\equiv \xi_i V_0$ and
 the new time constant is given by $\tau=RC$, where $R$ and $C$ are suitably chosen resistance and capacitance.
 Integrating the system of Eqs.~\ref{eq: 2 block motion dimensionless moving surface} for a moving surface and replacing
 $V'_i\equiv V_i+\Delta V$ and $V'_d\equiv V_d+\Delta V$, where $V_d\equiv V_0\nu_d$ and $\Delta V\equiv V_0\Delta\nu$,
-leads to the following system of equations:
+leads to the following system of equations ($i$ takes the values 1 and 2):
 
 \begin{equation}
     \label{eq: 2 block motion electronic}
@@ -166,7 +166,7 @@ is satisfied, since the voltage cannot drop below zero.
 The nonlinear friction element consists in a linear drop for the analog of the velocity-weakening force, and it is
 implemented using two additional op-amps as follows. The output of the first op-amp is given by $V_0-V_i R_B/R_A$.
 Downstream of the resistor $r$, this voltage is prevented to drop below zero by an active
-clamp made of the second op-amp which has a diode in its feedback network. The resulting voltage is fed back into
+clamp made of the second op-amp which has a diode in its feedback network. The resulting voltage is then fed back into
 the integrator generating $V_i$ through an additional resistor $R-r$.
 
 
@@ -200,7 +200,7 @@ due to the fact that a single circuit occupies half of the entire space on the b
 The second one consists instead in an integrated board in which 25 circuits
 like the one in Fig.~\ref{fig: circuit diagram} were implemented;
 the scalability issue is solved in this case, so that this board could be utilized
-to study the behavior of many coupled blocks, as will be done in the next chapters.
+to study the behavior of many coupled blocks, as will be done later in this work.
 
 \subsection{Breadboard implementation}\label{subsec:breadboard implementation}
 
@@ -237,7 +237,7 @@ In the end, both the frequency and the amplitude of the waves depend on the driv
     \caption{Oscillating behavior for the circuit implemented on
     the breadboard. (a) Plot of $W$ and (b) of $V$ as a function of time,
     for $V_d=1$ V.
-    (c) Phase portrait (Lissajous figure) of $V$ versus $W$. (d)
+    (c) Phase portrait (Lissajous figure) of $V$ vs.\ $W$. (d)
     Frequency and (e) root mean square amplitude of the
     output signal $W$ as a function of the parameter $V_d$.
     }\label{fig:oscillation breadboard}
@@ -267,23 +267,23 @@ in the frequency behavior at low driving voltage $V_d$, i.e.\ the initial ``drop
 in the breadboard case with respect to the integrated circuit. These distinctions are all probably due to the different diodes
 and op-amps utilized in the two cases, but they do not modify the actual dynamics of the circuit.
 
-Despite being slightly different, both implementations comply with the oscillating behavior predicted by
-Eqs.~\ref{eq: single block eq motion}. It is thus reasonable to assume that both the integrated circuit and the one on the
-breadboard can potentially be a consistent physical implementation of the BK model. In order to furtherly strenghten
-this hypothesis, an analysis on the behavior of two coupled blocks will be carried out in the next section.
-From now on, only the integrated board implementation will be considered, due to the scalability issues that were discussed
-beforehand.
-
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\linewidth]{../blocks/1_block/board_new/single_block.pdf}
     \caption{Oscillating behavior for the circuit implemented on
     the integrated board (red) and the one implemented on the breadboard (blue).
     (a) Plot of $W$ and (b) of $V$ as a function of time, for $V_d=1$ V.
-    (c) Phase portrait (Lissajous figure) of $V$ versus $W$. (d)
+    (c) Phase portrait (Lissajous figure) of $V$ vs.\ $W$. (d)
     Frequency and (e) root mean square amplitude of the
     output signal $W$ as a function of the parameter $V_d$.}\label{fig:oscillation board}
 \end{figure}
+
+Despite being slightly different, both implementations comply with the oscillating behavior predicted by
+Eqs.~\ref{eq: single block eq motion}. It is thus reasonable to assume that both the integrated circuit and the one on the
+breadboard can potentially be a consistent physical implementation of the BK model. In order to furtherly strenghten
+this hypothesis, an analysis on the behavior of two coupled blocks will be carried out in the next section.
+From now on, only the integrated board implementation will be considered, due to the scalability issues that were discussed
+beforehand.
 
 
 \section{Characterization of the double block behavior}\label{sec: double block characterization}
@@ -297,15 +297,6 @@ By looking at the waveforms $V_i(t)$ and $W_i(t)$ it is possible to notice that 
 is no longer observed. Furthermore, the Lissajous figures do not show a stationary orbit like the single block case.
 This hints that the dynamics in the presence of coupling might be chaotic, i.e.\ deterministic but unpredictable,
 and surely non-periodic.
-
-Another way to check the presence of chaos in the system is to make use of a bifurcation diagram, i.e.\ the distribution
-of the local maxima of a state variable (position, velocity) as a function of an external parameter (driving force).
-This diagram is shown in Fig.~\ref{fig: bifurcation} for the position $W_1$ ($W_2$ behaves similarly) as a function of $V_d$.
-The scan of the $V_d$ parameter was carried out by switching off the circuit's power supply, changing the voltage $V_d$,
-and the switching the power supply back on. This ensured that the recorded evolution was independent of the previous state.
-It is possible to notice that the dynamics is richer for $V_d\lesssim0.1$ V, where several maxima can be detected.
-In contrast, for $V_d\gtrsim0.1$ V, only one maximum can be observed; in this regime the system behaves similarly
-to the single block case, manifesting periodic sinusoidal-like oscillations.
 
 \begin{figure}[!htbp]
     \centering
@@ -323,11 +314,15 @@ to the single block case, manifesting periodic sinusoidal-like oscillations.
             {../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf}
         \end{subfigure}
     \end{minipage}
-    \caption{Chaotic behavior of two coupled blocks for $V_d=0.05$ V.
+    \caption{Seemingly chaotic behavior of two coupled blocks for $V_d=0.05$ V.
     Phase portraits of $V_i$ vs $W_i$ for the first (a) and second (b) block, for a total time of 1 s.
     Time series plots for $W_1$ (c), $V_1$ (e), $W_2$ (d) and $V_2$ (f), for a total time of 100 ms.
     }\label{fig:2 blocks waveforms}
 \end{figure}
+
+Another way to check the presence of chaos in the system is to make use of a bifurcation diagram, i.e.\ the distribution
+of the local maxima of a state variable (position, velocity) as a function of an external parameter (driving force).
+This diagram is shown in Fig.~\ref{fig: bifurcation} for the position $W_1$ ($W_2$ behaves similarly) as a function of $V_d$.
 
 \begin{figure}[!htbp]
     \centering
@@ -336,6 +331,12 @@ to the single block case, manifesting periodic sinusoidal-like oscillations.
     The local maxima of $W_1$ are plotted as a function of the external parameter $V_d$,
     which is varied in steps of 10 mV.}\label{fig: bifurcation}
 \end{figure}
+
+The scan of the $V_d$ parameter was carried out by switching off the circuit's power supply, changing the voltage $V_d$,
+and the switching the power supply back on. This ensured that the recorded evolution was independent of the previous state.
+It is possible to notice that the dynamics is richer for $V_d\lesssim0.11$ V, where several maxima can be detected.
+In contrast, for $V_d\gtrsim0.11$ V, only one maximum can be observed; in this regime the system behaves similarly
+to the single block case, manifesting periodic sinusoidal-like oscillations.
 
 It is therefore safe to assume that, for low driving voltages $V_d$, the coupled system of two blocks shows a chaotic behavior.
 The reason why this does not occur at higher voltages might be that the driving force is so strong that the blocks
