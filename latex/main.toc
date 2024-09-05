@@ -1,5 +1,5 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Introduction}{v}{chapter*.2}%
+\contentsline {chapter}{Abstract}{v}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}An electronic analog of the Burridge-Knopoff model}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Mechanical Burridge-Knopoff model}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Motion of two coupled blocks}{2}{subsection.1.1.1}%
@@ -27,7 +27,8 @@
 \contentsline {subsection}{\numberline {3.2.2}Block in the center}{28}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}The effects of the oscilloscope quantization}{29}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Multiple coupled blocks}{32}{section.3.4}%
-\contentsline {chapter}{Appendices}{37}{section*.32}%
-\contentsline {chapter}{\numberline {A}Chaos analysis for oscilloscope quantization}{39}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}Chaos analysis on multiple coupled blocks}{41}{appendix.1.B}%
-\contentsline {chapter}{Bibliography}{59}{appendix*.66}%
+\contentsline {chapter}{Conclusions}{37}{chapter*.32}%
+\contentsline {chapter}{Appendices}{39}{section*.33}%
+\contentsline {chapter}{\numberline {A}Chaos analysis for oscilloscope quantization}{41}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}Chaos analysis on multiple coupled blocks}{43}{appendix.1.B}%
+\contentsline {chapter}{Bibliography}{61}{appendix*.67}%
