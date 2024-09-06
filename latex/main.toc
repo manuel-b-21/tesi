@@ -28,7 +28,7 @@
 \contentsline {section}{\numberline {3.3}The effects of the oscilloscope quantization}{29}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Multiple coupled blocks}{32}{section.3.4}%
 \contentsline {chapter}{Conclusions}{37}{chapter*.32}%
-\contentsline {chapter}{Appendices}{39}{section*.33}%
-\contentsline {chapter}{\numberline {A}Chaos analysis for oscilloscope quantization}{41}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}Chaos analysis on multiple coupled blocks}{43}{appendix.1.B}%
-\contentsline {chapter}{Bibliography}{61}{appendix*.67}%
+\contentsline {chapter}{Appendices}{41}{section*.33}%
+\contentsline {chapter}{\numberline {A}Chaos analysis for oscilloscope quantization}{43}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}Chaos analysis on multiple coupled blocks}{45}{appendix.1.B}%
+\contentsline {chapter}{Bibliography}{63}{appendix*.67}%

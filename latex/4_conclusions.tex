@@ -1,6 +1,88 @@
 \chapter*{Conclusions}
 \addcontentsline{toc}{chapter}{Conclusions}
 
+The analysis of nonlinear dynamical systems relies on the possibility of reconstructing proxy state space
+evolutions out of recorded scalar sequences, a possibility granted by Takens' theorem. Time-delay
+embedding is a viable and widespread method to carry out this reconstruction, although its correct
+implementation is not trivial. No definitive answer to the issue of optimal embedding exists.
+However, the method presented in Chapter~\ref{chap: chaos} allows us to find several acceptable
+values of the embedding parameters, as opposed to most approaches which provide a single choice for
+$m,L$. The criterion that establishes whether a pair is suitable or not is the correlation dimension
+$\nu$; more specifically, if a uniformity region in which $\nu$ is practically constant is present,
+the embedding pairs that characterize that region are deemed as valid. Consequently, also the maximum
+Lyapunov exponent can be estimated in the uniformity region, providing another useful quantity for chaos.
+
+In Chapter~\ref{chap: chaos analysis} this method has been applied to the electronic implementation of
+the Burridge-Knopoff model, with encouraging results. Many different configurations have been analyzed;
+more specifically, several linear chains of coupled blocks have been implemented, with the number of
+blocks ranging from 2 to 25. The procedure has been carried out starting from the signal $W_1$, i.e.
+the ``position'' of the first block of the chain. The system resulted to be chaotic in every
+configuration $-$ except the single block instance $-$ since a uniformity region has been detected in
+each case.
+
+The correlation dimension $\nu$ was then calculated as a function of the number of coupled
+blocks. In the 2 blocks case the result was $\nu_2=2.20\pm0.02$, which is partially in accordance with
+other estimates found in literature; more specifically, our estimate is slightly larger probably due
+to the higher presence of noise. This initial value rapidly increases with the
+number of coupled blocks. From 6 to 25 blocks, the correlation dimension fluctuates around a plateau
+$\nu_{\text{pl}}=2.56\pm0.01$. This indicates that at some point the strange attractor does not feel
+the addition of state variables anymore.
+
+The maximum Lyapunov exponent behaves similarly. For 2 coupled blocks we found $\text{MLE}_2=(54\pm1)$
+Hz, in compliance with the numerical results. This value also increases with the number of coupled
+blocks, eventually reaching a plateau at about 865 Hz.
+
+Other configurations of the system were then analyzed. More precisely, for the odd values of the
+number of coupled blocks (3, 5, 7, \ldots, 25), the embedding procedure was carried out using
+$W_k$ as the signal instead of $W_1$, where the $k$-th block is located in the center of the linear
+chain $-$ e.g.\ in the 9 blocks case the analyzed signal would be $W_5$. Once again, the system was
+found to be chaotic in every configuration, but important discrepancies are present for $\nu$ and MLE\@.
+
+The majority of the estimates for $\nu$ using the center blocks are significantly larger with respect
+to the boundary blocks case. This is in apparent contradiction with Takens' theorem, which states that
+the dynamics does not depend on the state variable chosen for the analysis. Since this is true for
+noiseless, finely sampled and infinitely long sequences, there can be ``experimental'' reasons for
+which the theorem does not seem to hold. Indeed, the increase in the correlation dimension can be
+explained using the oscilloscope quantization, i.e.\ the number of bits with which the signal is sampled.
+We have proven that the correlation dimension increases with the quantization. Since the peaks
+reached in the signal $W_k$ are smaller with respect to the signal $W_1$, the quantization is more
+relevant in the center block case, resulting in these discrepancies on the estimates of $\nu$.
+Considering also the fact that the uncertainties are higher using the center blocks, it is reasonable
+to assume that the most suitable estimate for the correlation dimension of the system is the one
+obtained using $W_1$ as the time series, i.e.\ $\nu_{\text{pl}}=2.56\pm0.01$.
+
+The situation regarding the maximum Lyapunov exponent is different. Also in this case the estimates using
+the center blocks are higher with respect to the boundary block case. However, this cannot be
+attributed to the oscilloscope quantization. The most probable reason is the presence of more than
+one positive Lyapunov exponent. One of the assumptions of the ``chasing chaos'' algorithm is that
+the MLE is the only positive exponent. The method is still able to identify chaos and estimate $\nu$,
+but a systematic error on the estimate of MLE is inevitable. Since the MLE reaches two different
+plateaux in the two cases, the simplest final estimate of the system's maximum Lyapunov exponent
+is given by the average of the two, which yields $\text{MLE}_{\text{pl}}=(1.11\pm0.25)$ kHz. Despite
+the uncertainty of this value is very large, the order of magnitude complies with the fact that the
+characteristic time of the single BK blocks is $\tau=1$ ms, which corresponds to a frequency of 1 kHz.
+This means that the circuit keeps the memory of itself for about 1 ms, after which the time evolution
+cannot be inferred anymore from the initial condition.
+
+%future developments, tipo fare i cosi bidimensionali e cercare la gutenberg richter
+
+There are several possible future developments which can improve the results found in this work and
+better characterize the integrated electronic board. For example, using a method which is able to
+distinguish between different positive Lyapunov exponents can give more insights on the chaotic behavior
+of the system. Another interesting possibility consists in overcoming the linear block chain, building
+different topologies of the systems and analyzing the chaotic behavior of each one; e.g.\ two-dimensional
+systems or linear chains with periodic boundary conditions can be implemented and studied. In the end,
+it could be fascinating to carry out some ``earthquake simulations'' using the integrated board:
+by building a $5\times5$ array of BK blocks, topples and avalanches can potentially be observed.
+Furthermore, by tracking all 25 signals at the same time and recording the number of times that
+a peak overcomes some threshold, the compliance with Gutenberg-Richter's law could be exploited,
+establishing conclusively whether the integrated board is a suitable implementation of the mechanical
+Burridge-Knopoff model or not.
+
+
+
+
+
 
 
 
