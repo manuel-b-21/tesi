@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1725270676 "main.bcf" "main.bbl" "main" 1725615004
-  "main.bcf" 1725615004 113976 4c508e63657a6df33f1c7804c30a7d51 "pdflatex"
+["biber main"] 1725270676 "main.bcf" "main.bbl" "main" 1726475193
+  "main.bcf" 1726475193 113976 4c508e63657a6df33f1c7804c30a7d51 "pdflatex"
   "references.bib" 1725270676 10941 528c50cd6a08d6e3f310a12bdcd43679 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1725615001 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1725615004
+["pdflatex"] 1726475189 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1726475193
   "../blocks/10_blocks/2e5_points/plots/chaos_low.pdf" 1720166967 110713 35cf7467a4aa67dd9c34b7218dc40794 ""
   "../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf" 1720166967 113501 aeeaa04bff3675858e4eb04976277ad0 ""
   "../blocks/11_blocks/edge/attractor.pdf" 1720166967 49421 da7ddd0e74cd3846ebdbcb4ec4057799 ""
@@ -270,14 +270,14 @@
   "images/photo_breadboard.jpeg" 1725263228 309412 7cbe25c1f132e5cad7e78e4ab39f3625 ""
   "images/photo_integrated_board.jpeg" 1725263232 328543 5e1772bffec5384cd3f1564c95d83e64 ""
   "images/rossler_embedding.png" 1724948514 427593 a607dee0f0fad0f8f94c0df15d8bf129 ""
-  "main.aux" 1725615004 66819 3078ad841b3b6b98f1518ba978b2075c "pdflatex"
+  "main.aux" 1726475193 66819 3078ad841b3b6b98f1518ba978b2075c "pdflatex"
   "main.bbl" 1725270677 53015 49ec91859c7216468c6b3f5e10907d6b "biber main"
-  "main.out" 1725615004 6593 2fa90f8c15abe37be9cef669970c2cde "pdflatex"
-  "main.run.xml" 1725615004 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.out" 1726475193 6593 2fa90f8c15abe37be9cef669970c2cde "pdflatex"
+  "main.run.xml" 1726475193 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
   "main.tex" 1725614628 2459 2bccd4735a135fa65a480717d8e6b7a9 ""
-  "main.toc" 1725615004 2939 064b2ca487e146730632fd459bc8016f "pdflatex"
+  "main.toc" 1726475193 2939 064b2ca487e146730632fd459bc8016f "pdflatex"
   "packages.sty" 1725462521 1156 797acb2a9662acad90aa3e1b3c8fb58a ""
-  "title.tex" 1718696909 913 8a6cf4b0c216eca7b59e42c09a4c47b7 ""
+  "title.tex" 1726475189 913 e8e8820306b0ea751ae1ef4cb61e0abc ""
   (generated)
   "main.aux"
   "main.bcf"
