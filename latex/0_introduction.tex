@@ -39,26 +39,30 @@ condition that determines that a system is chaotic is the sensitivity to initial
 provided that two initial conditions are arbitrarily close in the state space, the distance
 between the two diverges exponentially in time. The measure that quantifies this divergence is the
 maximum Lyapunov exponent. The second invariant quantity is the correlation dimension, which is an
-estimate of the non-integer dimension of the attractor; this measure highlights the unconventional
+estimate of the non-integer dimension of the attractor. This measure highlights the unconventional
 geometry of a chaotic system's state space.
 
 An example of chaotic dynamics is given by earthquakes. Seismic faults are governed by Newton's law,
-being thus a deterministic system. However, nonlinearity makes the temporal evolution of earthquakes
-very hard to predict. In order to study the dynamics of such systems, it is necessary to involve
-simpler models that reproduce the same properties as real earthquakes. A model that recreates these
+meaning that they should be a deterministic system. However, it is impossible to establish to what
+extent the time evolution of a fault is deterministic and how important are stochastic effects.
+In order to study the dynamics of such systems, it is necessary to involve simpler models that
+possibly reproduce the same properties as real earthquakes. A model that recreates these
 features fairly well is the Burridge-Knopoff (BK) spring-block model. This consists in a two-dimensional
 system of massive blocks interconnected by springs; each block is also connected to a moving surface
 through another set of springs. Nonlinearity comes from the fact that the blocks lie on a rough
 horizontal surface, which means that their velocity is weakened by some friction. Integrating the
 differential equations that characterize this model allows us to compare the properties of this model
-to the properties of real faults. The most important result achieved by this model is the
-compliance with Gutenberg-Richter's law, which links the number of avalanches with the energy
-released by the avalanche itself.
+to the properties of real faults.
 
 Despite the practicality of this model, a physical implementation of the Burridge-Knopoff model raises
 several issues: the difficulty of measuring position and velocity for each block, the non-ideality
 of springs, the problem of dealing with avalanches, just to name a few. In essence, an implementation
-of the spring-block model is impossible outside of a computer.
+of the spring-block model is impossible outside of a computer. Moreover, a computational implementation
+of many BK blocks is very demanding. Usually, simulations of these kind make use of simplified models,
+e.g.\ cellular automaton models, so that a large number of blocks can be implemented.
+The most important result achieved by these models is the compliance with Gutenberg-Richter's law, which
+links the number of avalanches with the energy released by the avalanche itself; this compliance is only
+reached in the limit of infinitely many coupled blocks.
 
 One way to get around this question is to build some physical system which differential equations
 are the same as the ones of the spring-block model. This can be done through an electronic circuit. By only
@@ -69,11 +73,10 @@ In absence of coupling between blocks, each block behaves as a simple oscillator
 more blocks instead, a seemingly chaotic behavior can be observed, if the parameters are suitably
 chosen.
 
-This circuit was first implemented and analyzed on a breadboard. However, the use of large electronic
-components made the study of many coupled blocks impossible. An integrated board with 25 BK blocks
-was then produced. By making use of the embedding procedure and other techniques, the chaotic dynamics
-of this system can be resolved starting from the time series $W$. Analyzing the chaotic dynamics of
-several coupled blocks will be the final aim of this work.
+This circuit was first implemented and analyzed on a breadboard.
+Then, an integrated board with 25 BK blocks was produced. By making use of the embedding procedure
+and other techniques, the chaotic dynamics of this system can be assessed starting from the time
+series $W$. Analyzing the chaotic dynamics of several coupled blocks will be the final aim of this work.
 
 The present thesis is organized as follows. The mechanical Burridge-Knopoff model and its electronic
 implementation are presented in Chapter~\ref{chap: electronic analog of bk}. A characterization of the

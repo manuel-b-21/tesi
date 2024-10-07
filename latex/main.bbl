@@ -259,6 +259,32 @@
       \field{pages}{1055\bibrangedash 1073}
       \range{pages}{19}
     \endentry
+    \entry{perinelli2020new}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=3778bdad23441ff03a7b62fdd67243c7}{%
+           family={Perinelli},
+           familyi={P\bibinitperiod},
+           given={Alessio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Università degli studi di Trento}%
+      }
+      \strng{namehash}{84e8bef4d715d6b24c0d23e93a605443}
+      \strng{fullhash}{84e8bef4d715d6b24c0d23e93a605443}
+      \strng{bibnamehash}{84e8bef4d715d6b24c0d23e93a605443}
+      \strng{authorbibnamehash}{84e8bef4d715d6b24c0d23e93a605443}
+      \strng{authornamehash}{84e8bef4d715d6b24c0d23e93a605443}
+      \strng{authorfullhash}{84e8bef4d715d6b24c0d23e93a605443}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A new approach to optimal embedding of time series}
+      \field{year}{2020}
+    \endentry
     \entry{ref:chaos_definition}{book}{}
       \name{author}{1}{}{%
         {{hash=21353970889dde106683ec5692fe5b1b}{%
@@ -569,8 +595,8 @@
       \strng{authorbibnamehash}{f9de087434f3d8652391fe3abbd18ce3}
       \strng{authornamehash}{f9de087434f3d8652391fe3abbd18ce3}
       \strng{authorfullhash}{f9de087434f3d8652391fe3abbd18ce3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
@@ -879,8 +905,8 @@
       \strng{authorbibnamehash}{d1aa5fa2fffafa0bec1501b36aab16a3}
       \strng{authornamehash}{d1aa5fa2fffafa0bec1501b36aab16a3}
       \strng{authorfullhash}{d1aa5fa2fffafa0bec1501b36aab16a3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chaos}
@@ -1166,8 +1192,8 @@
       \strng{authorbibnamehash}{b91bb2f93c2c9709134296e3a7e6c605}
       \strng{authornamehash}{b91bb2f93c2c9709134296e3a7e6c605}
       \strng{authorfullhash}{b91bb2f93c2c9709134296e3a7e6c605}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physica D: Nonlinear Phenomena}

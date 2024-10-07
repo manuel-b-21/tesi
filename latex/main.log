@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  16 SEP 2024 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  7 OCT 2024 12:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -944,59 +944,58 @@ Underfull \vbox (badness 6625) has occurred while \output is active []
 <../blocks/1_block/breadboard/breadboard_implementation.png, id=264, 1388.18625pt x 893.3375pt>
 File: ../blocks/1_block/breadboard/breadboard_implementation.png Graphic file (type png)
 <use ../blocks/1_block/breadboard/breadboard_implementation.png>
-Package pdftex.def Info: ../blocks/1_block/breadboard/breadboard_implementation.png  used on input line 151.
+Package pdftex.def Info: ../blocks/1_block/breadboard/breadboard_implementation.png  used on input line 154.
 (pdftex.def)             Requested size: 404.02908pt x 260.00179pt.
- [4]
-Underfull \vbox (badness 2245) has occurred while \output is active []
-
- [5 <../blocks/1_block/breadboard/breadboard_implementation.png>]
+ [4] [5 <../blocks/1_block/breadboard/breadboard_implementation.png>]
 <images/photo_breadboard.jpeg, id=286, 1505.625pt x 2007.5pt>
 File: images/photo_breadboard.jpeg Graphic file (type jpg)
 <use images/photo_breadboard.jpeg>
-Package pdftex.def Info: images/photo_breadboard.jpeg  used on input line 220.
+Package pdftex.def Info: images/photo_breadboard.jpeg  used on input line 224.
 (pdftex.def)             Requested size: 202.01454pt x 269.34668pt.
 <../blocks/1_block/breadboard/single_block.pdf, id=290, 361.35pt x 216.81pt>
 File: ../blocks/1_block/breadboard/single_block.pdf Graphic file (type pdf)
 <use ../blocks/1_block/breadboard/single_block.pdf>
-Package pdftex.def Info: ../blocks/1_block/breadboard/single_block.pdf  used on input line 236.
+Package pdftex.def Info: ../blocks/1_block/breadboard/single_block.pdf  used on input line 239.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<images/photo_integrated_board.jpeg, id=293, 2007.5pt x 1505.625pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./images/photo_breadboard.jpeg>]
+<images/photo_integrated_board.jpeg, id=299, 2007.5pt x 1505.625pt>
 File: images/photo_integrated_board.jpeg Graphic file (type jpg)
 <use images/photo_integrated_board.jpeg>
-Package pdftex.def Info: images/photo_integrated_board.jpeg  used on input line 258.
+Package pdftex.def Info: images/photo_integrated_board.jpeg  used on input line 266.
 (pdftex.def)             Requested size: 323.22449pt x 242.4212pt.
- [6 <./images/photo_breadboard.jpeg>] [7 <../blocks/1_block/breadboard/single_block.pdf> <./images/photo_integrated_board.jpeg>]
-<../blocks/1_block/board_new/single_block.pdf, id=322, 361.35pt x 216.81pt>
+<../blocks/1_block/board_new/single_block.pdf, id=301, 361.35pt x 216.81pt>
 File: ../blocks/1_block/board_new/single_block.pdf Graphic file (type pdf)
 <use ../blocks/1_block/board_new/single_block.pdf>
-Package pdftex.def Info: ../blocks/1_block/board_new/single_block.pdf  used on input line 272.
+Package pdftex.def Info: ../blocks/1_block/board_new/single_block.pdf  used on input line 280.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf, id=327, 642.4pt x 481.8pt>
+ [7 <../blocks/1_block/breadboard/single_block.pdf>] [8 <./images/photo_integrated_board.jpeg> <../blocks/1_block/board_new/single_block.pdf>]
+<../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf, id=345, 642.4pt x 481.8pt>
 File: ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf>
-Package pdftex.def Info: ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf  used on input line 307.
+Package pdftex.def Info: ../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf  used on input line 315.
 (pdftex.def)             Requested size: 197.97646pt x 289.56007pt.
-<../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf, id=329, 642.4pt x 481.8pt>
+<../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf, id=347, 642.4pt x 481.8pt>
 File: ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf>
-Package pdftex.def Info: ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf  used on input line 314.
+Package pdftex.def Info: ../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf  used on input line 322.
 (pdftex.def)             Requested size: 197.97646pt x 289.56007pt.
- [8 <../blocks/1_block/board_new/single_block.pdf>]
-<../blocks/2_blocks/bifurcation/bifurcation.pdf, id=351, 361.35pt x 216.81pt>
+<../blocks/2_blocks/bifurcation/bifurcation.pdf, id=350, 361.35pt x 216.81pt>
 File: ../blocks/2_blocks/bifurcation/bifurcation.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/bifurcation/bifurcation.pdf>
-Package pdftex.def Info: ../blocks/2_blocks/bifurcation/bifurcation.pdf  used on input line 329.
+Package pdftex.def Info: ../blocks/2_blocks/bifurcation/bifurcation.pdf  used on input line 337.
 (pdftex.def)             Requested size: 242.4199pt x 145.45381pt.
- [9 <../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf> <../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf> <../blocks/2_blocks/bifurcation/bifurcation.pdf
-
-pdfTeX warning: pdflatex (file ../blocks/2_blocks/bifurcation/bifurcation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<../blocks/2_blocks/two_blocks_nochaos.pdf, id=403, 361.35pt x 216.81pt>
+<../blocks/2_blocks/two_blocks_nochaos.pdf, id=352, 361.35pt x 216.81pt>
 File: ../blocks/2_blocks/two_blocks_nochaos.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/two_blocks_nochaos.pdf>
-Package pdftex.def Info: ../blocks/2_blocks/two_blocks_nochaos.pdf  used on input line 343.
+Package pdftex.def Info: ../blocks/2_blocks/two_blocks_nochaos.pdf  used on input line 351.
 (pdftex.def)             Requested size: 404.02908pt x 131.0715pt.
-) [10 <../blocks/2_blocks/two_blocks_nochaos.pdf>] (./2_chaos.tex
+ [9 <../blocks/2_blocks/4e4_points/plots/waveforms_1.pdf> <../blocks/2_blocks/4e4_points/plots/waveforms_2.pdf>]) [10 <../blocks/2_blocks/two_blocks_nochaos.pdf> <../blocks/2_blocks/bifurcation/bifurcation.pdf
+
+pdfTeX warning: pdflatex (file ../blocks/2_blocks/bifurcation/bifurcation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./2_chaos.tex
 Chapter 2.
 
 Underfull \vbox (badness 2547) has occurred while \output is active []
@@ -1005,35 +1004,35 @@ Underfull \vbox (badness 2547) has occurred while \output is active []
 
 
 ] [12]
-<images/lorenz_attractor.png, id=449, 1074.0125pt x 785.93625pt>
+<images/lorenz_attractor.png, id=451, 1074.0125pt x 785.93625pt>
 File: images/lorenz_attractor.png Graphic file (type png)
 <use images/lorenz_attractor.png>
 Package pdftex.def Info: images/lorenz_attractor.png  used on input line 109.
 (pdftex.def)             Requested size: 242.4199pt x 177.39166pt.
-<images/henon_fractal.png, id=456, 1689.31125pt x 429.605pt>
+<images/henon_fractal.png, id=458, 1689.31125pt x 429.605pt>
 File: images/henon_fractal.png Graphic file (type png)
 <use images/henon_fractal.png>
 Package pdftex.def Info: images/henon_fractal.png  used on input line 134.
 (pdftex.def)             Requested size: 404.02908pt x 102.74677pt.
-<images/lorenz_spectrum.png, id=460, 999.735pt x 672.5125pt>
+<images/lorenz_spectrum.png, id=462, 999.735pt x 672.5125pt>
 File: images/lorenz_spectrum.png Graphic file (type png)
 <use images/lorenz_spectrum.png>
 Package pdftex.def Info: images/lorenz_spectrum.png  used on input line 150.
 (pdftex.def)             Requested size: 242.4199pt x 163.06868pt.
  [13 <./images/lorenz_attractor.png>]
-<images/rossler_embedding.png, id=487, 1172.38pt x 818.05624pt>
+<images/rossler_embedding.png, id=489, 1172.38pt x 818.05624pt>
 File: images/rossler_embedding.png Graphic file (type png)
 <use images/rossler_embedding.png>
 Package pdftex.def Info: images/rossler_embedding.png  used on input line 188.
 (pdftex.def)             Requested size: 404.02908pt x 281.91765pt.
  [14 <./images/henon_fractal.png> <./images/lorenz_spectrum.png>] [15 <./images/rossler_embedding.png>] [16]
-<images/lorenz_lyapunov.png, id=536, 1072.005pt x 850.17625pt>
+<images/lorenz_lyapunov.png, id=538, 1072.005pt x 850.17625pt>
 File: images/lorenz_lyapunov.png Graphic file (type png)
 <use images/lorenz_lyapunov.png>
 Package pdftex.def Info: images/lorenz_lyapunov.png  used on input line 289.
 (pdftex.def)             Requested size: 404.02908pt x 320.42392pt.
  [17 <./images/lorenz_lyapunov.png>]
-<images/lorenz_divergence.png, id=556, 1028.84375pt x 726.715pt>
+<images/lorenz_divergence.png, id=558, 1028.84375pt x 726.715pt>
 File: images/lorenz_divergence.png Graphic file (type png)
 <use images/lorenz_divergence.png>
 Package pdftex.def Info: images/lorenz_divergence.png  used on input line 337.
@@ -1042,25 +1041,25 @@ Package pdftex.def Info: images/lorenz_divergence.png  used on input line 337.
 Underfull \vbox (badness 6001) has occurred while \output is active []
 
  [18 <./images/lorenz_divergence.png>] [19] [20] [21]
-<images/heatmap_Lorenz.png, id=625, 974.64125pt x 854.19125pt>
+<images/heatmap_Lorenz.png, id=627, 974.64125pt x 854.19125pt>
 File: images/heatmap_Lorenz.png Graphic file (type png)
 <use images/heatmap_Lorenz.png>
 Package pdftex.def Info: images/heatmap_Lorenz.png  used on input line 580.
 (pdftex.def)             Requested size: 242.4199pt x 212.45244pt.
-<images/joint_Lorenz.png, id=628, 1158.3275pt x 947.54pt>
+<images/joint_Lorenz.png, id=630, 1158.3275pt x 947.54pt>
 File: images/joint_Lorenz.png Graphic file (type png)
 <use images/joint_Lorenz.png>
 Package pdftex.def Info: images/joint_Lorenz.png  used on input line 594.
 (pdftex.def)             Requested size: 242.4199pt x 198.29527pt.
  [22] [23 <./images/heatmap_Lorenz.png> <./images/joint_Lorenz.png>]
-<images/joint_Lorenz_noise.png, id=651, 1774.63pt x 644.4075pt>
+<images/joint_Lorenz_noise.png, id=653, 1774.63pt x 644.4075pt>
 File: images/joint_Lorenz_noise.png Graphic file (type png)
 <use images/joint_Lorenz_noise.png>
 Package pdftex.def Info: images/joint_Lorenz_noise.png  used on input line 629.
 (pdftex.def)             Requested size: 404.02908pt x 146.70618pt.
 ) [24 <./images/joint_Lorenz_noise.png>] (./3_chaos_analysis.tex
 Chapter 3.
-<../blocks/2_blocks/1e5_points/plots/chaos.pdf, id=669, 361.35pt x 216.81pt>
+<../blocks/2_blocks/1e5_points/plots/chaos.pdf, id=671, 361.35pt x 216.81pt>
 File: ../blocks/2_blocks/1e5_points/plots/chaos.pdf Graphic file (type pdf)
 <use ../blocks/2_blocks/1e5_points/plots/chaos.pdf>
 Package pdftex.def Info: ../blocks/2_blocks/1e5_points/plots/chaos.pdf  used on input line 20.
@@ -1069,103 +1068,97 @@ Package pdftex.def Info: ../blocks/2_blocks/1e5_points/plots/chaos.pdf  used on 
 
 
 ] [26 <../blocks/2_blocks/1e5_points/plots/chaos.pdf>]
-<../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf, id=713, 361.35pt x 216.81pt>
+<../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf, id=715, 361.35pt x 216.81pt>
 File: ../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf  used on input line 93.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf, id=717, 361.35pt x 216.81pt>
+<../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf, id=719, 361.35pt x 216.81pt>
 File: ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 131.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
 
-Underfull \vbox (badness 1082) has occurred while \output is active []
+Underfull \vbox (badness 3668) has occurred while \output is active []
 
  [27]
-<../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf, id=725, 361.35pt x 216.81pt>
+<../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf, id=727, 361.35pt x 216.81pt>
 File: ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 164.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
  [28 <../blocks/3_blocks/edge/1e5_points/plots/chaos_low.pdf>]
-<../blocks/3_blocks/edge/attractor.pdf, id=755, 642.4pt x 481.8pt>
+<../blocks/3_blocks/edge/attractor.pdf, id=757, 642.4pt x 481.8pt>
 File: ../blocks/3_blocks/edge/attractor.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/edge/attractor.pdf>
 Package pdftex.def Info: ../blocks/3_blocks/edge/attractor.pdf  used on input line 198.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
-<../blocks/3_blocks/middle/attractor.pdf, id=756, 642.4pt x 481.8pt>
+<../blocks/3_blocks/middle/attractor.pdf, id=758, 642.4pt x 481.8pt>
 File: ../blocks/3_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/3_blocks/middle/attractor.pdf>
 Package pdftex.def Info: ../blocks/3_blocks/middle/attractor.pdf  used on input line 199.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
  [29 <../blocks/3_blocks/edge/2e5_points/plots/chaos_low.pdf>] [30 <../blocks/3_blocks/middle/2e5_points/plots/chaos_low.pdf> <../blocks/3_blocks/edge/attractor.pdf> <../blocks/3_blocks/middle/attractor.pdf>] [31]
-<../blocks/data/nu_mle_blocks.pdf, id=837, 361.35pt x 216.81pt>
+<../blocks/data/nu_mle_blocks.pdf, id=839, 361.35pt x 216.81pt>
 File: ../blocks/data/nu_mle_blocks.pdf Graphic file (type pdf)
 <use ../blocks/data/nu_mle_blocks.pdf>
-Package pdftex.def Info: ../blocks/data/nu_mle_blocks.pdf  used on input line 304.
+Package pdftex.def Info: ../blocks/data/nu_mle_blocks.pdf  used on input line 305.
 (pdftex.def)             Requested size: 404.02908pt x 153.34085pt.
-<../blocks/11_blocks/edge/attractor.pdf, id=840, 642.4pt x 481.8pt>
+<../blocks/11_blocks/edge/attractor.pdf, id=842, 642.4pt x 481.8pt>
 File: ../blocks/11_blocks/edge/attractor.pdf Graphic file (type pdf)
 <use ../blocks/11_blocks/edge/attractor.pdf>
-Package pdftex.def Info: ../blocks/11_blocks/edge/attractor.pdf  used on input line 328.
+Package pdftex.def Info: ../blocks/11_blocks/edge/attractor.pdf  used on input line 330.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
-<../blocks/11_blocks/middle/attractor.pdf, id=841, 642.4pt x 481.8pt>
+<../blocks/11_blocks/middle/attractor.pdf, id=843, 642.4pt x 481.8pt>
 File: ../blocks/11_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/11_blocks/middle/attractor.pdf>
-Package pdftex.def Info: ../blocks/11_blocks/middle/attractor.pdf  used on input line 335.
+Package pdftex.def Info: ../blocks/11_blocks/middle/attractor.pdf  used on input line 337.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
-<../blocks/13_blocks/edge/attractor.pdf, id=842, 642.4pt x 481.8pt>
+<../blocks/13_blocks/edge/attractor.pdf, id=844, 642.4pt x 481.8pt>
 File: ../blocks/13_blocks/edge/attractor.pdf Graphic file (type pdf)
 <use ../blocks/13_blocks/edge/attractor.pdf>
-Package pdftex.def Info: ../blocks/13_blocks/edge/attractor.pdf  used on input line 342.
+Package pdftex.def Info: ../blocks/13_blocks/edge/attractor.pdf  used on input line 344.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
-<../blocks/13_blocks/middle/attractor.pdf, id=843, 642.4pt x 481.8pt>
+<../blocks/13_blocks/middle/attractor.pdf, id=845, 642.4pt x 481.8pt>
 File: ../blocks/13_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/13_blocks/middle/attractor.pdf>
-Package pdftex.def Info: ../blocks/13_blocks/middle/attractor.pdf  used on input line 349.
+Package pdftex.def Info: ../blocks/13_blocks/middle/attractor.pdf  used on input line 351.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
-<../blocks/15_blocks/edge/attractor.pdf, id=844, 642.4pt x 481.8pt>
+<../blocks/15_blocks/edge/attractor.pdf, id=846, 642.4pt x 481.8pt>
 File: ../blocks/15_blocks/edge/attractor.pdf Graphic file (type pdf)
 <use ../blocks/15_blocks/edge/attractor.pdf>
-Package pdftex.def Info: ../blocks/15_blocks/edge/attractor.pdf  used on input line 356.
+Package pdftex.def Info: ../blocks/15_blocks/edge/attractor.pdf  used on input line 358.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
-<../blocks/15_blocks/middle/attractor.pdf, id=845, 642.4pt x 481.8pt>
+<../blocks/15_blocks/middle/attractor.pdf, id=847, 642.4pt x 481.8pt>
 File: ../blocks/15_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/15_blocks/middle/attractor.pdf>
-Package pdftex.def Info: ../blocks/15_blocks/middle/attractor.pdf  used on input line 363.
+Package pdftex.def Info: ../blocks/15_blocks/middle/attractor.pdf  used on input line 365.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
-<../blocks/17_blocks/edge/attractor.pdf, id=846, 642.4pt x 481.8pt>
+<../blocks/17_blocks/edge/attractor.pdf, id=848, 642.4pt x 481.8pt>
 File: ../blocks/17_blocks/edge/attractor.pdf Graphic file (type pdf)
 <use ../blocks/17_blocks/edge/attractor.pdf>
-Package pdftex.def Info: ../blocks/17_blocks/edge/attractor.pdf  used on input line 370.
+Package pdftex.def Info: ../blocks/17_blocks/edge/attractor.pdf  used on input line 372.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
-<../blocks/17_blocks/middle/attractor.pdf, id=847, 642.4pt x 481.8pt>
+<../blocks/17_blocks/middle/attractor.pdf, id=849, 642.4pt x 481.8pt>
 File: ../blocks/17_blocks/middle/attractor.pdf Graphic file (type pdf)
 <use ../blocks/17_blocks/middle/attractor.pdf>
-Package pdftex.def Info: ../blocks/17_blocks/middle/attractor.pdf  used on input line 377.
+Package pdftex.def Info: ../blocks/17_blocks/middle/attractor.pdf  used on input line 379.
 (pdftex.def)             Requested size: 189.89415pt x 142.41647pt.
  [32 <../blocks/data/nu_mle_blocks.pdf>]
-Underfull \vbox (badness 7759) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33 <../blocks/11_blocks/edge/attractor.pdf> <../blocks/11_blocks/middle/attractor.pdf> <../blocks/13_blocks/edge/attractor.pdf> <../blocks/13_blocks/middle/attractor.pdf> <../blocks/15_blocks/edge/attractor.pdf> <../blocks/15_blocks/middle/attractor.pdf> <../blocks/17_blocks/edge/attractor.pdf> <../blocks/17_blocks/middle/attractor.pdf>]
-<../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf, id=965, 361.35pt x 216.81pt>
+<../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf, id=967, 361.35pt x 216.81pt>
 File: ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf>
-Package pdftex.def Info: ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 397.
+Package pdftex.def Info: ../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 417.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf, id=966, 361.35pt x 216.81pt>
+<../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf, id=968, 361.35pt x 216.81pt>
 File: ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf>
-Package pdftex.def Info: ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 407.
+Package pdftex.def Info: ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 427.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
- [34 <../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf> <../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf
-
-pdfTeX warning: pdflatex (file ../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) [35] [36
+) [34 <../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf>] [35 <../blocks/13_blocks/middle/2e5_points/plots/chaos_low.pdf>] [36
 
 ] (./4_conclusions.tex [37
 
@@ -1176,17 +1169,17 @@ pdfTeX warning: pdflatex (file ../blocks/13_blocks/middle/2e5_points/plots/chaos
 
 ] [42]
 Appendix A.
-<../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf, id=1053, 361.35pt x 216.81pt>
+<../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf, id=1056, 361.35pt x 216.81pt>
 File: ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/4_blocks/2e5_points_new/plots/chaos_low.pdf  used on input line 12.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf, id=1054, 361.35pt x 216.81pt>
+<../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf, id=1057, 361.35pt x 216.81pt>
 File: ../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/4_blocks/2e5_points_new_divided/plots/chaos_low.pdf  used on input line 22.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf, id=1057, 361.35pt x 216.81pt>
+<../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf, id=1060, 361.35pt x 216.81pt>
 File: ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf  used on input line 34.
@@ -1198,152 +1191,152 @@ Package pdftex.def Info: ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos
 pdfTeX warning: pdflatex (file ../blocks/4_blocks/2e5_points_new_divided_4/plots/chaos_low.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 Appendix B.
-<../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1134, 361.35pt x 216.81pt>
+<../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1137, 361.35pt x 216.81pt>
 File: ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/5_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 58.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1135, 361.35pt x 216.81pt>
+<../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1138, 361.35pt x 216.81pt>
 File: ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/5_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 68.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/6_blocks/2e5_points/plots/chaos_low.pdf, id=1136, 361.35pt x 216.81pt>
+<../blocks/6_blocks/2e5_points/plots/chaos_low.pdf, id=1139, 361.35pt x 216.81pt>
 File: ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/6_blocks/2e5_points/plots/chaos_low.pdf  used on input line 78.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1137, 361.35pt x 216.81pt>
+<../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1140, 361.35pt x 216.81pt>
 File: ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/7_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 88.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1138, 361.35pt x 216.81pt>
+<../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1141, 361.35pt x 216.81pt>
 File: ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/7_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 98.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/8_blocks/2e5_points/plots/chaos_low.pdf, id=1139, 361.35pt x 216.81pt>
+<../blocks/8_blocks/2e5_points/plots/chaos_low.pdf, id=1142, 361.35pt x 216.81pt>
 File: ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/8_blocks/2e5_points/plots/chaos_low.pdf  used on input line 108.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1140, 361.35pt x 216.81pt>
+<../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1143, 361.35pt x 216.81pt>
 File: ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/9_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 118.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1141, 361.35pt x 216.81pt>
+<../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1144, 361.35pt x 216.81pt>
 File: ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/9_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 128.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/10_blocks/2e5_points/plots/chaos_low.pdf, id=1142, 361.35pt x 216.81pt>
+<../blocks/10_blocks/2e5_points/plots/chaos_low.pdf, id=1145, 361.35pt x 216.81pt>
 File: ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/10_blocks/2e5_points/plots/chaos_low.pdf  used on input line 138.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1143, 361.35pt x 216.81pt>
+<../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1146, 361.35pt x 216.81pt>
 File: ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 148.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1144, 361.35pt x 216.81pt>
+<../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1147, 361.35pt x 216.81pt>
 File: ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/11_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 158.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/12_blocks/2e5_points/plots/chaos_low.pdf, id=1145, 361.35pt x 216.81pt>
+<../blocks/12_blocks/2e5_points/plots/chaos_low.pdf, id=1148, 361.35pt x 216.81pt>
 File: ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/12_blocks/2e5_points/plots/chaos_low.pdf  used on input line 168.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/14_blocks/2e5_points/plots/chaos_low.pdf, id=1146, 361.35pt x 216.81pt>
+<../blocks/14_blocks/2e5_points/plots/chaos_low.pdf, id=1149, 361.35pt x 216.81pt>
 File: ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/14_blocks/2e5_points/plots/chaos_low.pdf  used on input line 178.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1147, 361.35pt x 216.81pt>
+<../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1150, 361.35pt x 216.81pt>
 File: ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/15_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 188.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1148, 361.35pt x 216.81pt>
+<../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1151, 361.35pt x 216.81pt>
 File: ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/15_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 198.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/16_blocks/2e5_points/plots/chaos_low.pdf, id=1149, 361.35pt x 216.81pt>
+<../blocks/16_blocks/2e5_points/plots/chaos_low.pdf, id=1152, 361.35pt x 216.81pt>
 File: ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/16_blocks/2e5_points/plots/chaos_low.pdf  used on input line 208.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1150, 361.35pt x 216.81pt>
+<../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1153, 361.35pt x 216.81pt>
 File: ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/17_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 218.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1151, 361.35pt x 216.81pt>
+<../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1154, 361.35pt x 216.81pt>
 File: ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/17_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 228.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/18_blocks/2e5_points/plots/chaos_low.pdf, id=1152, 361.35pt x 216.81pt>
+<../blocks/18_blocks/2e5_points/plots/chaos_low.pdf, id=1155, 361.35pt x 216.81pt>
 File: ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/18_blocks/2e5_points/plots/chaos_low.pdf  used on input line 238.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1153, 361.35pt x 216.81pt>
+<../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1156, 361.35pt x 216.81pt>
 File: ../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/19_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 248.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1154, 361.35pt x 216.81pt>
+<../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1157, 361.35pt x 216.81pt>
 File: ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/19_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 258.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/20_blocks/2e5_points/plots/chaos_low.pdf, id=1155, 361.35pt x 216.81pt>
+<../blocks/20_blocks/2e5_points/plots/chaos_low.pdf, id=1158, 361.35pt x 216.81pt>
 File: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/20_blocks/2e5_points/plots/chaos_low.pdf  used on input line 268.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1156, 361.35pt x 216.81pt>
+<../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1159, 361.35pt x 216.81pt>
 File: ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/21_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 278.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1157, 361.35pt x 216.81pt>
+<../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1160, 361.35pt x 216.81pt>
 File: ../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/21_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 288.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/22_blocks/2e5_points/plots/chaos_low.pdf, id=1158, 361.35pt x 216.81pt>
+<../blocks/22_blocks/2e5_points/plots/chaos_low.pdf, id=1161, 361.35pt x 216.81pt>
 File: ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/22_blocks/2e5_points/plots/chaos_low.pdf  used on input line 298.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1159, 361.35pt x 216.81pt>
+<../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1162, 361.35pt x 216.81pt>
 File: ../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/23_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 308.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1160, 361.35pt x 216.81pt>
+<../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1163, 361.35pt x 216.81pt>
 File: ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/23_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 318.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/24_blocks/2e5_points/plots/chaos_low.pdf, id=1161, 361.35pt x 216.81pt>
+<../blocks/24_blocks/2e5_points/plots/chaos_low.pdf, id=1164, 361.35pt x 216.81pt>
 File: ../blocks/24_blocks/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/24_blocks/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/24_blocks/2e5_points/plots/chaos_low.pdf  used on input line 328.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1162, 361.35pt x 216.81pt>
+<../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf, id=1165, 361.35pt x 216.81pt>
 File: ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/25_blocks/edge/2e5_points/plots/chaos_low.pdf  used on input line 338.
 (pdftex.def)             Requested size: 404.02908pt x 242.41862pt.
-<../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1163, 361.35pt x 216.81pt>
+<../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf, id=1166, 361.35pt x 216.81pt>
 File: ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf Graphic file (type pdf)
 <use ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf>
 Package pdftex.def Info: ../blocks/25_blocks/middle/2e5_points/plots/chaos_low.pdf  used on input line 348.
@@ -1402,24 +1395,24 @@ Overfull \hbox (1.0449pt too wide) in paragraph at lines 42--42
 
 ] [62] [63] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2FA90F8C15ABE37BE9CEF669970C2CDE;6593.
+(rerunfilecheck)             Checksum: 036EFEBDE1FB86DD140395406371AD20;6603.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24983 strings out of 478287
- 451135 string characters out of 5849290
- 1190343 words of memory out of 5000000
- 42491 multiletter control sequences out of 15000+600000
+ 24987 strings out of 478287
+ 451304 string characters out of 5849290
+ 1190499 words of memory out of 5000000
+ 42494 multiletter control sequences out of 15000+600000
  485886 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,15n,91p,1230b,2170s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (71 pages, 8997835 bytes).
+Output written on main.pdf (71 pages, 8608338 bytes).
 PDF statistics:
- 2033 PDF objects out of 2073 (max. 8388607)
- 1500 compressed objects within 15 object streams
- 230 named destinations out of 1000 (max. 500000)
+ 2037 PDF objects out of 2073 (max. 8388607)
+ 1503 compressed objects within 16 object streams
+ 231 named destinations out of 1000 (max. 500000)
  649 words of extra memory for PDF output out of 10000 (max. 10000000)
 

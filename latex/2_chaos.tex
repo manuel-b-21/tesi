@@ -7,10 +7,10 @@ dynamical system~\cite{ref:fractal_dim}. If these changes are driven
 by specific rules, we say that the system is deterministic; otherwise, if the rules
 are random, it is stochastic. The main feature of chaotic systems is the fact that they are unpredictable
 despite being deterministic; in order to better explain the meaning of this statement, it is essential
-to involve some mathemathical definitions.
+to involve some mathemathical definitions~\cite{perinelli2020new}.
 
 The instantaneous state of a dynamical system is described by a vector $\mathbf{s}$ within a
-state space $\mathcal{S}$ (typically, $\mathcal{S}\subseteq \mathbb{R}^M$).
+state space $\mathcal{S}$ (typically $\mathcal{S}\subseteq \mathbb{R}^M$).
 The state vector evolves in time according to an evolution operator $\mathcal{E}_t$ such that:
 \begin{equation}
 \label{eq: state space evolution}
@@ -154,7 +154,7 @@ and a stochastic one, e.g.\ a Gaussian white noise source (GWN).
     }\label{fig: lorenz spectrum}
 \end{figure}
 
-One more necessary requirement to sustain a chaotic flow is that
+One more necessary requirement to sustain a chaotic behavior is that
 the number of independent dimensions has to be at least three, assuming no discontinuities~\cite{ref:chaos_two_dim_theorem};
 this is due to the fact that
 with two or less independent variables the trajectory will eventually intersect itself, which
@@ -163,7 +163,7 @@ cannot happen due to the aperiodic nature of chaotic dynamics.
 
 \section{The embedding procedure}\label{sec: embedding}
 
-In experimentally observed systems it is only possible to utilize the finite time series $\{y_n\}$,
+In experimentally observed systems it is only possible to make use of the finite time series $\{y_n\}$,
 with the aim to at least obtain some invariant quantities, e.g.\ the maximum Lyapunov exponent or
 the ``effective'' dimension of the system. Under certain conditions, a procedure exists with which
 it is possible to reconstruct the entire state space using only one variable, which is a
@@ -389,7 +389,7 @@ $p_i=1/N$ for every $i$, $D_1=D_0$; instead, if the $p_i$ are different, $D_1<D_
 This is true in general for every $q$, namely $D_i\leq D_j$ if $i>j$, when the equality only
 holds in a uniform fractal.
 
-Finally, one of the most utilized dimensions in chaos theory is the correlation dimension, defined as:
+Finally, one of the most used dimensions in chaos theory is the correlation dimension, defined as:
 \begin{equation}
     \label{eq: D_2}
     D_2=\lim_{l\rightarrow0}\frac{\log(\sum_i p_i^2)}{\log l}.
@@ -398,7 +398,7 @@ The numerator constitutes a two-point correlation function, measuring the probab
 pair of random points within a given partition element, just as the numerator in the definition of
 $D_1$ measures the probability of finding one point in a given element.
 
-The reason why correlation dimension is so utilized lies in the fact that there is a very
+The reason why correlation dimension is so used lies in the fact that there is a very
 efficient way to estimate it, observed by Grassberger and Procaccia~\cite{ref:grassberger1983measuring}.
 Due to the exponential divergence of the trajectories, most pairs
 $(\mathbf{Y}_i,\mathbf{Y}_j)$ with $i\neq j$ will be dynamically uncorrelated
@@ -472,7 +472,7 @@ the redundance time $\tau_R$ and the irrelevance time $\tau_I$.
 
 \section{A method for detecting chaos}\label{sec: method for chaos}
 
-The most utilized tools for detecting chaos, namely the embedding lattice, the maximum Lyapunov exponent
+The most used tools for detecting chaos, namely the embedding lattice, the maximum Lyapunov exponent
 and the correlation dimension, have now been introduced.
 It is thus possible to establish an efficient procedure which not only searches for the best
 embedding parameters $(m,L)$, but also provides estimates for the invariant quantities that
@@ -516,7 +516,7 @@ As was discussed in Section~\ref{sec: correlation dimension}, the divergence exp
 $\Lambda_{\text{pl}}^{m,L}$ for large values of $k$, namely:
 \begin{equation}
     \label{eq: Lambda plateau k infinity}
-    \Lambda_{\text{pl}}^{m,L}(p) = \lim_{k\rightarrow \infty}\Lambda^{m,L}(k)
+    \Lambda_{\text{pl}}^{m,L}(p) = \lim_{k\rightarrow \infty}\Lambda^{m,L}(k),
 \end{equation}
 where the dependence on the percentile $p$ is retained.
 Collecting the plateau value for each percentile $p$, it is possible to fit Eq.~\ref{eq: Lambda plateau}

@@ -1,4 +1,4 @@
-\chapter{Chaos analysis of the electronic Burridge-Knopoff model}\label{chap: chaos analysis}
+\chapter{Chaos analysis in the electronic Burridge-Knopoff model}\label{chap: chaos analysis}
 
 
 \section{Two coupled blocks}\label{sec: 2 blocks chaos}
@@ -44,7 +44,7 @@ The estimates of the maximum Lyapunov exponent as a function of the embedding wi
 Fig.~\ref{fig:2 blocks chaos}d. Carrying out another weighted average of the MLE in the uniformity region
 yields $\text{MLE}=(54\pm1)$ Hz. Since the uniformity region is easy to be identified, it is reasonable
 to conclude that this system is chaotic.
-Nonetheless, the estimates of $\nu$ and MLE are assumed to be valid.
+%Nonetheless, the estimates of $\nu$ and MLE are assumed to be valid.
 
 This chaos analysis was carried out also on a breadboard implementation of the circuit~\cite{ref:electronic_analog}.
 A uniformity region was identified and the correlation dimension was found to be
@@ -208,9 +208,9 @@ variables of the same system of differential equations. This means that there is
 One of the possible reasons for which the results of the chaos analysis differ between $W_1$ and $W_2$
 might lay in the quantization of the oscilloscope, with which the signals are sampled.
 The data read by the oscilloscope are stored in a finite number of bits, namely eight.
-When dealing with chaotic signals, i.e.\ with sharp peaks and rapid changes of the signal,
+When dealing with signals, especially chaotic ones with sharp peaks and rapid changes,
 this quantization reduces the information given by a time series; moreover, it can introduce
-spurious contributions that can modify the estimates on the correlation dimension and the maximum
+a ``quantization noise'' that can modify the estimates on the correlation dimension and the maximum
 Lyapunov exponent.
 
 In order to test the actual effects of this quantization on the analysis, the following method was
@@ -277,7 +277,8 @@ The estimates of $\nu$ and MLE in the three cases are presented in Table~\ref{ta
 
 The MLE is not too sensible to the oscilloscope quantization, since it has an observable decrease
 only in the quadrupled quantization case. On the other hand, both the correlation dimension and
-its uncertainty significantly increase with the quantization.
+its uncertainty increase with the quantization; nonetheless, the dimension obtained using $W_1$ is
+compatible with the one using $\tilde{W}_1$ but not with the one using $\tilde{\tilde{W}}_1$.
 This results are consistent with the discrepancies found in the three blocks case between
 the boundary block and the center block, hinting to the fact that the oscilloscope quantization
 might play a compelling role in the chaos analysis.
@@ -316,8 +317,9 @@ corresponding estimates on the boundary blocks, and the same goes for the uncert
 A possible reason for this behavior can be once again the oscilloscope quantization.
 As can be seen from the attractor plots in Fig.~\ref{fig:attractors 11-17}, the explored region
 of the phase space is smaller when looking at center blocks.
-This means that the oscilloscope quantization is more relevant in this case, resulting in higher
-estimates of the correlation dimension.
+This means that in this case the amplitudes are smaller, resulting in a higher ratio between the
+quantization noise and the amplitude of the signal. In other words, the number of distinct values of
+the oscilloscope is smaller. This implies higher estimates of the correlation dimension.
 
 \begin{figure}[ht!]
     \centering
@@ -392,6 +394,24 @@ and Fig.~\ref{fig: 13 blocks chaos center}
 the results of the chaos analysis for 13 coupled blocks are shown, for the boundary and center case
 respectively.
 
+In both cases, the various MLE points in the uniformity region are subdivided in two different clusters\footnote{
+For the analysis, only the most populated clusters, i.e.\ the ones highlighted in red in the plots,
+were considered.}.
+This hints at the possiblity that there is more than one positive Lyapunov exponent in the system.
+Since the divergence rate method is optimal when dealing with only one positive exponent,
+it is likely that a systematic error of the method occurs.
+
+In any case, the two plateaux for the boundary and center case are, respectively,
+$\text{MLE}_\text{boundary}=865$ Hz and $\text{MLE}_\text{center}=1361$ Hz.
+The MLE can then be estimated, in a simplistic manner, as the average between
+these values, i.e.\ $\text{MLE}=(1.11\pm0.25)$ kHz, where the error is simply given by half of the difference
+between $\text{MLE}_\text{boundary}$ and $\text{MLE}_\text{center}$.
+The systematic error on this estimate
+is not negligible and is indeed a big limit of the divergence rate method.
+However, this value of MLE can be meaningful, since the characteristic time of the circuit
+(see Fig.~\ref{fig: circuit diagram}) is given by $\tau=RC=1$ ms; therefore, the characteristic
+frequency of the circuit is 1 kHz, which is of the same order of magnitude as our estimate of the MLE\@.
+
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\linewidth]{../blocks/13_blocks/edge/2e5_points/plots/chaos_low.pdf}
@@ -411,26 +431,6 @@ respectively.
     (c) Histogram of the estimated $\nu$. (d) Distribution of MLE as a function of $w$.
     }\label{fig: 13 blocks chaos center}
 \end{figure}
-
-In both cases, the various MLE points in the uniformity region are subdivided in two different clusters\footnote{
-For the analysis, only the most populated clusters, i.e.\ the ones highlighted in red in the plots,
-were considered.}.
-This hints at the possiblity that there is more than one positive Lyapunov exponent in the system.
-Since the divergence rate method is optimal when dealing with only one positive exponent,
-it is likely that a systematic error of the method occurs.
-
-In any case, the two plateaux for the boundary and center case are, respectively,
-$\text{MLE}_\text{boundary}=865$ Hz and $\text{MLE}_\text{center}=1361$ Hz.
-The MLE can then be estimated, in a simplistic manner, as the average between
-these values, i.e.\ $\text{MLE}=(1.11\pm0.25)$ kHz, where the error is simply given by half of the difference
-between $\text{MLE}_\text{boundary}$ and $\text{MLE}_\text{center}$.
-The systematic error on this estimate
-is not negligible and is indeed a big limit of the divergence rate method.
-However, this value of MLE is meaningful, since the characteristic time of the circuit
-(see Fig.~\ref{fig: circuit diagram}) is given by $\tau=RC=1$ ms; therefore, the characteristic
-frequency of the circuit is 1 kHz, which complies with our estimate of the MLE\@.
-
-
 
 
 

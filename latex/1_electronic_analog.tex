@@ -4,7 +4,7 @@
 
 Providing an accurate model of a complex physical system is often a hard, if not
 impossible, task. One of the most common and interesting situations occurs when a
-fairly simple model, which perhaps is far cry from the phenomenon
+fairly simple model, which perhaps is far from the phenomenon
 behind the system, at least at first sight, actually shows a lot of properties that share
 very strong analogies with what happens in the real world. One of the most known
 and important examples of these systems are earthquakes.
@@ -65,7 +65,7 @@ The equations of motion are thus given by
 
 \begin{equation}
 \label{eq: 2 block motion}
-    \begin{gathered}
+\begin{gathered}
     m\frac{\text{d}u_1}{\text{d}t} = -kx_1 - k_c(x_1-x_2) - F(u_1),\\[10pt]
     \frac{\text{d}x_1}{\text{d}t} = u_1 - u_d,\\[10pt]
     m\frac{\text{d}u_2}{\text{d}t} = -kx_2 - k_c(x_2-x_1) - F(u_2),\\[10pt]
@@ -75,7 +75,9 @@ The equations of motion are thus given by
 
 where $m$ is the mass of the blocks, $k$ is the elastic constant of the springs that connect the blocks
 to the ceiling, $k_c$ is the elastic constant of the spring linking the two blocks, and $F(u)$ is the nonlinear
-velocity-dependent friction. The velocities are assumed to be non-negative.
+velocity-dependent friction.
+The velocities $u_i$ are assumed to be non-negative, i.e.\ $|\dot{x}_i|\leq u_d$: there is no reason why
+a block should move faster than the moving ceiling.
 
 \subsection{Dimensionless system}\label{subsec: dimensionless 2 block motion}
 
@@ -97,7 +99,7 @@ There exists a relative freedom in the choice of the friction $\varphi(\nu)$, pr
 maximum value $\varphi(0)$ that occurs at $\nu=0$.
 
 It is useful to define the equations of motion also in the case of a lower surface moving with a positive
-dimensionless velocity $\Delta\nu$, so that $\nu'_i=\nu_i+\Delta\nu$ and $\nu'_d=\nu_d+\Delta\nu$.
+dimensionless velocity $\Delta\nu$, so that $\nu'_i\equiv\nu_i+\Delta\nu$ and $\nu'_d\equiv\nu_d+\Delta\nu$.
 The system of equations becomes:
 
 \begin{equation}
@@ -125,7 +127,7 @@ It is possible to use another implementation~\cite{ref:electronic_analog} which 
 and uses only voltages as state variables. In order to do so it is necessary to rewrite the differential equations
 as integral equations, so that they can be implemented by electronic integrators, which are more stable than
 the differentiators. The new state variables are defined as $V_i\equiv \nu_i V_0$ and $W_i\equiv \xi_i V_0$ and
-the new time constant is given by $\tau=RC$, where $R$ and $C$ are suitably chosen resistance and capacitance.
+the new time constant is given by $\tau\equiv RC$, where $R$ and $C$ are suitably chosen resistance and capacitance.
 Integrating the system of Eqs.~\ref{eq: 2 block motion dimensionless moving surface} for a moving surface and replacing
 $V'_i\equiv V_i+\Delta V$ and $V'_d\equiv V_d+\Delta V$, where $V_d\equiv V_0\nu_d$ and $\Delta V\equiv V_0\Delta\nu$,
 leads to the following system of equations ($i$ takes the values 1 and 2):
@@ -138,25 +140,26 @@ leads to the following system of equations ($i$ takes the values 1 and 2):
     \end{gathered}
 \end{equation}
 
-where $\lambda=R/R_c$ and $R_c$ is a suitably chosen resistance.
+where $\lambda\equiv R/R_c$ and $R_c$ is a suitably chosen resistance.
 
 These differential equations are implemented by the circuit shown in Fig.~\ref{fig: circuit diagram},
 which makes use of resistors, capacitors, diodes and operational amplifiers, without any inductance.
 Assuming for a while that $\Delta V$ and the nonlinear element $\varphi(V_i/V_0)$ were not present,
-the two integrations above could be promptly implemented by considering the black part of the circuit diagram.
+the two integrations above could be promptly implemented by considering the black part
+at the center of the circuit diagram.
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\linewidth]
     {../blocks/1_block/breadboard/breadboard_implementation.png}
     \caption{Inductorless representation of the BK model. The circuit diagram refers to a single block, labeled by $i=1,2$.
-    The bottom left plot shows the characteristic of the nonlinear element, i.e.\ the blue part of the diagram.
-    The red part is a standard inverting operational amplifier, which is necessary for the coupling between two blocks.
+    The bottom left plot shows the characteristic of the nonlinear element, i.e.\ the blue part at the bottom of the diagram.
+    The red part at the top is a standard inverting operational amplifier, which is necessary for the coupling between two blocks.
     Figure adapted from Ref.~\cite{ref:electronic_analog}.
     }\label{fig: circuit diagram}
 \end{figure}
 
-The nonlinear term is instead represented by the blue part of the diagram and it is implemented as follows.
+The nonlinear term is instead represented by the blue part at the bottom of the diagram and it is implemented as follows.
 A Schottky diode is inserted on the feedback network on the integrator producing $V_i$; this ensures that $V_i$ does not
 drop below $-V_{\text{diode}}$, where $V_{\text{diode}}\approx 0.3$ V. In order to not contradict the constraint
 that the ``velocity'' must be always non-negative, it is necessary to set $\Delta V = V_{\text{diode}}$.
@@ -194,9 +197,10 @@ vibrations~\cite{ref:stick_slip}, i.e.\ of the self-sustained oscillations induc
 This means that an oscillating behavior for $V$ and $W$ has to be expected.
 
 In order to check the validity of these equations, the circuit was physically implemented
-in two different manners. The first implementation was done on a breadboard using large
-electronic components; the main issue with this system is that it is not scalable,
-due to the fact that a single circuit occupies half of the entire space on the breadboard.
+in two different manners. The first implementation was done on a breadboard using discrete
+electronic components. The main issue with this system is that it is not scalable,
+due to the fact that a single circuit occupies half of the entire space on the breadboard;
+furthermore, the breadboard introduces parasitic capacitances and inductances.
 The second one consists instead in an integrated board in which 25 circuits
 like the one in Fig.~\ref{fig: circuit diagram} were implemented;
 the scalability issue is solved in this case, so that this board could be utilized
@@ -206,7 +210,7 @@ to study the behavior of many coupled blocks, as will be done later in this work
 
 The breadboard implementation was made using 1N5817 Schottky diodes
 and OP27 op-amps; these op-amps were
-supplied with $V_{CC}=\pm12~\text{V}$. The nominal values for the
+supplied with $V_{\text{CC}}=\pm12~\text{V}$. The nominal values for the
 resistances and capacitors are $R=R_c=10~\text{k}\Omega$,
 $R_A=R_B=10~\text{k}\Omega$, $r=1.8~\text{k}\Omega$ and
 $C=100~\text{nF}$, so that the characteristic time of the circuit is $\tau=1$ ms.
@@ -218,7 +222,7 @@ A picture of the implementation is shown in Fig.~\ref{fig: photo breadboard}.
 \begin{figure}[!htbp]
 \centering
     \includegraphics[width=.5\linewidth]{images/photo_breadboard.jpeg}
-    \caption{Breadboard implementation of two BK blocks, using OP27 op-amps (left) and UA741 op-amps
+    \caption{Breadboard implementation of two BK blocks, using OP27 op-amps (left) and uA741 op-amps
     (right).
     }\label{fig: photo breadboard}
 \end{figure}
@@ -226,10 +230,9 @@ A picture of the implementation is shown in Fig.~\ref{fig: photo breadboard}.
 The single block behavior of this circuit is shown in Fig.~\ref{fig:oscillation breadboard}.
 As expected by Eqs.~\ref{eq: single block eq motion}, both the velocity $V$ and the position $W$
 exhibit an oscillating behavior. While $W$ closely resembles a sinusoidal wave, $V$ possesses
-a lower clamping that makes it different from a simple wave; this clamping is due
+a lower clamping that makes it different from a harmonic oscillator; this clamping is due
 to the presence of the Schottky diodes, which prevent that the velocity becomes negative, as
 discussed in Sec.~\ref{sec: electronic analog}.
-In the end, both the frequency and the amplitude of the waves depend on the driving voltage $V_d$.
 
 \begin{figure}[!htbp]
     \centering
@@ -243,6 +246,11 @@ In the end, both the frequency and the amplitude of the waves depend on the driv
     }\label{fig:oscillation breadboard}
 \end{figure}
 
+In the end, both the frequency and the amplitude of the waves depend on the driving voltage $V_d$.
+The amplitude increases monotonically, representing the fact that the position and the velocity of
+the block increase with the driving force. The frequency, despite an initial drop, also increases with
+$V_d$, seemingly reaching a plateau at around 225 Hz; this hints at the fact that the block fluctuates
+more when the driving force is higher, remaining however bounded even at very large values of $V_d$.
 
 \subsection{Integrated board implementation}\label{subsec:integrated board implementation}
 
@@ -265,7 +273,7 @@ is shown in Fig.~\ref{fig:oscillation board}. The most notable difference is the
 the Lissajous figures, which is higher in the integrated board case. Another discrepancy between the two plots lies
 in the frequency behavior at low driving voltage $V_d$, i.e.\ the initial ``drop'' in the frequency is more pronounced
 in the breadboard case with respect to the integrated circuit. These distinctions are all probably due to the different diodes
-and op-amps utilized in the two cases, but they do not modify the actual dynamics of the circuit.
+utilized in the two cases, but they do not modify the actual dynamics of the circuit.
 
 \begin{figure}[!htbp]
     \centering
@@ -320,7 +328,7 @@ and surely non-periodic.
     }\label{fig:2 blocks waveforms}
 \end{figure}
 
-Another way to check the presence of chaos in the system is to make use of a bifurcation diagram, i.e.\ the distribution
+Another way to check the presence of chaos in the system is to make use of a bifurcation diagram, e.g.\ the distribution
 of the local maxima of a state variable (position, velocity) as a function of an external parameter (driving force).
 This diagram is shown in Fig.~\ref{fig: bifurcation} for the position $W_1$ ($W_2$ behaves similarly) as a function of $V_d$.
 
@@ -329,7 +337,7 @@ This diagram is shown in Fig.~\ref{fig: bifurcation} for the position $W_1$ ($W_
     \includegraphics[width=0.6\linewidth]{../blocks/2_blocks/bifurcation/bifurcation.pdf}
     \caption{Bifurcation diagram for two coupled blocks.
     The local maxima of $W_1$ are plotted as a function of the external parameter $V_d$,
-    which is varied in steps of 10 mV.}\label{fig: bifurcation}
+    which is varied in steps of 5 mV in the range $0\text{ V}\leq V_d \leq 0.11$ V and of 10 mV when $V_d > 0.11$ V.}\label{fig: bifurcation}
 \end{figure}
 The scan of the $V_d$ parameter was carried out by switching off the circuit's power supply, changing the voltage $V_d$,
 and the switching the power supply back on. This ensured that the recorded evolution was independent of the previous state.
@@ -348,8 +356,7 @@ Fig.~\ref{fig:2 blocks no chaos}.
 \end{figure}
 
 It is therefore safe to assume that, for low driving voltages $V_d$, the coupled system of two blocks shows a chaotic behavior.
-The reason why this does not occur at higher voltages might be that the driving force is so strong that the blocks
-behave independently of it. Nonetheless, these analyses are not enough to say that this circuit is actually a chaotic system.
+Nonetheless, these analyses are not enough to say that this circuit is actually a chaotic system.
 In Chapter~\ref{chap: chaos} the mathemathical conditions that characterize
 a chaotic system are defined; making use of those, a method that establishes whether an experimental
 system is chaotic or not is presented.
