@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1727447508 "main.bcf" "main.bbl" "main" 1728295704
-  "main.bcf" 1728295704 114096 ab98b051175b288ef34845863e6384e9 "pdflatex"
+["biber main"] 1727447508 "main.bcf" "main.bbl" "main" 1729088993
+  "main.bcf" 1729088993 114096 ab98b051175b288ef34845863e6384e9 "pdflatex"
   "references.bib" 1727447497 11140 e575a6d656f1b962ef7650b82b26af83 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1728295699 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1728295704
+["pdflatex"] 1729088989 "/home/manuel/Desktop/tesi/latex/main.tex" "main.pdf" "main" 1729088993
   "../blocks/10_blocks/2e5_points/plots/chaos_low.pdf" 1720166967 110713 35cf7467a4aa67dd9c34b7218dc40794 ""
   "../blocks/11_blocks/edge/2e5_points/plots/chaos_low.pdf" 1720166967 113501 aeeaa04bff3675858e4eb04976277ad0 ""
   "../blocks/11_blocks/edge/attractor.pdf" 1720166967 49421 da7ddd0e74cd3846ebdbcb4ec4057799 ""
@@ -232,6 +232,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty" 1356048875 29610 a9597219b282d9c78b02393dcd7d4322 ""
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575674187 9715 b051d5b493d9fe5f4bc251462d039e5f ""
+  "/usr/share/texlive/texmf-dist/tex/latex/silence/silence.sty" 1342202217 17540 5aad5dddd881dee43ad1a83adb336af9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty" 1605478891 5262 70ab9987ec94ed2beeb5c2d951d465f6 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty" 1622581934 4085 5d204adcbe1ad2fc72fe565763c803ee ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty" 1636758526 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
@@ -249,11 +250,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1712243053 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712243161 2801282 2c606fb8afe9ab0f58f5ded3df82a40c ""
-  "0_introduction.tex" 1728036739 7328 c983a25f682dcf71a174a713ad0aa8cb ""
-  "1_electronic_analog.tex" 1728050724 21744 734c09d2f84b0e5dd2d6e3109db497c3 ""
-  "2_chaos.tex" 1728295699 36654 e946ff1ca953ecbcad3558aa199b22c7 ""
-  "3_chaos_analysis.tex" 1727881905 25696 1293613af95b24566490532a06a52818 ""
-  "4_conclusions.tex" 1727882417 6679 9b619ca7e9e1427bdb431593ee6a4ada ""
+  "0_introduction.tex" 1729005270 8682 b2986e73b9d770b7a8ca4d7c6123e76f ""
+  "1_electronic_analog.tex" 1729084885 21781 6e0800f65b8955859f5f4e830cfbbb3d ""
+  "2_chaos.tex" 1729085224 40637 961f97d71c40f3815bfbb1d83ae0e222 ""
+  "3_chaos_analysis.tex" 1729088648 25696 6e7457b427c80736ab36037a0f0f7c67 ""
+  "4_conclusions.tex" 1729088989 7093 bb2f5c9bbdaa10906c5b52b77495bd12 ""
   "5_appendix.tex" 1727166876 18177 f76aa063c024dfd3f8601229c4dcd021 ""
   "images/BK1.png" 1659605922 87728 7037b8e2237260486ec46be513558d65 ""
   "images/BK2.png" 1659605957 43635 2c572144ebf82ead617fb7313e2e9d4e ""
@@ -270,13 +271,13 @@
   "images/photo_breadboard.jpeg" 1725263228 309412 7cbe25c1f132e5cad7e78e4ab39f3625 ""
   "images/photo_integrated_board.jpeg" 1725263232 328543 5e1772bffec5384cd3f1564c95d83e64 ""
   "images/rossler_embedding.png" 1724948514 427593 a607dee0f0fad0f8f94c0df15d8bf129 ""
-  "main.aux" 1728295704 67183 637ad29a94a6198423387e2f55e62be6 "pdflatex"
+  "main.aux" 1729088993 67241 e500974ada6f16360e4da651c012e09e "pdflatex"
   "main.bbl" 1727447509 54049 acc58bb3b2ef5c9bd340738b7f878dd4 "biber main"
-  "main.out" 1728295704 6603 036efebde1fb86dd140395406371ad20 "pdflatex"
-  "main.run.xml" 1728295704 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
+  "main.out" 1729088993 6603 036efebde1fb86dd140395406371ad20 "pdflatex"
+  "main.run.xml" 1729088993 2336 507b6df3cd6a5275f472154c57ceb4c3 "pdflatex"
   "main.tex" 1728049294 2521 8f1499d4929099b7b7f317b4d7275185 ""
-  "main.toc" 1728295704 2941 86b1c661d66d933825400821dfbf3014 "pdflatex"
-  "packages.sty" 1725462521 1156 797acb2a9662acad90aa3e1b3c8fb58a ""
+  "main.toc" 1729088993 2941 1d2d7b14de4265b20bdebe7433ab3d0f "pdflatex"
+  "packages.sty" 1729088190 1234 908c92e4e3d10e25f3b2f640c79dec4f ""
   "title.tex" 1727442117 911 cf503f08f27a656c8d157a3f8d1b1238 ""
   (generated)
   "main.aux"

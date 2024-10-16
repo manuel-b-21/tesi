@@ -9,8 +9,9 @@ are random, it is stochastic. The main feature of chaotic systems is the fact th
 despite being deterministic; in order to better explain the meaning of this statement, it is essential
 to involve some mathemathical definitions~\cite{perinelli2020new}.
 
-The instantaneous state of a dynamical system is described by a vector $\mathbf{s}$ within a
-state space $\mathcal{S}$ (typically $\mathcal{S}\subseteq \mathbb{R}^M$).
+%The instantaneous state of a dynamical system is described by a vector $\mathbf{s}$ within a
+%state space $\mathcal{S}$ (typically $\mathcal{S}\subseteq \mathbb{R}^M$).
+The instantaneous state of a dynamical system is represented by a vector $\mathbf{s}$ in a state space $\mathcal{S}$, where $\mathcal{S}$ is typically a subset of $\mathbb{R}^M$.
 The state vector evolves in time according to an evolution operator $\mathcal{E}_t$ such that:
 \begin{equation}
 \label{eq: state space evolution}
@@ -45,10 +46,11 @@ An universally accepted mathematical definition of chaos does not exists but
 a commonly used definition is the following, originally formulated by Robert
 Devaney~\cite{ref:chaos_definition}.
 
-Three conditions are necessary and
-sufficient to define a system as chaotic: (i) sensitivity to initial conditions;
-(ii) topological transitivity;
-(iii) density of periodic orbits.
+%Three conditions are necessary and
+%sufficient to define a system as chaotic: (i) sensitivity to initial conditions;
+%(ii) topological transitivity;
+%(iii) density of periodic orbits.
+A system is defined as chaotic if it satisfies three necessary and sufficient conditions: (i) sensitivity to initial conditions, (ii) topological transitivity, and (iii) density of periodic orbits.
 
 Going into detail:
 \begin{itemize}
@@ -74,18 +76,20 @@ Going into detail:
     able to precisely measure the initial state of a system, there will always be
     a small error (given for example by measuring instruments) which can grow
     rapidly over time. Therefore, even if we know exactly the deterministic laws
-    governing time evolution, our predictions on the behaviour of the system
+    governing time evolution, our predictions on the behavior of the system
     after a certain time will no longer be reliable. Furthermore, if the precision
     with which we measure the state of the system in the initial instant is
     improved by a factor of $10$, we only gain a $\log(10)$ factor for the maximum
     time for which the predictions are accurate.
 
-    \item[(ii)] Topological transitivity is the property according to which a chaotic trajectory eventually connects
-    any region of the state space with any other. In other words, the state space of a chaotic system
-    cannot be decomposed into disjoint subsets.
+    \item[(ii)] %Topological transitivity is the property according to which a chaotic trajectory eventually connects
+    %any region of the state space with any other. In other words, the state space of a chaotic system
+    %cannot be decomposed into disjoint subsets.
+    Topological transitivity refers to the property that a chaotic trajectory will eventually traverse from any region of the state space to any other. In other words, the state space of a chaotic system cannot be divided into separate, disjoint subsets.
 
-    \item[(iii)] Density of periodic orbits means that for any given point in the state space
-    there is a periodic orbit that passes arbitrarily close to it, i.e.\ periodic orbits make up a dense set.
+    \item[(iii)] %Density of periodic orbits means that for any given point in the state space
+    %there is a periodic orbit that passes arbitrarily close to it, i.e.\ periodic orbits make up a dense set.
+    The density of periodic orbits means that for any point in the state space, there exists a periodic orbit that comes arbitrarily close to it. In other words, periodic orbits form a dense set within the state space.
 
 \end{itemize}
 
@@ -195,16 +199,17 @@ somehow resembles a strange attractor.
 It has in fact been proven by Takens~\cite{ref:takens2006detecting} and Ma{\~n}{\'e}~\cite{ref:mane2006dimension} that
 if the parameters $m$ (dimension) and $L$ (lag) are suitably chosen,
 the reconstructed state space evolution is topologically identical to the actual state space dynamics.
-This means that a ``good'' embedding provides a smooth one-to-one map from the
-original state space evolution to the reconstructed one, therefore enabling us to estimate the
-properties of the original system that are invariant under this mapping.
+%This means that a ``good'' embedding provides a smooth one-to-one map from the
+%original state space evolution to the reconstructed one, therefore enabling us to estimate the
+%properties of the original system that are invariant under this mapping.
+This implies that a ``good'' embedding creates a smooth, one-to-one mapping from the original state space to the reconstructed state space, allowing us to estimate the properties of the original system that remain invariant under this transformation.
+
 
 The two conditions under which Takens' theorem holds regard the embedding parameters $(m,L)$.
 The first one requires that $m>2D$, where $D$ is the dimension of the manifold corresponding to the
 time evolution of the system, which is not known a priori; this condition can be relaxed to $m>D$ if
 estimating correlation dimension~\cite{ref:ding1993estimating}.
-The second one states that $L$ must not be a multiple of the period of any system's
-orbit~\cite{ref:grassberger1991nonlinear}.
+The second condition states that $L$ must not be a multiple of the period of any orbit within the system.~\cite{ref:grassberger1991nonlinear}.
 
 Aside from these two minimal conditions, since Takens' theorem is an existence theorem, it does not
 give any hint on how to find the best embedding parameters. The reason for this is that as long as the
@@ -243,8 +248,7 @@ $(m, L)$ can provide reconstructions of the underlying dynamics that are equival
 More specifically, the procedure is carried out for each element of an embedding lattice, i.e.
 $\{(m,L)|m\in[2,m_{\max}],L\in[1,L_{\max}]\}$.
 
-Suitable embedding choices are expected to comply with two requirements concerning the
-corresponding embedding window $w=(m-1)LT$, which corresponds to the
+Appropriate embedding choices should meet two requirements regarding the corresponding embedding window $w=(m-1)LT$, which corresponds to the
 time span covered by each embedding vector ($T$ is the sampling time of the sequence).
 On the one hand, the embedding window has to be larger than the redundance time $\tau_R$, so that
 the points in the reconstructed space are not too close to the diagonal.
@@ -254,9 +258,10 @@ and the noise overcomes the dynamics.
 
 The above requirements can then be expressed as $\tau_R/T \lesssim w \lesssim \tau_I/T$.
 In the embedding lattice, each window $w$ identifies a hyperbola.
-Therefore, the irrelevance and redundance times correspond to two hyperbolae
-within the embedding lattice, and the region bounded by them is where suitable
-embedding choices can be expected.
+%Therefore, the irrelevance and redundance times correspond to two hyperbolae
+%within the embedding lattice, and the region bounded by them is where suitable
+%embedding choices can be expected.
+Thus, the irrelevance and redundancy times correspond to two hyperbolas within the embedding lattice, and the area enclosed by them is where appropriate embedding choices can be anticipated.
 
 
 \section{Maximum Lyapunov exponent}\label{sec: mle}
@@ -265,34 +270,39 @@ It is now important to formally define the invariant
 quantities that will be used to decide if an experimentally observed system is chaotic or not,
 the first one being the maximum Lyapunov
 exponent (MLE)~\cite{ref:abarbanel_fourier_spectra,wolf1986quantifying}.
-There are as many Lyapunov exponents as the number of state space dimensions: each exponent $\lambda_i$
-corresponds to one of the independent directions along which fiducial volumes within the state space
-contract ($\lambda_i<0$) or expand ($\lambda_i>0$) in an infinitesimal time interval.
+%There are as many Lyapunov exponents as the number of state space dimensions: each exponent $\lambda_i$
+%corresponds to one of the independent directions along which fiducial volumes within the state space
+%contract ($\lambda_i<0$) or expand ($\lambda_i>0$) in an infinitesimal time interval.
+There is one Lyapunov exponent for each dimension of the state space. Each exponent $\lambda_i$ corresponds to an independent direction along which fiducial volumes in the state space either contract ($\lambda_i < 0$) or expand ($\lambda_i > 0$) over an infinitesimal time interval.
 The MLE $\lambda_1$ is the most relevant of the spectrum, since its sign establishes whether the system
-stabilizes on a fixed point ($\lambda_1<0$), stablizes on a limit cycle ($\lambda_1=0$) or is unstable
+stabilizes on a fixed point ($\lambda_1<0$), stabilizes on a limit cycle ($\lambda_1=0$) or is unstable
 ($\lambda_1>0$). A positive MLE is the main hallmark of chaos.
 
-The qualitative behavior of the Lyapunov exponents is shown in Fig.~\ref{fig: lorenz lyapunov}.
-In these figures three kinds of phase-space behaviour are displayed.
-In Fig.~\ref{fig: lorenz lyapunov}a an exponential divergence
-of two nearby points on different orbits in the attractor is shown.
-This chaotic motion is
-characterised by a positive Lyapunov exponent. In Fig.~\ref{fig: lorenz lyapunov}b the
-behaviour of nearby points on the same orbit in the attractor is shown. The
-separation of these points neither grows nor shrinks exponentially fast so
-the associated Lyapunov exponent is zero. Finally, in Fig.~\ref{fig: lorenz lyapunov}c, the
-decay of a transient or perturbation to the attractor is illustrated.
-The associated exponent is negative.
+%The qualitative behavior of the Lyapunov exponents is shown in Fig.~\ref{fig: lorenz lyapunov}.
+%In these figures three kinds of phase-space behaviour are displayed.
+%In Fig.~\ref{fig: lorenz lyapunov}a an exponential divergence
+%of two nearby points on different orbits in the attractor is shown.
+%This chaotic motion is
+%characterised by a positive Lyapunov exponent. In Fig.~\ref{fig: lorenz lyapunov}b the
+%behaviour of nearby points on the same orbit in the attractor is shown. The
+%separation of these points neither grows nor shrinks exponentially fast so
+%the associated Lyapunov exponent is zero. Finally, in Fig.~\ref{fig: lorenz lyapunov}c, the
+%decay of a transient or perturbation to the attractor is illustrated.
+%The associated exponent is negative.
+The qualitative behavior of the Lyapunov exponents is illustrated in Fig.~\ref{fig: lorenz lyapunov}, which presents three distinct types of phase-space behavior. In Fig.~\ref{fig: lorenz lyapunov}a, an exponential divergence between two nearby points on different orbits within the attractor is depicted, indicating chaotic motion characterized by a positive Lyapunov exponent. Fig.~\ref{fig: lorenz lyapunov}b shows the behavior of nearby points on the same orbit in the attractor, where the separation of these points does not grow or shrink exponentially, resulting in a Lyapunov exponent of zero. Finally, Fig.~\ref{fig: lorenz lyapunov}c illustrates the decay of a transient or perturbation to the attractor, associated with a negative exponent.
+
+
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{images/lorenz_lyapunov.png}   
 \caption{
-    Short-term evolution of the separation vector between three pairs of
-    nearby points for the Lorenz attractor~\cite{lorenz1963deterministic}.
-    The true magnitude of the evolving
-    vector appears to the right of each figure, (a) An expanding direction ($\lambda_1>0$). (b)
-    A slower than exponential direction ($\lambda_2=0$). (c) A contracting direction ($\lambda_3<0$).
+    %Short-term evolution of the separation vector between three pairs of
+    %nearby points for the Lorenz attractor~\cite{lorenz1963deterministic}.
+    %The true magnitude of the evolving
+    %vector appears to the right of each figure, (a) An expanding direction ($\lambda_1>0$). (b)
+    %A slower than exponential direction ($\lambda_2=0$). (c) A contracting direction ($\lambda_3<0$).
+    The short-term evolution of the separation vector between three pairs of nearby points for the Lorenz attractor~\cite{lorenz1963deterministic} is presented. The actual magnitude of the evolving vector is shown to the right of each figure: (a) an expanding direction ($\lambda_1 > 0$); (b) a slower-than-exponential direction ($\lambda_2 = 0$); and (c) a contracting direction ($\lambda_3 < 0$).
     Figure adapted from Ref.~\cite{wolf1986quantifying}.
 }\label{fig: lorenz lyapunov}
 \end{figure}
@@ -312,24 +322,26 @@ where $r$ is some ``shell radius''; the divergence exponent is then calculated a
 \end{equation}
 where the superscript $^{m,L}$ indicates once again the dependence on the embedding parameters.
 
-The time-dependent divergence exponent
-measures the progressive separation, as a function of the time delay $k$, of the trajectories corresponding
-to initially close points $\mathbf{Y}_i,\mathbf{Y}_j$.
-The initial proximity of the vector pairs is tuned by changing the shell
-radius $r$, which is typically estimated as the distance corresponding to the a given percentile $p$ of the
-sample distribution of all Euclidean distances~\cite{ref:franchi2014statistical,ref:ricci2020asymptotic}.
+%The time-dependent divergence exponent
+%measures the progressive separation, as a function of the time delay $k$, of the trajectories corresponding
+%to initially close points $\mathbf{Y}_i,\mathbf{Y}_j$.
+%The initial proximity of the vector pairs is tuned by changing the shell
+%radius $r$, which is typically estimated as the distance corresponding to the a given percentile $p$ of the
+%sample distribution of all Euclidean distances
+The time-dependent divergence exponent quantifies the gradual separation of trajectories corresponding to initially close points $\mathbf{Y}_i$ and $\mathbf{Y}_j$ as a function of the time delay $k$. The initial closeness of these vector pairs is adjusted by modifying the shell radius $r$, which is usually determined as the distance corresponding to a specified percentile $p$ of the sample distribution of all Euclidean distances~\cite{ref:franchi2014statistical,ref:ricci2020asymptotic}.
 
 A source of error regarding the estimation of the MLE are temporal correlations within the input sequence.
 This issue can be avoided by selecting pairs of points that are distant in time more than some delay
 $c_0$, i.e.\ constraining $|i-j|\geq c_0$. Typically, $c_0$ is chosen to be the first zero of the
 autocorrelation function~\cite{ref:theiler1986spurious} or its first minimum~\cite{ref:albano1995kolmogorov}.
 
-If the underlying system is chaotic, $\Lambda(k)$ is expected to grow linearly with $k$,
-as a result of the exponentially increasing numerator within the logarithm of Eq.~\ref{eq: divergence exponent}.
-Suitably fitting this linear growth provides the value of the MLE\@. The growth
-of $\Lambda(k)$ cannot continue for arbitrarily large values of $k$:
-eventually, the separation becomes comparable to the size of the attractor
-and the divergence exponent saturates.
+%If the underlying system is chaotic, $\Lambda(k)$ is expected to grow linearly with $k$,
+%as a result of the exponentially increasing numerator within the logarithm of Eq.~\ref{eq: divergence exponent}.
+%Suitably fitting this linear growth provides the value of the MLE\@. The growth
+%of $\Lambda(k)$ cannot continue for arbitrarily large values of $k$:
+%eventually, the separation becomes comparable to the size of the attractor
+%and the divergence exponent saturates.
+If the underlying system is chaotic, $\Lambda(k)$ is anticipated to increase linearly with $k$, due to the exponentially growing numerator within the logarithm of Eq.~\ref{eq: divergence exponent}. Fitting this linear growth appropriately yields the value of the MLE\@. However, the increase of $\Lambda(k)$ cannot persist for arbitrarily large values of $k$: eventually, the separation approaches the size of the attractor, causing the divergence exponent to saturate.
 This can be seen in Fig.~\ref{fig: lorenz divergence}.
 
 \begin{figure}[!htbp]
@@ -449,15 +461,16 @@ carrying out a linear fit on a set of $(\log p, \Lambda_{\text{pl}})$ data point
 
 \section{The uniformity region}\label{sec: uniformity region}
 
-It is now possible to define a criterion that establishes whether and embedding
+It is now possible to define a criterion that establishes whether an embedding
 pair $(m,L)$ correctly reconstructs the state space or not.
 A possible approach consists in searching for a so-called ``uniformity region'' in the embedding
 lattice~\cite{ref:perinelli2020chasing}, i.e.\ a region in which the correlation dimension $\nu$
 does not change significantly.
 
-If a system having dimension $D$ is embedded with $m < D$, the full dimensionality of the system cannot
-be unfolded and the embedded sequence simply fills all the available space. Consequently, for any
-$m < D$, correlation integrals exhibit a scaling $\propto r^m$, rather than $\propto r^D$.
+%If a system having dimension $D$ is embedded with $m < D$, the full dimensionality of the system cannot
+%be unfolded and the embedded sequence simply fills all the available space. Consequently, for any
+%$m < D$, correlation integrals exhibit a scaling $\propto r^m$, rather than $\propto r^D$.
+If a system with dimension $D$ is embedded with $m < D$, the full dimensionality of the system cannot be unfolded, and the embedded sequence merely fills all available space. Consequently, for any $m < D$, the correlation integrals exhibit a scaling of $\propto r^m$, instead of $\propto r^D$.
 On the other hand, for $m > D$ and regardless of $m$, the correct scaling $\propto r^D$ holds in principle;
 in reality, due to the presence of noise, which has infinite correlation dimension, the scaling will
 be $\propto r^m$ also in the case of too large $m$ values.
@@ -497,7 +510,7 @@ For each value of $(m,L)$ the divergence exponent $\Lambda^{m,L}(k)$ is calculat
 discussed in Section~\ref{sec: mle}, and for different values of the percentile $p$.
 An important step in the algorithm is that, rather than
 considering a single calculation for each value of $k$, each point of $\Lambda^{m,L}(k)$
-and the respective uncertainty $\sigma_{\Lambda^{m,L}}(k)$ is determined
+and the respective uncertainty $\sigma_{\Lambda^{m,L}}(k)$ are determined
 as the pointwise sample mean and sample standard
 deviation of a set of $N_\Lambda$ different calculations, respectively:
 \begin{equation}
@@ -560,7 +573,7 @@ chaotic system which differential equations are:
 where the parameters are set as $\sigma=10$, $r=28$ and $b=8/3$.
 
 Upon randomly setting the starting point, the differential equations were integrated via
-a Runge-Kutta Prince-Dormand algorithm~\cite{dormand1986runge} with integration
+a Runge-Kutta Prince-Dormand algorithm~\cite{dormand1986runge} with an integration
 step $dt = 0.03$, which is also taken as the sampling time $T$.
 The sequence to analyze corresponds to $10^5$ samples of the $x$ coordinate of the system.
 

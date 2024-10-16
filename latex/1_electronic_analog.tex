@@ -163,7 +163,7 @@ The nonlinear term is instead represented by the blue part at the bottom of the 
 A Schottky diode is inserted on the feedback network on the integrator producing $V_i$; this ensures that $V_i$ does not
 drop below $-V_{\text{diode}}$, where $V_{\text{diode}}\approx 0.3$ V. In order to not contradict the constraint
 that the ``velocity'' must be always non-negative, it is necessary to set $\Delta V = V_{\text{diode}}$.
-In this way the first of the constraints set in Sec.~\ref{subsec: dimensionless 2 block motion}, i.e.\ $\varphi(V_i < 0 )=0$
+In this way the first of the constraints set in Section~\ref{subsec: dimensionless 2 block motion}, i.e.\ $\varphi(V_i < 0 )=0$,
 is satisfied, since the voltage cannot drop below zero.
 
 The nonlinear friction element consists in a linear drop for the analog of the velocity-weakening force, and it is
@@ -221,7 +221,7 @@ A picture of the implementation is shown in Fig.~\ref{fig: photo breadboard}.
 
 \begin{figure}[!htbp]
 \centering
-    \includegraphics[width=.5\linewidth]{images/photo_breadboard.jpeg}
+    \includegraphics[width=.5\linewidth,trim={0 10cm 0 0},clip,center]{images/photo_breadboard.jpeg}
     \caption{Breadboard implementation of two BK blocks, using OP27 op-amps (left) and uA741 op-amps
     (right).
     }\label{fig: photo breadboard}
@@ -232,7 +232,7 @@ As expected by Eqs.~\ref{eq: single block eq motion}, both the velocity $V$ and 
 exhibit an oscillating behavior. While $W$ closely resembles a sinusoidal wave, $V$ possesses
 a lower clamping that makes it different from a harmonic oscillator; this clamping is due
 to the presence of the Schottky diodes, which prevent that the velocity becomes negative, as
-discussed in Sec.~\ref{sec: electronic analog}.
+discussed in Section~\ref{sec: electronic analog}.
 
 \begin{figure}[!htbp]
     \centering
